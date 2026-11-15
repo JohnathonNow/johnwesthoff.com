@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AlephZeroChess on John Westhoff&#39;s Blog</title>
+    <link>https://johnwesthoff.com/series/alephzerochess/</link>
+    <description>Recent content in AlephZeroChess on John Westhoff&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 18 Dec 2021 21:54:00 -0700</lastBuildDate>
+    <atom:link href="https://johnwesthoff.com/series/alephzerochess/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AlephZeroChess 2 - Lessons Learned from WASM</title>
+      <link>https://johnwesthoff.com/projects/alephzerochess2/</link>
+      <pubDate>Sat, 18 Dec 2021 21:54:00 -0700</pubDate>
+      <guid>https://johnwesthoff.com/projects/alephzerochess2/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve had some new-found motivation to work on my &lt;a href=&#34;http://alephzerochess.com/&#34;&gt;big chess game&lt;/a&gt;, but hit a silly problem.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>AlephZeroChess 1 - Knightly Ideas</title>
+      <link>https://johnwesthoff.com/projects/alephzerochess1/</link>
+      <pubDate>Thu, 22 Jul 2021 21:54:00 -0400</pubDate>
+      <guid>https://johnwesthoff.com/projects/alephzerochess1/</guid>
+      <description>Every since my personal hero made a video about chess, I&amp;rsquo;ve had a somewhat renewed interest in the game. It&amp;rsquo;s been gradually increasing too - last year on my brother&amp;rsquo;s birthday I finally made a chess.com account, and since then I&amp;rsquo;ve played a fairly modest 46 games, with most of them being Daily games. Recently, however, I&amp;rsquo;ve had the desire to program something interesting related to the game.&#xA;The Game Idea I want to make an online multiplayer infinite chess game.</description>
+    </item>
+  </channel>
+</rss>

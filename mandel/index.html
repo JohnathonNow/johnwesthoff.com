@@ -1,0 +1,60 @@
+<!DOCTYPE html> 
+<html>
+<head>
+      <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<img src="http://johnwesthoff.com:44444/img?x=0&y=0&s=1" height="500" width="500" id="image">
+<br>
+<div id="buttons" style="width:100%">
+    <div class="myButton" id="zin">Zoom +</div>
+    <div class="myButton" id="zout">Zoom -</div>
+</div>
+<div id="tag"></div>
+</body>
+<script>
+    var gS = 1.0;
+    var gX = 0.0;
+    var gY = 0.0;
+    var gImg  = document.getElementById("image");
+    var gLoadTag = document.getElementById("tag");
+
+    function getImg() {
+        gImg.src = "http://johnwesthoff.com:44444/img?x="+gX+"&y="+gY+"&s="+gS;
+        startLoad();
+    }
+
+    function endLoad() {
+        gLoadTag.innerHTML = "<h1>Loaded!</h1>"; 
+    }
+
+    function startLoad() {
+        gLoadTag.innerHTML = "<h1>Loading</h1>"; 
+    }
+
+    document.getElementById("zout").onclick = function(e) {
+        gS *= 1.25;
+        getImg();
+    };
+
+    document.getElementById("zin").onclick = function(e) {
+        gS *= 0.75;
+        getImg();
+    };
+
+    gImg.onclick = function(e) {
+        var rect = gImg.getBoundingClientRect();
+        var dx = 2*((e.pageX - rect.left)-gImg.width/2)/gImg.width;
+        var dy = 2*((e.pageY - rect.top)-gImg.height/2)/gImg.height;
+        gX += dx*gS;
+        gY -= dy*gS;
+        getImg();
+    };
+
+    gImg.onload = function() {
+        endLoad();
+    };
+
+    startLoad();
+</script>
+</html>

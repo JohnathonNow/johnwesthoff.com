@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>School on John Westhoff&#39;s Blog</title>
+    <link>https://johnwesthoff.com/series/school/</link>
+    <description>Recent content in School on John Westhoff&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 26 May 2018 12:03:30 -0400</lastBuildDate>
+    <atom:link href="https://johnwesthoff.com/series/school/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Internet of Graduation Caps</title>
+      <link>https://johnwesthoff.com/projects/gradcapus/</link>
+      <pubDate>Sat, 26 May 2018 12:03:30 -0400</pubDate>
+      <guid>https://johnwesthoff.com/projects/gradcapus/</guid>
+      <description>During my last summer internship, a thought popped into my head. I realized that it wouldn&amp;rsquo;t be too hard to stick an LED matrix under my graduation cap, to have one that would be totally unique. Well, it turns out someone beat me to the punch, but I could still make one that was totally unique by stealing ideas from other places too. Reddit&amp;rsquo;s r/place was really cool. I figured I could recreate that on a 32x32 board.</description>
+    </item>
+    <item>
+      <title>Spring 2018 Semester-in-Review</title>
+      <link>https://johnwesthoff.com/blorg/sp18_roundup/</link>
+      <pubDate>Sun, 13 May 2018 23:03:30 -0400</pubDate>
+      <guid>https://johnwesthoff.com/blorg/sp18_roundup/</guid>
+      <description>My last semester is over, which is pretty sad. I was pretty busy for most of it, so this is actually my very first blog post all semester; I didn&amp;rsquo;t even do a semester in review post for last semester, other than the &amp;ldquo;What I&amp;rsquo;ve Been Up To&amp;rdquo; post. I did finally finish my GameCube adapter for the front of my computer, though.&#xA;So, I took A History of Computing, Ethics, CSE Service Projects, and Introduction to Droid Building, and I did undergraduate research.</description>
+    </item>
+    <item>
+      <title>Markup for note taking</title>
+      <link>https://johnwesthoff.com/projects/notes/</link>
+      <pubDate>Tue, 29 Aug 2017 23:24:00 -0400</pubDate>
+      <guid>https://johnwesthoff.com/projects/notes/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m a week into my senior year, and I&amp;rsquo;ve gotten sick of using OneNote for note taking.&#xA;As a linux user, I&amp;rsquo;m pretty much limited to the web interface or WINE, and&#xA;I&amp;rsquo;d really prefer neither.&#xA;I&amp;rsquo;ve also had plenty of issues with notes not syncing / getting lost in the cloud, which is more than enough of a reason to switch to something else.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Spring 2017 Semester-in-Review</title>
+      <link>https://johnwesthoff.com/blorg/sp17_roundup/</link>
+      <pubDate>Sat, 20 May 2017 23:03:30 -0400</pubDate>
+      <guid>https://johnwesthoff.com/blorg/sp17_roundup/</guid>
+      <description>Another semester is over, one that happened to be my first semester where I was allowed to take only Computer Science courses. So, I took Paradigms, Operating System Principles, CSE Service Projects, Hackers of the Bazaar, and Mobile Computing, and I did undergraduate research. The projects in Operating System Principles were all fairly straightforward, but the last one involved writing a file system of sorts which was cool, but there was no room to do what I wanted, so I will only discuss the other courses.</description>
+    </item>
+    <item>
+      <title>Reliving the Atari 2600</title>
+      <link>https://johnwesthoff.com/projects/atariusb/</link>
+      <pubDate>Thu, 02 Feb 2017 23:24:00 -0400</pubDate>
+      <guid>https://johnwesthoff.com/projects/atariusb/</guid>
+      <description>I am currently taking a course titled &amp;ldquo;Hackers in the Bazaar&amp;rdquo;, which is, by all acounts, the greatest class ever. Anyway, we spent class today playing classic video games brought in by students. I brought in a SNES and a copy of Mortal Kombat.&#xA;Additionally, I spent about an hour and a half yesterday creating something a bit special for the occasion. My dad keeps his old Atari 2600 up in my closet, along with a chest full of games.</description>
+    </item>
+    <item>
+      <title>Data Structures Final Project - SnowGPS</title>
+      <link>https://johnwesthoff.com/projects/ds_finalproject/</link>
+      <pubDate>Sat, 17 Dec 2016 23:03:30 -0400</pubDate>
+      <guid>https://johnwesthoff.com/projects/ds_finalproject/</guid>
+      <description>For our final project for our Data Structures course, my group decided to make a GPS app that finds the path with the minimum time spent outdoors.&#xA;We wrote a python program to allow us to map our campus as an undirected graph, with vertices at the intersection of every outdoor path, and at every door of every building.&#xA;To decide paths, it uses Dijkstra&amp;rsquo;s Algorithm. To achieve our goal of deciding paths with the least time outdoors, we assign weights of 0 to all edges that connect nodes within buildings, and for each other edge the weight is the linear distance between the nodes.</description>
+    </item>
+    <item>
+      <title>Fundamentals of Computing I Final</title>
+      <link>https://johnwesthoff.com/projects/fndcmp1final/</link>
+      <pubDate>Sun, 20 Mar 2016 21:08:52 -0400</pubDate>
+      <guid>https://johnwesthoff.com/projects/fndcmp1final/</guid>
+      <description>For my Fundamentals of Computing I class final project, I decided to make a shmup.&#xA;The game is played at a faster pace perhaps than it should have been, but I enjoyed making it.&#xA;The graphics are very minimalistic, consisting almost entirely of circles.&#xA;The game features a half-decent level intrepretation system, where levels are stored in text files with simple commands to handle enemies and other things. The system had support for branching and conditionals, though the only condition allowed was time.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hackers on John Westhoff&#39;s Blog</title>
+    <link>https://johnwesthoff.com/hackers/</link>
+    <description>Recent content in Hackers on John Westhoff&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 20 Apr 2017 23:24:00 -0500</lastBuildDate>
+    <atom:link href="https://johnwesthoff.com/hackers/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>I finally get to title a post &#34;Linux Tarballs&#34;</title>
+      <link>https://johnwesthoff.com/hackers/lt1/</link>
+      <pubDate>Thu, 20 Apr 2017 23:24:00 -0500</pubDate>
+      <guid>https://johnwesthoff.com/hackers/lt1/</guid>
+      <description>4-20 Blaze it&#xA;303 Cush is lit rn fam.&#xA;Except, there&amp;rsquo;s a bunch of chegs or something here, and they&amp;rsquo;re being loud and annoying.&#xA;Otherwise, today was a good day - the DH was good, Hackers was fun, OS was fun, and I won at pocket tanks. Oh, and I got i3 working! OK, seriously, there are 4 chegs here sitting in opposite corners of the lab screaming to each other.</description>
+    </item>
+  </channel>
+</rss>

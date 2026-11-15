@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>RP2040 on John Westhoff&#39;s Blog</title>
+    <link>https://johnwesthoff.com/tags/rp2040/</link>
+    <description>Recent content in RP2040 on John Westhoff&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 15 Jun 2021 16:03:30 -0400</lastBuildDate>
+    <atom:link href="https://johnwesthoff.com/tags/rp2040/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sorry I was alching</title>
+      <link>https://johnwesthoff.com/blorg/lazy-runescape/</link>
+      <pubDate>Tue, 15 Jun 2021 16:03:30 -0400</pubDate>
+      <guid>https://johnwesthoff.com/blorg/lazy-runescape/</guid>
+      <description>Since I was a medium-sized child, I&amp;rsquo;ve enjoyed playing the MMO RuneScape. It is by far the game I&amp;rsquo;ve spent the most time playing, and, well, despite that, I&amp;rsquo;m not very far in the game at all.&#xA;I started sometime in 2006 and, being that the internet hadn&amp;rsquo;t even been invented yet, I was constantly lost. Even though the game had only been around for ~5 years, it was still absolutely massive.</description>
+    </item>
+    <item>
+      <title>My new-er favorite thing - RP2040 with CircuitPython</title>
+      <link>https://johnwesthoff.com/blorg/circuitpythonshilling2/</link>
+      <pubDate>Tue, 20 Apr 2021 18:03:30 -0400</pubDate>
+      <guid>https://johnwesthoff.com/blorg/circuitpythonshilling2/</guid>
+      <description>Back when I did my Model M thingy with CircuitPython, I encountered a lot of difficulties doing I/O. For one, the I/O speed was much too slow for bit-banging anything in Python. Now, you could write some C and call it from Python, but that defeats the benefit of working with Python to begin with. Additionally, hardware peripherals seemed to be destined to be behind in Python. I doubt this will ever change, but a certain recent product seems to offer a bizarre best-of-all-worlds.</description>
+    </item>
+  </channel>
+</rss>

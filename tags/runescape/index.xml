@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>RuneScape on John Westhoff&#39;s Blog</title>
+    <link>https://johnwesthoff.com/tags/runescape/</link>
+    <description>Recent content in RuneScape on John Westhoff&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 31 Aug 2021 16:03:30 -0400</lastBuildDate>
+    <atom:link href="https://johnwesthoff.com/tags/runescape/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Thoughts on Online Gambling</title>
+      <link>https://johnwesthoff.com/blorg/gambling/</link>
+      <pubDate>Tue, 31 Aug 2021 16:03:30 -0400</pubDate>
+      <guid>https://johnwesthoff.com/blorg/gambling/</guid>
+      <description>I&amp;rsquo;ve posted a few times now about RuneScape, and since recently I&amp;rsquo;ve been falling behind on my GitHub commits, I figured I&amp;rsquo;d do it again.&#xA;Backstory Shortly after deciding to make RuneScape 2 in 3D, I started to message my good friend a3qz some thoughts on how one could do fair gambling in the game Old School RuneScape. You see, ever since I was a kid, people would gamble in the game.</description>
+    </item>
+    <item>
+      <title>A Game Better Than RuneScape 3... In 3D!</title>
+      <link>https://johnwesthoff.com/projects/runescape3d/</link>
+      <pubDate>Sat, 17 Jul 2021 01:43:00 -0400</pubDate>
+      <guid>https://johnwesthoff.com/projects/runescape3d/</guid>
+      <description>&lt;p&gt;Last time I wrote about RuneScape, I described how I play the game without really playing it at all.&#xA;But what if I like, did want to actually look at the game I&amp;rsquo;m playing?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Sorry I was alching</title>
+      <link>https://johnwesthoff.com/blorg/lazy-runescape/</link>
+      <pubDate>Tue, 15 Jun 2021 16:03:30 -0400</pubDate>
+      <guid>https://johnwesthoff.com/blorg/lazy-runescape/</guid>
+      <description>Since I was a medium-sized child, I&amp;rsquo;ve enjoyed playing the MMO RuneScape. It is by far the game I&amp;rsquo;ve spent the most time playing, and, well, despite that, I&amp;rsquo;m not very far in the game at all.&#xA;I started sometime in 2006 and, being that the internet hadn&amp;rsquo;t even been invented yet, I was constantly lost. Even though the game had only been around for ~5 years, it was still absolutely massive.</description>
+    </item>
+  </channel>
+</rss>

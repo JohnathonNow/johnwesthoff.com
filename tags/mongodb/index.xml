@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mongodb on John Westhoff&#39;s Blog</title>
+    <link>https://johnwesthoff.com/tags/mongodb/</link>
+    <description>Recent content in Mongodb on John Westhoff&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 16 Apr 2026 06:10:30 -0400</lastBuildDate>
+    <atom:link href="https://johnwesthoff.com/tags/mongodb/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>You can&#39;t just be up there and just doin&#39; a mongodb text search like that</title>
+      <link>https://johnwesthoff.com/blorg/balk/</link>
+      <pubDate>Thu, 16 Apr 2026 06:10:30 -0400</pubDate>
+      <guid>https://johnwesthoff.com/blorg/balk/</guid>
+      <description>Recently I&amp;rsquo;ve been doing a lot of work involving indexed full text search in Azure Cosmos DB for MongoDB, and, man, are the pitfalls there weird.&#xA;To drive my points home, I&amp;rsquo;ll tell my story somewhat interactively. Let&amp;rsquo;s say you wanted to store the rules to a game in a mongdodb database. You might insert records such as rule_number and rule_text, containing the index of the rule in the book and the text of the rule, respectively.</description>
+    </item>
+  </channel>
+</rss>

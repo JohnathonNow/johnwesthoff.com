@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Godot on John Westhoff&#39;s Blog</title>
+    <link>https://johnwesthoff.com/series/godot/</link>
+    <description>Recent content in Godot on John Westhoff&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 07 Feb 2024 23:53:30 -0400</lastBuildDate>
+    <atom:link href="https://johnwesthoff.com/series/godot/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>In-Browser Terrain Rendering with Godot and Terrain3D</title>
+      <link>https://johnwesthoff.com/projects/godot-web-terrain3d/</link>
+      <pubDate>Wed, 07 Feb 2024 23:53:30 -0400</pubDate>
+      <guid>https://johnwesthoff.com/projects/godot-web-terrain3d/</guid>
+      <description>For a while now I&amp;rsquo;ve been wanting to create a simple social networked game. Basically just a chat room where you can explore a 3D world, in browser. Recently, since I&amp;rsquo;ve been entering game jams for fun and learning the Godot Engine, I decided to actually work towards this dream.&#xA;For a start, I grabbed this super helpful starter project to learn how the high level networking feature works in Godot.</description>
+    </item>
+  </channel>
+</rss>

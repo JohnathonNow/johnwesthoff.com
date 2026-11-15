@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ideas on John Westhoff&#39;s Blog</title>
+    <link>https://johnwesthoff.com/ideas/</link>
+    <description>Recent content in Ideas on John Westhoff&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 07 Jan 2017 06:04:14 -0500</lastBuildDate>
+    <atom:link href="https://johnwesthoff.com/ideas/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A Prediction on the Future of Movies</title>
+      <link>https://johnwesthoff.com/ideas/future_movie/</link>
+      <pubDate>Sat, 07 Jan 2017 06:04:14 -0500</pubDate>
+      <guid>https://johnwesthoff.com/ideas/future_movie/</guid>
+      <description>About a year ago my dad suggested that in the future, it will be very common to see virtual actors. That is, there will be actors who exist only as the product of CGI and speech synthesis. Additionally, he believes that very famous actors will be preserved in this way - replications of famous actors will be able to fill in for actors at any age and at any point. We are already beginning to see this, and as the technology begins more advanced I believe it will become more acceptable to replace actors with CGI.</description>
+    </item>
+    <item>
+      <title>Live Action Armor</title>
+      <link>https://johnwesthoff.com/ideas/armor/</link>
+      <pubDate>Tue, 03 Jan 2017 06:24:00 -0500</pubDate>
+      <guid>https://johnwesthoff.com/ideas/armor/</guid>
+      <description>For a while now, I&amp;rsquo;ve been wanting to create a set of foam armor that can keep track of hits and their locations. As a kid I used to like fighting with foam swords, but there wasn&amp;rsquo;t an easy way to stop people from lying about being hit. It would have been nice to have something like what I describe below:&#xA;The basic idea for hit detection I came up with is shown in the image below.</description>
+    </item>
+  </channel>
+</rss>

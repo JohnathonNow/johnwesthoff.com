@@ -1,0 +1,68 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>John Westhoff&#39;s Blog</title>
+    <link>https://johnwesthoff.com/</link>
+    <description>Recent content on John Westhoff&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 16 Apr 2026 06:10:30 -0400</lastBuildDate>
+        <atom:link href="https://johnwesthoff.com/" rel="self" />
+    
+    <item>
+      <title>Blorgs</title>
+      <link>https://johnwesthoff.com/blorg/</link>
+      <pubDate>Thu, 16 Apr 2026 06:10:30 -0400</pubDate>
+      
+      <guid>https://johnwesthoff.com/blorg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>https://johnwesthoff.com/projects/</link>
+      <pubDate>Sun, 31 Mar 2024 21:54:00 -0700</pubDate>
+      
+      <guid>https://johnwesthoff.com/projects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>About Me</title>
+      <link>https://johnwesthoff.com/phone/</link>
+      <pubDate>Fri, 17 Jul 2020 23:24:00 -0400</pubDate>
+      
+      <guid>https://johnwesthoff.com/phone/</guid>
+      <description>If you&amp;rsquo;re here, you probably found my phone somewhere. I&amp;rsquo;d appreciate it if you would email me at johnjwesthoff@gmail.com.</description>
+    </item>
+    
+    <item>
+      <title>Hackers</title>
+      <link>https://johnwesthoff.com/hackers/</link>
+      <pubDate>Thu, 20 Apr 2017 23:24:00 -0500</pubDate>
+      
+      <guid>https://johnwesthoff.com/hackers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ideas</title>
+      <link>https://johnwesthoff.com/ideas/</link>
+      <pubDate>Sat, 07 Jan 2017 06:04:14 -0500</pubDate>
+      
+      <guid>https://johnwesthoff.com/ideas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>About Me</title>
+      <link>https://johnwesthoff.com/about/</link>
+      <pubDate>Fri, 07 Oct 2016 23:24:00 -0400</pubDate>
+      
+      <guid>https://johnwesthoff.com/about/</guid>
+      <description>My name is John Westhoff. Friends call me Jeffrey for short.
+Online, I like the usernames JohnBot and JohnathonNow.
+I graduated from the University of Notre Dame in May of 2018, with a BS in Computer Science. Before then, I lived in Stanford Hall (pictured above). I once served as the mascot secretary for the Notre Dame Linux Users Group, and they&amp;rsquo;re the ones who started calling me Jeffrey. After graduating from Notre Dame, I spent the summer running around chanting &amp;ldquo;37-0&amp;rdquo; until the Michigan season opener1 started my PhD studies at NYU.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data Structures on Project Blog of John Westhoff</title>
+    <link>https://johnwesthoff.com/series/data-structures/</link>
+    <description>Recent content in Data Structures on Project Blog of John Westhoff</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 17 Dec 2016 23:03:30 -0400</lastBuildDate>
+    <atom:link href="https://johnwesthoff.com/series/data-structures/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Data Structures Final Project - SnowGPS</title>
+      <link>https://johnwesthoff.com/projects/ds_finalproject/</link>
+      <pubDate>Sat, 17 Dec 2016 23:03:30 -0400</pubDate>
+      
+      <guid>https://johnwesthoff.com/projects/ds_finalproject/</guid>
+      <description>&lt;p&gt;For our final project for our Data Structures course, my group decided to
+make a GPS app that finds the path with the minimum time spent outdoors.&lt;/p&gt;
+
+&lt;p&gt;We wrote a python program to allow us to map our campus as an undirected graph,
+with vertices at the intersection of every outdoor path, and at every door of every building.&lt;br /&gt;
+To decide paths, it uses
+&lt;a href=&#34;https://en.wikipedia.org/wiki/Dijkstra&#39;s_algorithm&#34;&gt;Dijkstra&amp;rsquo;s Algorithm&lt;/a&gt;.
+To achieve our goal of deciding paths with the least time outdoors, we assign
+weights of 0 to all edges that connect nodes within buildings, and for each
+other edge the weight is the linear distance between the nodes.&lt;/p&gt;
+
+&lt;p&gt;The work was divided into four main parts: the dijkstra&amp;rsquo;s algorithm program,
+the web api, the web client, and scripts for mapping points and testing.&lt;br /&gt;
+The client is hosted &lt;a href=&#34;https://johnbot.me/client&#34;&gt;here&lt;/a&gt;, and while it should
+work on a computer, it is really meant for mobile use. (Also note it really,
+really won&amp;rsquo;t work if you&amp;rsquo;re not on Notre Dame&amp;rsquo;s campus.)&lt;/p&gt;
+
+&lt;p&gt;The client makes a request to the api, which runs the dijkstra&amp;rsquo;s program, which
+outputs the best path back to the api,
+which sends the results back to the client.
+The map is displayed using &lt;a href=&#34;http://leafletjs.com&#34;&gt;leaflet&lt;/a&gt;,
+which is also used for drawing the path, the chosen destination, and the user&amp;rsquo;s
+location.&lt;/p&gt;
+
+&lt;p&gt;The source is in our &lt;a href=&#34;https://github.com/dontworrybhappy/SnowGPS&#34;&gt;GitHub Repo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;We also recorded a promotional video for the project:&lt;br /&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/0cWluu1NP4g&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

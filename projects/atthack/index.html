@@ -1,0 +1,289 @@
+<script src="https://johnwesthoff.com/js/commento/commento.min.js"></script>
+    <!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+  <title>Winning the AT&amp;T Mobile App Hackathon with a Twitch bot &middot; John Westhoff&#39;s Blog</title>
+  <link rel="stylesheet" href="https://johnwesthoff.com//css/style.css" />
+  <link rel="stylesheet" href="https://johnwesthoff.com//css/font-awesome.min.css" />
+  <link rel="icon" href="/favicon.png" type="image/png" />
+  <link href='https://fonts.googleapis.com/css?family=Lato:100,300,400,600' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+<header class="header" style="background-color: #009DDC;
+    background-image: url(https://johnwesthoff.com//img/texture.png),linear-gradient(to bottom, #009DDC, #006ccb);background-repeat: repeat, no-repeat;background-position: left top, left top;background-size: 100px 100px, 100% 100%;" role="banner">
+
+      <section id="branding">
+        <div id="site-title"><a href="https://johnwesthoff.com/">John Westhoff&#39;s Blog</a></div>
+        <nav id="mainmenu">
+          <ul>
+            <li><a href="https://johnwesthoff.com//about">About</a></li>
+            <li><a href="https://johnwesthoff.com/">Posts</a></li>
+            <li><a href="http://github.com/johnathonnow" target="_blank">Github</a></li>
+            
+            <li><a href="https://www.linkedin.com/in/johnjwesthoff" target="_blank">LinkedIn</a></li>
+          </ul>
+        </nav>
+        <input type="checkbox" id="op"></input>
+        <div class="lower">
+          <label for="op">Menu</label>
+        </div>
+        <div class="overlay overlay-hugeinc">
+          <label for="op"></label>
+          <nav id="menu" role="navigation">
+            <ul>
+            <li><a href="https://johnwesthoff.com//about">About</a></li>
+            <li><a href="https://johnwesthoff.com/">Posts</a></li>
+            <li><a href="http://github.com/johnathonnow" target="_blank">Github</a></li>
+            
+            <li><a href="https://www.linkedin.com/in/johnjwesthoff" target="_blank">LinkedIn</a></li>
+          </ul>
+          </nav>
+        </div>
+        <div class="clearfix"></div>
+      </section>
+      <div class="post-heading">
+          <h1>
+        Winning the AT&amp;T Mobile App Hackathon with a Twitch bot
+          <div class="share-icons-header">
+            <a href="http://www.twitter.com/share?url=https%3a%2f%2fjohnwesthoff.com%2fprojects%2fatthack%2f" target="_blank">
+            <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 612 612" style="enable-background:new 0 0 612 612;" xml:space="preserve">
+            <g>
+              <g>
+                <path d="M437.219,245.162c0-3.088-0.056-6.148-0.195-9.18c13.214-9.848,24.675-22.171,33.744-36.275
+                  c-12.129,5.453-25.148,9.097-38.835,10.626c13.965-8.596,24.675-22.338,29.738-38.834c-13.075,7.928-27.54,13.603-42.924,16.552
+                  c-12.323-14.021-29.904-22.95-49.35-23.284c-37.332-0.612-67.598,30.934-67.598,70.463c0,5.619,0.584,11.072,1.752,16.329
+                  c-56.22-3.616-106.042-32.881-139.369-77c-5.814,10.571-9.152,22.922-9.152,36.164c0,25.037,11.934,47.291,30.071,60.421
+                  c-11.099-0.5-21.503-3.866-30.627-9.375c0,0.306,0,0.612,0,0.918c0,34.996,23.312,64.316,54.245,71.159
+                  c-5.675,1.613-11.656,2.448-17.804,2.421c-4.367-0.028-8.596-0.501-12.713-1.392c8.596,28.681,33.577,49.628,63.147,50.323
+                  c-23.145,19.194-52.298,30.655-83.955,30.572c-5.453,0-10.849-0.361-16.135-1.029c29.933,20.53,65.456,32.491,103.65,32.491
+                  C369.23,447.261,437.219,339.048,437.219,245.162z"/>
+                <path d="M612,306C612,137.004,474.995,0,306,0C137.004,0,0,137.004,0,306c0,168.995,137.004,306,306,306
+                  C474.995,612,612,474.995,612,306z M27.818,306C27.818,152.36,152.36,27.818,306,27.818S584.182,152.36,584.182,306
+                  S459.64,584.182,306,584.182S27.818,459.64,27.818,306z"/>
+              </g>
+            </svg></a>
+            <a href="http://plus.google.com/share?url=https%3a%2f%2fjohnwesthoff.com%2fprojects%2fatthack%2f" target="_blank">
+            <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 612 612" style="enable-background:new 0 0 612 612;" xml:space="preserve">
+              <g>
+                <g>
+                  <path d="M349.146,402.251c0-30.016-17.387-44.815-36.525-60.922l-15.662-12.185c-4.785-3.895-11.294-9.124-11.294-18.693
+                    c0-9.57,6.537-15.662,12.184-21.309c18.249-14.354,36.526-29.571,36.526-61.756c0-33.076-20.892-50.462-30.878-58.724l0,0h26.956
+                    L358.271,153h-89.603c-23.479,0-53.049,3.478-77.863,23.924c-18.693,16.079-27.818,38.278-27.818,58.279
+                    c0,33.911,26.093,68.294,72.188,68.294c4.368,0,9.125-0.445,13.937-0.863c-2.17,5.23-4.34,9.569-4.34,16.97
+                    c0,13.464,6.955,21.753,13.047,29.57c-19.556,1.308-56.109,3.478-83.065,20.001c-25.676,15.217-33.493,37.416-33.493,53.077
+                    c0,32.186,30.461,62.201,93.525,62.201C309.561,484.454,349.146,443.116,349.146,402.251z M255.621,291.34
+                    c-37.415,0-54.384-48.292-54.384-77.418c0-11.322,2.17-23.034,9.569-32.186c6.955-8.707,19.139-14.382,30.461-14.382
+                    c36.108,0,54.802,48.738,54.802,80.033c0,7.845-0.862,21.754-10.877,31.768C278.237,286.11,266.498,291.312,255.621,291.34z
+                     M256.066,466.177c-46.54,0-76.556-22.171-76.556-53.049s27.846-41.311,37.416-44.787c18.276-6.093,41.755-6.982,45.677-6.982
+                    c4.34,0,6.51,0,9.987,0.445c33.076,23.479,47.402,35.218,47.402,57.416C319.992,446.176,297.821,466.177,256.066,466.177z"/>
+                  <polygon points="353.068,317.768 400.164,317.768 400.164,364.836 423.699,364.836 423.699,317.768 470.768,317.768 
+                    470.768,294.233 423.699,294.233 423.699,247.165 400.164,247.165 400.164,294.233 353.068,294.233     "/>
+                  <path d="M612,306C612,137.004,474.995,0,306,0C137.004,0,0,137.004,0,306c0,168.995,137.004,306,306,306
+                    C474.995,612,612,474.995,612,306z M27.818,306C27.818,152.36,152.36,27.818,306,27.818S584.182,152.36,584.182,306
+                    S459.64,584.182,306,584.182S27.818,459.64,27.818,306z"/>
+                </g>
+            </svg></a>
+            <a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fjohnwesthoff.com%2fprojects%2fatthack%2f" target="_blank">
+            <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+               viewBox="0 0 612 612" style="enable-background:new 0 0 612 612;" xml:space="preserve">
+            <g>
+              <g>
+                <path d="M612,306C612,137.004,474.995,0,306,0C137.004,0,0,137.004,0,306c0,168.995,137.004,306,306,306
+                  C474.995,612,612,474.995,612,306z M27.818,306C27.818,152.36,152.36,27.818,306,27.818S584.182,152.36,584.182,306
+                  S459.64,584.182,306,584.182S27.818,459.64,27.818,306z"/>
+                <path d="M317.739,482.617V306h58.279l9.208-58.529h-67.487v-29.348c0-15.272,5.007-29.849,26.928-29.849h43.813v-58.418h-62.201
+                  c-52.298,0-66.569,34.438-66.569,82.175v35.413h-35.885V306h35.885v176.617H317.739L317.739,482.617z"/>
+              </g>
+            </svg>
+            </a>
+          </div>
+          
+        </h1>
+      </div>
+
+    </header>
+
+    <div id="container">
+
+    
+    <section id="content" role="main">
+    <section class="entry-meta">
+
+      <span class="post-date">Oct 30, 2017</span>
+
+    </section></header>
+    <section class="entry-content">
+    <article>
+    <p>Prior to about a month ago, I had only ever attended one hackathon - my team came in second. I had to change that.</p>
+<p>My first hackathon experience was the AT&amp;T Hackathon called &ldquo;Irish Hacks&rdquo;, hosted at Innovation Park at the University of Notre Dame.
+It was my freshman year, and really early on, too. Before the event officially started, people were asked to share ideas to aid in team creation.
+Afterwards, I stood awkwardly by a group who looked like they had some good ideas. I stood there until they eventually asked me to join them.
+The team was five guys total - another freshman, named Josh, along with three sophomores, named Ryan, <a href="https://shaqhacks.org/">Shaq</a>, and Josh. To avoid
+confusion, I will from now on refer to the freshman Josh as <code>The English Major</code>.</p>
+<p>We continued brainstorming ideas, until The English Major suggested an idea for a game. A game where players walk around with their phones
+and battle monsters that are located in the real world. Players could level up by defeating monsters, and then submit their own monster into the
+game world. Players could also find armor and weapons in the real world. We went with his idea, came in second place, and won $2000 total. Not bad
+at all. The English Major would go on to become one of my best friends - by the way, he was a Civil Engineering major at the time, and was
+considering switching to Computer Science. We took Physics II together, and that was a disaster. I would see Shaq frequently until his graduation,
+when he went to work for Reddit. I think I had one class with Ryan, but other than that I never really saw him again.</p>
+<p>Fast-forwarding a few years, some guy kept bugging me to do some Microsoft coding challenge with him. I refused, but then ran into him at the dining
+hall, and he mentioned the hackathon. I knew this was my last chance to redeem myself, and I figured we had some good odds, so I agreed. He had two
+friends who I take <a href="https://www3.nd.edu/~dthain/courses/cse40243/fall2017/">compilers</a> with also already on board. Incidently, Josh, now a first year
+grad student, was also in compilers, and the day of the hackathon we were talking about our weekend plans, and I mentioned that I was doing the
+hackathon again. He wanted in, giving us a five man team once again.</p>
+<p>And again we brainstormed ideas. My first instinct was an app to fast foward through those pesky commercials on TiVo using either OpenCV or
+perhaps a CNN. That idea didn&rsquo;t get far. I then threw out my idea of a jacket that dynamically changes temperature. Not to the weather outside
+(though one of the others would later suggest we just do that), but rather to the temperature your character would be experiencing in a video game.
+Say you&rsquo;re playing Minecraft - if you are near snow, you should feel cold in real life, and if you are in lava, you should be burning. It&rsquo;s the future.</p>
+<p>That idea went a lot farther - much farther than my suggestion of just building a death ray, but was ultimately rejected. I don&rsquo;t quite remember
+how we got onto the topic of <a href="https://go.twitch.tv/">twitch</a>, but that is where we ended up. We decided we would build an app that does a better
+job monitoring twitch chats - one that would rank users based off of how toxic they are in the chat so that human moderators can make the decision
+to ban them or not. After about 36 hours worth of hard work, we made <a href="https://github.com/AndrewLitteken/toxbot">jeffy</a>.</p>
+<p>Basically, it presents a web interface with a d3 visualization of all of the users in the chat. Each user is represented as a circle. The size
+of each circle is proportional to the number of messages they sent, and the color of the circle is tinted green if they are nice, white if they
+are neutral, and red if they are naughty. We should have named this &ldquo;Santa&rsquo;s List&rdquo; or something. Next to this visualiztion is a ranking of all the
+users, starting with the most naughty, along with several of their nicest and meanest messages. By their name and every message we indicate a rating,
+and by their name we also show options to ban, timeout, or mod each user.</p>
+<figure><img src="d3.png"
+         alt="The graph visualization of the chat users. Clicking a name shows some of their messages as well as options for punishment or promotion."/><figcaption>
+            <p>The graph visualization of the chat users. Clicking a name shows some of their messages as well as options for punishment or promotion.</p>
+        </figcaption>
+</figure>
+
+<figure><img src="list.png"
+         alt="The list of users, presented as a scrolled capture on a samsung phone."/><figcaption>
+            <p>The list of users, presented as a scrolled capture on a samsung phone.</p>
+        </figcaption>
+</figure>
+
+<p>Twitch has an irc gateway, which is how we get messages in. We then use the IBM Watson api (there was a prize for the best use of it) to do sentiment
+analysis on the message. We then pass the vector of sentiments through a neural network which gives us a toxicity score. We combine this with Watson
+personality analysis on all their messages as well as the toxicity of their past messages to get a toxicity score for the user as a whole. We use
+cherrypy for the backend of a web interface, bootstrap for the frontend, and d3.js for a nice data visualization. The source is available in the
+<code>jeffy</code> link above. It could use some cleaning up, but hey, it&rsquo;s hackathon code.</p>
+<p>Anyways, we ended up winning, which got us a trip to AT&amp;T&rsquo;s foundry in Plano, Texas. It was a fun trip - I took lots of pictures. I was surprised we won,
+since there were a lot of cool projects. I think my favorite was one of my friends&rsquo; - her group made an app to figure out what meme people look like
+and caption pictures of them appropriately. They got third, and then she stole a tray of bacon and then tried forcing me to take it after I got home.
+Anyways, I still have their app installed, because it gave me this gem:</p>
+<figure><img src="me.png"
+         alt="I mean, it&amp;rsquo;s true&amp;hellip;"/><figcaption>
+            <p>I mean, it&rsquo;s true&hellip;</p>
+        </figcaption>
+</figure>
+    </section>
+    <div class="entry-links"></div>
+    </article>
+
+    <div class="share-icons-body">
+      <a href="http://www.twitter.com/share?url=https%3a%2f%2fjohnwesthoff.com%2fprojects%2fatthack%2f" target="_blank">
+      <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 612 612" style="enable-background:new 0 0 612 612;" xml:space="preserve">
+      <g>
+        <g>
+          <path d="M437.219,245.162c0-3.088-0.056-6.148-0.195-9.18c13.214-9.848,24.675-22.171,33.744-36.275
+            c-12.129,5.453-25.148,9.097-38.835,10.626c13.965-8.596,24.675-22.338,29.738-38.834c-13.075,7.928-27.54,13.603-42.924,16.552
+            c-12.323-14.021-29.904-22.95-49.35-23.284c-37.332-0.612-67.598,30.934-67.598,70.463c0,5.619,0.584,11.072,1.752,16.329
+            c-56.22-3.616-106.042-32.881-139.369-77c-5.814,10.571-9.152,22.922-9.152,36.164c0,25.037,11.934,47.291,30.071,60.421
+            c-11.099-0.5-21.503-3.866-30.627-9.375c0,0.306,0,0.612,0,0.918c0,34.996,23.312,64.316,54.245,71.159
+            c-5.675,1.613-11.656,2.448-17.804,2.421c-4.367-0.028-8.596-0.501-12.713-1.392c8.596,28.681,33.577,49.628,63.147,50.323
+            c-23.145,19.194-52.298,30.655-83.955,30.572c-5.453,0-10.849-0.361-16.135-1.029c29.933,20.53,65.456,32.491,103.65,32.491
+            C369.23,447.261,437.219,339.048,437.219,245.162z"/>
+          <path d="M612,306C612,137.004,474.995,0,306,0C137.004,0,0,137.004,0,306c0,168.995,137.004,306,306,306
+            C474.995,612,612,474.995,612,306z M27.818,306C27.818,152.36,152.36,27.818,306,27.818S584.182,152.36,584.182,306
+            S459.64,584.182,306,584.182S27.818,459.64,27.818,306z"/>
+        </g>
+      </svg></a>
+      <a href="http://plus.google.com/share?url=https%3a%2f%2fjohnwesthoff.com%2fprojects%2fatthack%2f" target="_blank">
+      <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 612 612" style="enable-background:new 0 0 612 612;" xml:space="preserve">
+        <g>
+          <g>
+            <path d="M349.146,402.251c0-30.016-17.387-44.815-36.525-60.922l-15.662-12.185c-4.785-3.895-11.294-9.124-11.294-18.693
+              c0-9.57,6.537-15.662,12.184-21.309c18.249-14.354,36.526-29.571,36.526-61.756c0-33.076-20.892-50.462-30.878-58.724l0,0h26.956
+              L358.271,153h-89.603c-23.479,0-53.049,3.478-77.863,23.924c-18.693,16.079-27.818,38.278-27.818,58.279
+              c0,33.911,26.093,68.294,72.188,68.294c4.368,0,9.125-0.445,13.937-0.863c-2.17,5.23-4.34,9.569-4.34,16.97
+              c0,13.464,6.955,21.753,13.047,29.57c-19.556,1.308-56.109,3.478-83.065,20.001c-25.676,15.217-33.493,37.416-33.493,53.077
+              c0,32.186,30.461,62.201,93.525,62.201C309.561,484.454,349.146,443.116,349.146,402.251z M255.621,291.34
+              c-37.415,0-54.384-48.292-54.384-77.418c0-11.322,2.17-23.034,9.569-32.186c6.955-8.707,19.139-14.382,30.461-14.382
+              c36.108,0,54.802,48.738,54.802,80.033c0,7.845-0.862,21.754-10.877,31.768C278.237,286.11,266.498,291.312,255.621,291.34z
+               M256.066,466.177c-46.54,0-76.556-22.171-76.556-53.049s27.846-41.311,37.416-44.787c18.276-6.093,41.755-6.982,45.677-6.982
+              c4.34,0,6.51,0,9.987,0.445c33.076,23.479,47.402,35.218,47.402,57.416C319.992,446.176,297.821,466.177,256.066,466.177z"/>
+            <polygon points="353.068,317.768 400.164,317.768 400.164,364.836 423.699,364.836 423.699,317.768 470.768,317.768 
+              470.768,294.233 423.699,294.233 423.699,247.165 400.164,247.165 400.164,294.233 353.068,294.233     "/>
+            <path d="M612,306C612,137.004,474.995,0,306,0C137.004,0,0,137.004,0,306c0,168.995,137.004,306,306,306
+              C474.995,612,612,474.995,612,306z M27.818,306C27.818,152.36,152.36,27.818,306,27.818S584.182,152.36,584.182,306
+              S459.64,584.182,306,584.182S27.818,459.64,27.818,306z"/>
+          </g>
+      </svg></a>
+      <a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fjohnwesthoff.com%2fprojects%2fatthack%2f" target="_blank">
+      <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+         viewBox="0 0 612 612" style="enable-background:new 0 0 612 612;" xml:space="preserve">
+      <g>
+        <g>
+          <path d="M612,306C612,137.004,474.995,0,306,0C137.004,0,0,137.004,0,306c0,168.995,137.004,306,306,306
+            C474.995,612,612,474.995,612,306z M27.818,306C27.818,152.36,152.36,27.818,306,27.818S584.182,152.36,584.182,306
+            S459.64,584.182,306,584.182S27.818,459.64,27.818,306z"/>
+          <path d="M317.739,482.617V306h58.279l9.208-58.529h-67.487v-29.348c0-15.272,5.007-29.849,26.928-29.849h43.813v-58.418h-62.201
+            c-52.298,0-66.569,34.438-66.569,82.175v35.413h-35.885V306h35.885v176.617H317.739L317.739,482.617z"/>
+        </g>
+      </svg>
+      </a>
+    </div>
+    <div class="clearfix"></div>
+
+<div>
+    
+        Tags: 
+        
+            <a href="/tags/projects">Projects</a> 
+        
+    
+    
+        <br>Part of a series on  
+        
+            <a href="/series/hackathon">Hackathon</a>.
+        
+    
+</div>
+
+
+<hr>
+Leave a comment below!
+For issues with this website itself, please describe the problem to <a id='email2'>issues at johnwesthoff dot com</a>.<br>
+For urgent questions or comments, shoot me an email (address provided on my GitHub profile).
+<div id="commento"></div>
+<script>
+Commento.init({
+    serverUrl: "https://johnwesthoff.com/comments",
+    showdownUrl: "https://johnwesthoff.com/assets/vendor/showdown.min.js",
+    commentoCssUrl: "https://johnwesthoff.com/assets/style/commento.min.css",
+     
+});
+var name = "john";
+var dir = "west";
+var at = "@";
+
+document.getElementById("email2").href = "mail" +   "to:" +   "issues" +   at + name +   dir + "hoff" + "." +   "com";
+</script>
+</section>
+<div class="clear"></div>
+</div>
+<footer id="footer" style="color: #7A7B7C; background-color: #3A3B3C;background-image: url(https://johnwesthoff.com//img/texture.png),linear-gradient(to bottom, #3A3B3C, #1d1e1e); background-repeat: repeat, no-repeat; background-position: left top, left top; background-size: 100px 100px, 100% 100%;">
+    <div id="footer-container">
+        
+        
+        
+        <div class="clearfix"></div>
+    </div>
+    <div id="copyright"></div>
+</footer>
+<script src="https://johnwesthoff.com//js/highlight.pack.js"></script>
+<script>
+    hljs.initHighlightingOnLoad();
+</script>
+<link rel="shortcut icon" href="https://johnwesthoff.com//favicon.png" />
+<link rel="apple-touch-icon" href="https://johnwesthoff.com//img/apple-touch-icon.jpg" />
+</body>
+</html>
+

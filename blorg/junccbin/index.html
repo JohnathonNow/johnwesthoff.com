@@ -1,0 +1,225 @@
+<script src="https://johnwesthoff.com/js/commento/commento.min.js"></script>
+    <!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+  <title>Throwing ISPs Into The JUNCCBIN &middot; John Westhoff&#39;s Blog</title>
+  <link rel="stylesheet" href="https://johnwesthoff.com//css/style.css" />
+  <link rel="stylesheet" href="https://johnwesthoff.com//css/font-awesome.min.css" />
+  <link rel="icon" href="/favicon.png" type="image/png" />
+  <link href='https://fonts.googleapis.com/css?family=Lato:100,300,400,600' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+<header class="header" style="background-color: #009DDC;
+    background-image: url(https://johnwesthoff.com//img/texture.png),linear-gradient(to bottom, #009DDC, #006ccb);background-repeat: repeat, no-repeat;background-position: left top, left top;background-size: 100px 100px, 100% 100%;" role="banner">
+
+      <section id="branding">
+        <div id="site-title"><a href="https://johnwesthoff.com/">John Westhoff&#39;s Blog</a></div>
+        <nav id="mainmenu">
+          <ul>
+            <li><a href="https://johnwesthoff.com//about">About</a></li>
+            <li><a href="https://johnwesthoff.com/">Posts</a></li>
+            <li><a href="http://github.com/johnathonnow" target="_blank">Github</a></li>
+            
+            <li><a href="https://www.linkedin.com/in/johnjwesthoff" target="_blank">LinkedIn</a></li>
+          </ul>
+        </nav>
+        <input type="checkbox" id="op"></input>
+        <div class="lower">
+          <label for="op">Menu</label>
+        </div>
+        <div class="overlay overlay-hugeinc">
+          <label for="op"></label>
+          <nav id="menu" role="navigation">
+            <ul>
+            <li><a href="https://johnwesthoff.com//about">About</a></li>
+            <li><a href="https://johnwesthoff.com/">Posts</a></li>
+            <li><a href="http://github.com/johnathonnow" target="_blank">Github</a></li>
+            
+            <li><a href="https://www.linkedin.com/in/johnjwesthoff" target="_blank">LinkedIn</a></li>
+          </ul>
+          </nav>
+        </div>
+        <div class="clearfix"></div>
+      </section>
+      <div class="post-heading">
+          <h1>
+        Throwing ISPs Into The JUNCCBIN
+          <div class="share-icons-header">
+            <a href="http://www.twitter.com/share?url=https%3a%2f%2fjohnwesthoff.com%2fblorg%2fjunccbin%2f" target="_blank">
+            <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 612 612" style="enable-background:new 0 0 612 612;" xml:space="preserve">
+            <g>
+              <g>
+                <path d="M437.219,245.162c0-3.088-0.056-6.148-0.195-9.18c13.214-9.848,24.675-22.171,33.744-36.275
+                  c-12.129,5.453-25.148,9.097-38.835,10.626c13.965-8.596,24.675-22.338,29.738-38.834c-13.075,7.928-27.54,13.603-42.924,16.552
+                  c-12.323-14.021-29.904-22.95-49.35-23.284c-37.332-0.612-67.598,30.934-67.598,70.463c0,5.619,0.584,11.072,1.752,16.329
+                  c-56.22-3.616-106.042-32.881-139.369-77c-5.814,10.571-9.152,22.922-9.152,36.164c0,25.037,11.934,47.291,30.071,60.421
+                  c-11.099-0.5-21.503-3.866-30.627-9.375c0,0.306,0,0.612,0,0.918c0,34.996,23.312,64.316,54.245,71.159
+                  c-5.675,1.613-11.656,2.448-17.804,2.421c-4.367-0.028-8.596-0.501-12.713-1.392c8.596,28.681,33.577,49.628,63.147,50.323
+                  c-23.145,19.194-52.298,30.655-83.955,30.572c-5.453,0-10.849-0.361-16.135-1.029c29.933,20.53,65.456,32.491,103.65,32.491
+                  C369.23,447.261,437.219,339.048,437.219,245.162z"/>
+                <path d="M612,306C612,137.004,474.995,0,306,0C137.004,0,0,137.004,0,306c0,168.995,137.004,306,306,306
+                  C474.995,612,612,474.995,612,306z M27.818,306C27.818,152.36,152.36,27.818,306,27.818S584.182,152.36,584.182,306
+                  S459.64,584.182,306,584.182S27.818,459.64,27.818,306z"/>
+              </g>
+            </svg></a>
+            <a href="http://plus.google.com/share?url=https%3a%2f%2fjohnwesthoff.com%2fblorg%2fjunccbin%2f" target="_blank">
+            <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 612 612" style="enable-background:new 0 0 612 612;" xml:space="preserve">
+              <g>
+                <g>
+                  <path d="M349.146,402.251c0-30.016-17.387-44.815-36.525-60.922l-15.662-12.185c-4.785-3.895-11.294-9.124-11.294-18.693
+                    c0-9.57,6.537-15.662,12.184-21.309c18.249-14.354,36.526-29.571,36.526-61.756c0-33.076-20.892-50.462-30.878-58.724l0,0h26.956
+                    L358.271,153h-89.603c-23.479,0-53.049,3.478-77.863,23.924c-18.693,16.079-27.818,38.278-27.818,58.279
+                    c0,33.911,26.093,68.294,72.188,68.294c4.368,0,9.125-0.445,13.937-0.863c-2.17,5.23-4.34,9.569-4.34,16.97
+                    c0,13.464,6.955,21.753,13.047,29.57c-19.556,1.308-56.109,3.478-83.065,20.001c-25.676,15.217-33.493,37.416-33.493,53.077
+                    c0,32.186,30.461,62.201,93.525,62.201C309.561,484.454,349.146,443.116,349.146,402.251z M255.621,291.34
+                    c-37.415,0-54.384-48.292-54.384-77.418c0-11.322,2.17-23.034,9.569-32.186c6.955-8.707,19.139-14.382,30.461-14.382
+                    c36.108,0,54.802,48.738,54.802,80.033c0,7.845-0.862,21.754-10.877,31.768C278.237,286.11,266.498,291.312,255.621,291.34z
+                     M256.066,466.177c-46.54,0-76.556-22.171-76.556-53.049s27.846-41.311,37.416-44.787c18.276-6.093,41.755-6.982,45.677-6.982
+                    c4.34,0,6.51,0,9.987,0.445c33.076,23.479,47.402,35.218,47.402,57.416C319.992,446.176,297.821,466.177,256.066,466.177z"/>
+                  <polygon points="353.068,317.768 400.164,317.768 400.164,364.836 423.699,364.836 423.699,317.768 470.768,317.768 
+                    470.768,294.233 423.699,294.233 423.699,247.165 400.164,247.165 400.164,294.233 353.068,294.233     "/>
+                  <path d="M612,306C612,137.004,474.995,0,306,0C137.004,0,0,137.004,0,306c0,168.995,137.004,306,306,306
+                    C474.995,612,612,474.995,612,306z M27.818,306C27.818,152.36,152.36,27.818,306,27.818S584.182,152.36,584.182,306
+                    S459.64,584.182,306,584.182S27.818,459.64,27.818,306z"/>
+                </g>
+            </svg></a>
+            <a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fjohnwesthoff.com%2fblorg%2fjunccbin%2f" target="_blank">
+            <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+               viewBox="0 0 612 612" style="enable-background:new 0 0 612 612;" xml:space="preserve">
+            <g>
+              <g>
+                <path d="M612,306C612,137.004,474.995,0,306,0C137.004,0,0,137.004,0,306c0,168.995,137.004,306,306,306
+                  C474.995,612,612,474.995,612,306z M27.818,306C27.818,152.36,152.36,27.818,306,27.818S584.182,152.36,584.182,306
+                  S459.64,584.182,306,584.182S27.818,459.64,27.818,306z"/>
+                <path d="M317.739,482.617V306h58.279l9.208-58.529h-67.487v-29.348c0-15.272,5.007-29.849,26.928-29.849h43.813v-58.418h-62.201
+                  c-52.298,0-66.569,34.438-66.569,82.175v35.413h-35.885V306h35.885v176.617H317.739L317.739,482.617z"/>
+              </g>
+            </svg>
+            </a>
+          </div>
+          
+        </h1>
+      </div>
+
+    </header>
+
+    <div id="container">
+
+    
+    <section id="content" role="main">
+    <section class="entry-meta">
+
+    </section></header>
+    <section class="entry-content">
+    <article>
+    <p>My internet woes will be solved, be it by moving to a different house, by Starlink, or by getting an ISP to actually
+service an area. But that doesn&rsquo;t solve <em>the</em> internet problem.</p>
+<!-- more -->
+<h1 id="motivation">Motivation</h1>
+<p>Right now an insane number of people in the world, even in America, <em>even in a high tech state like California</em>, do not
+have broadband internet. More importantly, throwing money at ISPs does not yield meaningful results. Happy Valley California
+has had hundreds of households with 1Mbps DSL connections for almost two decades, and the major telecom company in the area
+is using their grant money&hellip; to build out 25Mbps DSL connections. Sure, a 25x improvement here would be to die for, but
+by the time its complete, well, congress may have already redefined &ldquo;high speed broadband&rdquo; to 100Mbps or something.</p>
+<p>Now, not all of these people without broadband are in the same boat. We are fortunate enough to have a DSL connection,
+and even OK LTE speeds - I was able to find a spot in the yard where I even got 23Mbps! We also have not-too-distant neighbors
+with <strong>GIGABIT FIBER</strong>. I will refer to households like ours as &ldquo;sub-rural&rdquo;. There are other homes with no LTE signal at all, or
+no neigh neighbors whatsoever. These households I will refer to as &ldquo;far-rural&rdquo;.</p>
+<p>It is my goal to describe a way by which sub-rural and far-rural households can achieve internet connectivity, through a series
+of techniques that maybe don&rsquo;t work whatsoever, but I would love to find out. I call my overall system JUNCCBIN, for
+&ldquo;Jeff&rsquo;s Utopian Neocapitalist Cooperative Channel Bonded InterNet&rdquo;.</p>
+<h1 id="goals">Goals</h1>
+<p>Ideally, any sub-rural or far-rural household would be able to do three major internet tasks:</p>
+<ol>
+<li>Teleconference - being able to communicate in real time over the internet, especially in the wake of the COVID-19 pandemic, is vitally important. Video conferencing software demands low latency and a moderate amount of bandwidth.</li>
+<li>Video streaming - for entertainment and informative purposes, being able to watch pre-recorded content is very useful in the modern world. Video streaming demands high bandwidth for a good experience, but can tolerate high latency.</li>
+<li>Web browsing - the world wide web is an invaluable resource, even to people who live out in the country. It doesn&rsquo;t have particularly high demands in either latency or bandwidth, but benefits from both being favorable.</li>
+</ol>
+<h1 id="design">Design</h1>
+<p>At a high level, the goal of JUNCCBIN is to form a local network among the households in a given community, and aggregate
+their connectivity resources for the betterment of everyone within the community. In order to incentivize sharing, members
+of the network may be reimbursed based off of how much their network connection was used by the community.</p>
+<p>JUNCCBIN relies on a series of cooperative neighbors making use of Cooperative Relay Nodes (CRNs). Each CRN consists of one or more
+Cooperative Links (CLs) that join each CRN to other CRNs. A CL might be a physical connection, such as ethernet between two households,
+or it may be a radio link over longer distances. CRNs may have one or more Internet Links (ILs) that connect the CRN to the internet
+at large.
+Each CRN also contains a Network Controller that can run some logic on every packet going between its CLs + ILs - this is what allows
+tracking of network usage for billing and reimbursement. <strong>MAY NOT BE TRUE, MAYBE THE CO DOES THAT, OR MAYBE BOT</strong></p>
+<p>Each household sets up a CRN by connecting it to one or more of their neighbor&rsquo;s CRNs, as well as their own internet connections
+(if any).</p>
+<p>Outside of the rural community, there is a Cloud Orchestrator (CO). It is located in Denver. Ever CRN proxies all of their IL packets
+to the CO. The CO is then responsible for sending the packets to the correct destination along its very very high speed super duper
+gigabit internet connection. The CO can help with billing by determining who the packets came from along with which CRN&rsquo;s IL
+was used to deliver the packets.</p>
+<p>To aid far-rural connections, multiple CRNs owned by a single household could be installed along poles to a neighbor willing
+to share (in this case, practically sell) their internet to the household. It is possible to build the CRNs both cheaply and
+in a way that they could be solar powered, making it very inexpensive and easy to connect households potentially hundreds
+of miles away by chaining CRNs.</p>
+<p>In order to meet our goals, JUNCCBIN&rsquo;s CRNs will automatically route traffic based off of prioritization rules on a per-application
+basis. Video streaming applications will be routed to high-bandwidth connections, or split off to several lower bandwidth connections.
+Teleconferencing applications, on the other hand, will be routed through the lowest latency path. The CRNs may potentially re-route
+applications as new streams are formed. For example, if someone is watching YouTube while another person is joining a Zoom call,
+the network may change the YouTube route to allow the Zoom call to have a lower latency connection.</p>
+<p>Pleeeease look at this graph:</p>
+<p><img src="JUNCCBIN.png" alt="JUNCCBIN deployment example"></p>
+<p>In this picture, there are a number of households (the rectangles in the gray area) that
+each have a CRN. Connections between CRNs are shown in green. Some CRNs have Internet Links.
+These are shown in red for low speed DSL connections, and blue for high speed fiber
+connections. These CRNs use these connections to proxy all of their traffic to the CO.</p>
+<h1 id="implementation">Implementation</h1>
+<p>I&rsquo;m poor and have implemented none of this. Please fund me. It would be nice to do a few things:</p>
+<ol>
+<li>Have a simulator of the idea.</li>
+<li>Have a real world deployment of several households.</li>
+<li>Make the solar powered CRN for far-rural deployments.</li>
+<li>Implement the CO and the software for the CRNs.</li>
+<li>Conquer the world.</li>
+</ol>
+
+    </section>
+    <div class="entry-links"></div>
+    </article>
+
+
+<hr>
+Leave a comment below!
+For issues with this website itself, please describe the problem to <a id='email2'>issues at johnwesthoff dot com</a>.<br>
+For urgent questions or comments, shoot me an email (address provided on my GitHub profile).
+<div id="commento"></div>
+<script>
+Commento.init({
+    serverUrl: "https://johnwesthoff.com/comments",
+    showdownUrl: "https://johnwesthoff.com/assets/vendor/showdown.min.js",
+    commentoCssUrl: "https://johnwesthoff.com/assets/style/commento.min.css",
+     
+});
+var name = "john";
+var dir = "west";
+var at = "@";
+
+document.getElementById("email2").href = "mail" +   "to:" +   "issues" +   at + name +   dir + "hoff" + "." +   "com";
+</script>
+</section>
+<div class="clear"></div>
+</div>
+<footer id="footer" style="color: #7A7B7C; background-color: #3A3B3C;background-image: url(https://johnwesthoff.com//img/texture.png),linear-gradient(to bottom, #3A3B3C, #1d1e1e); background-repeat: repeat, no-repeat; background-position: left top, left top; background-size: 100px 100px, 100% 100%;">
+    <div id="footer-container">
+        
+        
+        
+        <div class="clearfix"></div>
+    </div>
+    <div id="copyright"></div>
+</footer>
+<script src="https://johnwesthoff.com//js/highlight.pack.js"></script>
+<script>
+    hljs.initHighlightingOnLoad();
+</script>
+<link rel="shortcut icon" href="https://johnwesthoff.com//favicon.png" />
+<link rel="apple-touch-icon" href="https://johnwesthoff.com//img/apple-touch-icon.jpg" />
+</body>
+</html>
+

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rust on John Westhoff&#39;s Blog</title>
+    <link>https://johnwesthoff.com/categories/rust/</link>
+    <description>Recent content in Rust on John Westhoff&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 29 Jan 2021 23:11:00 -0400</lastBuildDate>
+    <atom:link href="https://johnwesthoff.com/categories/rust/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Spidior: Because Regex Wasn&#39;t Awful Enough</title>
+      <link>https://johnwesthoff.com/projects/spidior/</link>
+      <pubDate>Fri, 29 Jan 2021 23:11:00 -0400</pubDate>
+      <guid>https://johnwesthoff.com/projects/spidior/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve occasionally found myself wanting to refactor code in ways that current&#xA;free tools don&amp;rsquo;t make easy for me. I wish I had something to make it easier.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

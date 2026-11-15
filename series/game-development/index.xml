@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Game Development on John Westhoff&#39;s Blog</title>
+    <link>https://johnwesthoff.com/series/game-development/</link>
+    <description>Recent content in Game Development on John Westhoff&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 17 Jul 2016 23:24:00 -0400</lastBuildDate>
+    <atom:link href="https://johnwesthoff.com/series/game-development/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Multiplayer Spaceship Game</title>
+      <link>https://johnwesthoff.com/projects/vrremake/</link>
+      <pubDate>Sun, 17 Jul 2016 23:24:00 -0400</pubDate>
+      <guid>https://johnwesthoff.com/projects/vrremake/</guid>
+      <description>Back between 2008 and 2011, I spent a fair bit of time on FunOrb. One of their most interesting games was their last official release, Void Hunters. Unfortunately, FunOrb did not last much longer than that, as there has only been a small handful of updates since then, and with the death of NPAPI Plugins, the Java-based gaming site has virtually no chance of being revived.&#xA;Some time around my freshman year at Notre Dame, I decided that it would be fun to recreate the game.</description>
+    </item>
+  </channel>
+</rss>

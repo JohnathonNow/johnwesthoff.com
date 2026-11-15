@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bookmarklets on John Westhoff&#39;s Blog</title>
+    <link>https://johnwesthoff.com/categories/bookmarklets/</link>
+    <description>Recent content in Bookmarklets on John Westhoff&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 11 Jun 2021 02:03:30 -0400</lastBuildDate>
+    <atom:link href="https://johnwesthoff.com/categories/bookmarklets/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Random Bookmarklets</title>
+      <link>https://johnwesthoff.com/blorg/bookmarklets/</link>
+      <pubDate>Fri, 11 Jun 2021 02:03:30 -0400</pubDate>
+      <guid>https://johnwesthoff.com/blorg/bookmarklets/</guid>
+      <description>Hello, this is the page on the internet where there are a few random bookmarklets that are likely only useful for me, Jeffrey. However, on the off chance they are useful to anyone else, they are provided here, free of charge!&#xA;Lichessify - the first bookmarklet I ever made, it converts a Chess.com analysis page into a lichess analysis page. I blogged about it here. CloudLab URLs - this one copies to your clipboard all of the URLs to a node on CloudLab.</description>
+    </item>
+  </channel>
+</rss>

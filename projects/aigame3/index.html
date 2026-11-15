@@ -1,0 +1,655 @@
+<script src="https://johnwesthoff.com/js/commento/commento.min.js"></script>
+    <!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+  <title>AI Game 3 - Language Update &middot; John Westhoff&#39;s Blog</title>
+  <link rel="stylesheet" href="https://johnwesthoff.com//css/style.css" />
+  <link rel="stylesheet" href="https://johnwesthoff.com//css/font-awesome.min.css" />
+  <link rel="icon" href="/favicon.png" type="image/png" />
+  <link href='https://fonts.googleapis.com/css?family=Lato:100,300,400,600' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+<header class="header" style="background-color: #009DDC;
+    background-image: url(https://johnwesthoff.com//img/texture.png),linear-gradient(to bottom, #009DDC, #006ccb);background-repeat: repeat, no-repeat;background-position: left top, left top;background-size: 100px 100px, 100% 100%;" role="banner">
+
+      <section id="branding">
+        <div id="site-title"><a href="https://johnwesthoff.com/">John Westhoff&#39;s Blog</a></div>
+        <nav id="mainmenu">
+          <ul>
+            <li><a href="https://johnwesthoff.com//about">About</a></li>
+            <li><a href="https://johnwesthoff.com/">Posts</a></li>
+            <li><a href="http://github.com/johnathonnow" target="_blank">Github</a></li>
+            
+            <li><a href="https://www.linkedin.com/in/johnjwesthoff" target="_blank">LinkedIn</a></li>
+          </ul>
+        </nav>
+        <input type="checkbox" id="op"></input>
+        <div class="lower">
+          <label for="op">Menu</label>
+        </div>
+        <div class="overlay overlay-hugeinc">
+          <label for="op"></label>
+          <nav id="menu" role="navigation">
+            <ul>
+            <li><a href="https://johnwesthoff.com//about">About</a></li>
+            <li><a href="https://johnwesthoff.com/">Posts</a></li>
+            <li><a href="http://github.com/johnathonnow" target="_blank">Github</a></li>
+            
+            <li><a href="https://www.linkedin.com/in/johnjwesthoff" target="_blank">LinkedIn</a></li>
+          </ul>
+          </nav>
+        </div>
+        <div class="clearfix"></div>
+      </section>
+      <div class="post-heading">
+          <h1>
+        AI Game 3 - Language Update
+          <div class="share-icons-header">
+            <a href="http://www.twitter.com/share?url=https%3a%2f%2fjohnwesthoff.com%2fprojects%2faigame3%2f" target="_blank">
+            <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 612 612" style="enable-background:new 0 0 612 612;" xml:space="preserve">
+            <g>
+              <g>
+                <path d="M437.219,245.162c0-3.088-0.056-6.148-0.195-9.18c13.214-9.848,24.675-22.171,33.744-36.275
+                  c-12.129,5.453-25.148,9.097-38.835,10.626c13.965-8.596,24.675-22.338,29.738-38.834c-13.075,7.928-27.54,13.603-42.924,16.552
+                  c-12.323-14.021-29.904-22.95-49.35-23.284c-37.332-0.612-67.598,30.934-67.598,70.463c0,5.619,0.584,11.072,1.752,16.329
+                  c-56.22-3.616-106.042-32.881-139.369-77c-5.814,10.571-9.152,22.922-9.152,36.164c0,25.037,11.934,47.291,30.071,60.421
+                  c-11.099-0.5-21.503-3.866-30.627-9.375c0,0.306,0,0.612,0,0.918c0,34.996,23.312,64.316,54.245,71.159
+                  c-5.675,1.613-11.656,2.448-17.804,2.421c-4.367-0.028-8.596-0.501-12.713-1.392c8.596,28.681,33.577,49.628,63.147,50.323
+                  c-23.145,19.194-52.298,30.655-83.955,30.572c-5.453,0-10.849-0.361-16.135-1.029c29.933,20.53,65.456,32.491,103.65,32.491
+                  C369.23,447.261,437.219,339.048,437.219,245.162z"/>
+                <path d="M612,306C612,137.004,474.995,0,306,0C137.004,0,0,137.004,0,306c0,168.995,137.004,306,306,306
+                  C474.995,612,612,474.995,612,306z M27.818,306C27.818,152.36,152.36,27.818,306,27.818S584.182,152.36,584.182,306
+                  S459.64,584.182,306,584.182S27.818,459.64,27.818,306z"/>
+              </g>
+            </svg></a>
+            <a href="http://plus.google.com/share?url=https%3a%2f%2fjohnwesthoff.com%2fprojects%2faigame3%2f" target="_blank">
+            <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 612 612" style="enable-background:new 0 0 612 612;" xml:space="preserve">
+              <g>
+                <g>
+                  <path d="M349.146,402.251c0-30.016-17.387-44.815-36.525-60.922l-15.662-12.185c-4.785-3.895-11.294-9.124-11.294-18.693
+                    c0-9.57,6.537-15.662,12.184-21.309c18.249-14.354,36.526-29.571,36.526-61.756c0-33.076-20.892-50.462-30.878-58.724l0,0h26.956
+                    L358.271,153h-89.603c-23.479,0-53.049,3.478-77.863,23.924c-18.693,16.079-27.818,38.278-27.818,58.279
+                    c0,33.911,26.093,68.294,72.188,68.294c4.368,0,9.125-0.445,13.937-0.863c-2.17,5.23-4.34,9.569-4.34,16.97
+                    c0,13.464,6.955,21.753,13.047,29.57c-19.556,1.308-56.109,3.478-83.065,20.001c-25.676,15.217-33.493,37.416-33.493,53.077
+                    c0,32.186,30.461,62.201,93.525,62.201C309.561,484.454,349.146,443.116,349.146,402.251z M255.621,291.34
+                    c-37.415,0-54.384-48.292-54.384-77.418c0-11.322,2.17-23.034,9.569-32.186c6.955-8.707,19.139-14.382,30.461-14.382
+                    c36.108,0,54.802,48.738,54.802,80.033c0,7.845-0.862,21.754-10.877,31.768C278.237,286.11,266.498,291.312,255.621,291.34z
+                     M256.066,466.177c-46.54,0-76.556-22.171-76.556-53.049s27.846-41.311,37.416-44.787c18.276-6.093,41.755-6.982,45.677-6.982
+                    c4.34,0,6.51,0,9.987,0.445c33.076,23.479,47.402,35.218,47.402,57.416C319.992,446.176,297.821,466.177,256.066,466.177z"/>
+                  <polygon points="353.068,317.768 400.164,317.768 400.164,364.836 423.699,364.836 423.699,317.768 470.768,317.768 
+                    470.768,294.233 423.699,294.233 423.699,247.165 400.164,247.165 400.164,294.233 353.068,294.233     "/>
+                  <path d="M612,306C612,137.004,474.995,0,306,0C137.004,0,0,137.004,0,306c0,168.995,137.004,306,306,306
+                    C474.995,612,612,474.995,612,306z M27.818,306C27.818,152.36,152.36,27.818,306,27.818S584.182,152.36,584.182,306
+                    S459.64,584.182,306,584.182S27.818,459.64,27.818,306z"/>
+                </g>
+            </svg></a>
+            <a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fjohnwesthoff.com%2fprojects%2faigame3%2f" target="_blank">
+            <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+               viewBox="0 0 612 612" style="enable-background:new 0 0 612 612;" xml:space="preserve">
+            <g>
+              <g>
+                <path d="M612,306C612,137.004,474.995,0,306,0C137.004,0,0,137.004,0,306c0,168.995,137.004,306,306,306
+                  C474.995,612,612,474.995,612,306z M27.818,306C27.818,152.36,152.36,27.818,306,27.818S584.182,152.36,584.182,306
+                  S459.64,584.182,306,584.182S27.818,459.64,27.818,306z"/>
+                <path d="M317.739,482.617V306h58.279l9.208-58.529h-67.487v-29.348c0-15.272,5.007-29.849,26.928-29.849h43.813v-58.418h-62.201
+                  c-52.298,0-66.569,34.438-66.569,82.175v35.413h-35.885V306h35.885v176.617H317.739L317.739,482.617z"/>
+              </g>
+            </svg>
+            </a>
+          </div>
+          
+        </h1>
+      </div>
+
+    </header>
+
+    <div id="container">
+
+    
+    <section id="content" role="main">
+    <section class="entry-meta">
+
+      <span class="post-date">Jun 27, 2017</span>
+
+    </section></header>
+    <section class="entry-content">
+    <article>
+    <p>The language is coming along nicely. I refactored the evaluation function,
+moving out all of the function call logic into more digestible functions.
+This led to a few nice advances.</p>
+<h1 id="bug-fixes">Bug Fixes</h1>
+<p>I think I got scoping to work well enough, fixing that closure example from
+last time.</p>
+
+<script src="parser.js"></script>
+
+<script src="https://johnwesthoff.com/js/jquery.min.js"> </script>
+<head>
+<style type="text/css" media="screen"> #editor { top: 0; right: 0; bottom: 0; left: 0; margin:0 auto;} </style>
+</head>
+<div id="editor">
+;;;; An example to show that closures might work now
+(def _cons                                     ;define our own cons function
+  (fun '(_car _cdr)                            ;it takes in the first and rest
+    (fun '(which) (if which _car _cdr)         ;and makes a closure
+)))
+
+;; convert a fake list to a string
+(def go2String
+  (fun '(l)                                    ;take in a list
+    (if (= (l #f) nil)                         ;if we are at the end, stop
+      (l #t)                                   ;and return our last element
+      (+ "" (l #t) "  " (go2String (l #f)))    ;otherwise recurse
+)))
+
+(def myList (_cons 0 (_cons 1 (_cons 2 nil)))) ;make a list using _cons
+
+
+(go2String myList)                             ;stringify
+ </div>
+<script src="https://johnwesthoff.com/js/ace/src-min-noconflict/ace.js"></script>
+<script>
+var editor = ace.edit("editor");
+editor.setTheme("ace/theme/chrome");
+editor.setAutoScrollEditorIntoView(true);
+editor.setOption("maxLines", 30);
+editor.getSession().setMode("ace/mode/lisp");
+
+var code = new URL(window.location).searchParams.get("code");
+if (code) {
+        editor.setValue(code, new Number('0'));
+} else {
+    var b64 = new URL(window.location).searchParams.get("b64");
+    if (b64) {
+        editor.setValue(atob(b64), new Number('0'));
+    } else {
+        var pb = new URL(window.location).searchParams.get("pb");
+        if (pb) {
+            console.log("going for it");
+            $.get("https://www.johnwesthoff.com/api/pb/", {'id': pb}, function(result, status){
+                console.log(result);
+                console.log(status);
+                editor.setValue(result, new Number('0'));
+          });
+        }
+    }
+}
+</script>
+<div id="tb"></div>
+<button id="but" onclick="var e = eval(parse(ace.edit('editor').getValue())); $('#tb').html('Result: <code>'+stringify(e)+'</code>');">Run</button>
+<button id="butshr" onclick="var t = ace.edit('editor').getValue(); $.post('https://www.johnwesthoff.com/api/pb/', {'raw': t}, function(result, status){ history.pushState({}, document.title, window.location.href.split('?')[0] + '?pb=' + encodeURIComponent(result));  });" > Share</button>
+
+<h1 id="feature-additions">Feature Additions</h1>
+<p>I added the ability to specify functions with variable numbers of arguments.
+To do this, add <code>...</code> to the end of the last variable declaration. Then,
+when the function is called, the last argument will be set to a list containing
+all of the unnamed arguments.</p>
+<p>That is,
+
+<script src="https://johnwesthoff.com/js/jquery.min.js"> </script>
+<head>
+<style type="text/css" media="screen"> #editor { top: 0; right: 0; bottom: 0; left: 0; margin:0 auto;} </style>
+</head>
+<div id="editor1">
+;;;; An example to showcase variable argument list lengths
+(def test (fun '(x...) x))
+(test 1 2 3)      
+ </div>
+<script src="https://johnwesthoff.com/js/ace/src-min-noconflict/ace.js"></script>
+<script>
+var editor = ace.edit("editor1");
+editor.setTheme("ace/theme/chrome");
+editor.setAutoScrollEditorIntoView(true);
+editor.setOption("maxLines", 30);
+editor.getSession().setMode("ace/mode/lisp");
+
+var code = new URL(window.location).searchParams.get("code");
+if (code) {
+        editor.setValue(code, new Number('0'));
+} else {
+    var b64 = new URL(window.location).searchParams.get("b64");
+    if (b64) {
+        editor.setValue(atob(b64), new Number('0'));
+    } else {
+        var pb = new URL(window.location).searchParams.get("pb");
+        if (pb) {
+            console.log("going for it");
+            $.get("https://www.johnwesthoff.com/api/pb/", {'id': pb}, function(result, status){
+                console.log(result);
+                console.log(status);
+                editor.setValue(result, new Number('0'));
+          });
+        }
+    }
+}
+</script>
+<div id="tb1"></div>
+<button id="but" onclick="var e = eval(parse(ace.edit('editor1').getValue())); $('#tb1').html('Result: <code>'+stringify(e)+'</code>');">Run</button>
+<button id="butshr" onclick="var t = ace.edit('editor1').getValue(); $.post('https://www.johnwesthoff.com/api/pb/', {'raw': t}, function(result, status){ history.pushState({}, document.title, window.location.href.split('?')[0] + '?pb=' + encodeURIComponent(result));  });" > Share</button>
+
+will print <code>'(1 2 3)</code>.</p>
+<p>Also, I added very rudimentary error messages, which you can
+mess up because they&rsquo;re basically strings. You&rsquo;ll encounter one of my
+new errors if you run through all of the examples here. Also, I added
+a cap to the stack size. It&rsquo;s currently 40, because I kept making
+things that recursed forever and wanted them to stop quickly. If you
+overflow the stack there is an error for that.</p>
+<h1 id="some-quirks">Some Quirks</h1>
+<p>Internally, functions are just a list of two elements: an argument list,
+and the function expression. When a user-defined function is called,
+the function arguments are evaluated, and mapped to each element of the
+argument list inside a frame. This frame is then pushed onto the stack,
+along with the function&rsquo;s context, that is, the frame that was at the
+top of the stack when the function was defined.</p>
+<p>This led to an interesting realization - lists in this language can be
+called <em>as</em> functions, and they will just return their second element.
+Additionally, they can take in arguments, as listed in their first element!</p>
+<p>As an example, consider the following:
+
+<script src="https://johnwesthoff.com/js/jquery.min.js"> </script>
+<head>
+<style type="text/css" media="screen"> #editor { top: 0; right: 0; bottom: 0; left: 0; margin:0 auto;} </style>
+</head>
+<div id="editor2">
+;;;; An example to demonstrate that functions are just lists
+(def test '('(x) (+ x 5))) ;define a list function that adds 5 to its argument
+(test 1)
+ </div>
+<script src="https://johnwesthoff.com/js/ace/src-min-noconflict/ace.js"></script>
+<script>
+var editor = ace.edit("editor2");
+editor.setTheme("ace/theme/chrome");
+editor.setAutoScrollEditorIntoView(true);
+editor.setOption("maxLines", 30);
+editor.getSession().setMode("ace/mode/lisp");
+
+var code = new URL(window.location).searchParams.get("code");
+if (code) {
+        editor.setValue(code, new Number('0'));
+} else {
+    var b64 = new URL(window.location).searchParams.get("b64");
+    if (b64) {
+        editor.setValue(atob(b64), new Number('0'));
+    } else {
+        var pb = new URL(window.location).searchParams.get("pb");
+        if (pb) {
+            console.log("going for it");
+            $.get("https://www.johnwesthoff.com/api/pb/", {'id': pb}, function(result, status){
+                console.log(result);
+                console.log(status);
+                editor.setValue(result, new Number('0'));
+          });
+        }
+    }
+}
+</script>
+<div id="tb2"></div>
+<button id="but" onclick="var e = eval(parse(ace.edit('editor2').getValue())); $('#tb2').html('Result: <code>'+stringify(e)+'</code>');">Run</button>
+<button id="butshr" onclick="var t = ace.edit('editor2').getValue(); $.post('https://www.johnwesthoff.com/api/pb/', {'raw': t}, function(result, status){ history.pushState({}, document.title, window.location.href.split('?')[0] + '?pb=' + encodeURIComponent(result));  });" > Share</button>
+</p>
+<p>But, I lied a little. Lists are not functions. My first paragraph hinted
+at a key difference - functions store context. When a function is created
+using <code>fun</code>, the current stack frame is stored in the function node in the
+syntax tree. This does not happen with lists. So what if we do our little
+function-as-list example using lists-as-functions-as-lists?</p>
+
+<script src="https://johnwesthoff.com/js/jquery.min.js"> </script>
+<head>
+<style type="text/css" media="screen"> #editor { top: 0; right: 0; bottom: 0; left: 0; margin:0 auto;} </style>
+</head>
+<div id="editor3">
+;;;; An example to show that I've got too much *clap clap* time on my hands
+(def _lcons
+  '('(_car _cdr)
+    '('(which) (if which _car _cdr)
+)))
+
+;; convert a fake list to a string
+(def go2String
+  (fun '(l)                                    ;take in a list
+    (if (= (l #f) nil)                         ;if we are at the end, stop
+      (l #t)                                   ;and return our last element
+      (+ "" (l #t) "  " (go2String (l #f)))    ;otherwise recurse
+)))
+
+(def myList (_lcons 0 (_lcons 1 (_lcons 2 nil)))) ;make a list using _lcons
+
+
+(go2String myList)                             ;stringify
+ </div>
+<script src="https://johnwesthoff.com/js/ace/src-min-noconflict/ace.js"></script>
+<script>
+var editor = ace.edit("editor3");
+editor.setTheme("ace/theme/chrome");
+editor.setAutoScrollEditorIntoView(true);
+editor.setOption("maxLines", 30);
+editor.getSession().setMode("ace/mode/lisp");
+
+var code = new URL(window.location).searchParams.get("code");
+if (code) {
+        editor.setValue(code, new Number('0'));
+} else {
+    var b64 = new URL(window.location).searchParams.get("b64");
+    if (b64) {
+        editor.setValue(atob(b64), new Number('0'));
+    } else {
+        var pb = new URL(window.location).searchParams.get("pb");
+        if (pb) {
+            console.log("going for it");
+            $.get("https://www.johnwesthoff.com/api/pb/", {'id': pb}, function(result, status){
+                console.log(result);
+                console.log(status);
+                editor.setValue(result, new Number('0'));
+          });
+        }
+    }
+}
+</script>
+<div id="tb3"></div>
+<button id="but" onclick="var e = eval(parse(ace.edit('editor3').getValue())); $('#tb3').html('Result: <code>'+stringify(e)+'</code>');">Run</button>
+<button id="butshr" onclick="var t = ace.edit('editor3').getValue(); $.post('https://www.johnwesthoff.com/api/pb/', {'raw': t}, function(result, status){ history.pushState({}, document.title, window.location.href.split('?')[0] + '?pb=' + encodeURIComponent(result));  });" > Share</button>
+
+<p>If you notice, it doesn&rsquo;t successfully run, which is to be expected. Fret not,
+however, as there is something interesting about this lack of context that
+can give the illusion that it is there.</p>
+
+<script src="https://johnwesthoff.com/js/jquery.min.js"> </script>
+<head>
+<style type="text/css" media="screen"> #editor { top: 0; right: 0; bottom: 0; left: 0; margin:0 auto;} </style>
+</head>
+<div id="editor4">
+;;;; Proof by contradiction
+(def add-x '('(x) '('(y) (+ x y))))  ;define a function that returns
+                                     ;a function that adds the argument
+                                     ;from the first to the argument from the
+                                     ;second
+
+(def add-6 (add-x 6))                ;define a function that adds 6 to its arg
+
+(add-6 24)                           ;be amazed that it evaluates to 30
+ </div>
+<script src="https://johnwesthoff.com/js/ace/src-min-noconflict/ace.js"></script>
+<script>
+var editor = ace.edit("editor4");
+editor.setTheme("ace/theme/chrome");
+editor.setAutoScrollEditorIntoView(true);
+editor.setOption("maxLines", 30);
+editor.getSession().setMode("ace/mode/lisp");
+
+var code = new URL(window.location).searchParams.get("code");
+if (code) {
+        editor.setValue(code, new Number('0'));
+} else {
+    var b64 = new URL(window.location).searchParams.get("b64");
+    if (b64) {
+        editor.setValue(atob(b64), new Number('0'));
+    } else {
+        var pb = new URL(window.location).searchParams.get("pb");
+        if (pb) {
+            console.log("going for it");
+            $.get("https://www.johnwesthoff.com/api/pb/", {'id': pb}, function(result, status){
+                console.log(result);
+                console.log(status);
+                editor.setValue(result, new Number('0'));
+          });
+        }
+    }
+}
+</script>
+<div id="tb4"></div>
+<button id="but" onclick="var e = eval(parse(ace.edit('editor4').getValue())); $('#tb4').html('Result: <code>'+stringify(e)+'</code>');">Run</button>
+<button id="butshr" onclick="var t = ace.edit('editor4').getValue(); $.post('https://www.johnwesthoff.com/api/pb/', {'raw': t}, function(result, status){ history.pushState({}, document.title, window.location.href.split('?')[0] + '?pb=' + encodeURIComponent(result));  });" > Share</button>
+
+<p>Finally, I realized that I didn&rsquo;t make a map properly in JavaScript.
+I had assumed the familiar {&ldquo;key&rdquo;: &ldquo;value&rdquo;} syntax was good enough, not
+realizing that that creates an Object with a prototype that defines
+things such as <code>toString</code>. Well, because of that, um, you can&rsquo;t
+define an identifier named <code>toString</code> and expect it to work, at least
+not yet.</p>
+<p>So
+
+<script src="https://johnwesthoff.com/js/jquery.min.js"> </script>
+<head>
+<style type="text/css" media="screen"> #editor { top: 0; right: 0; bottom: 0; left: 0; margin:0 auto;} </style>
+</head>
+<div id="editor5">
+;;;; Why JavaScript, why?
+(def toString "anything but the words \"function\" or \"undefined\"")
+toString 
+ </div>
+<script src="https://johnwesthoff.com/js/ace/src-min-noconflict/ace.js"></script>
+<script>
+var editor = ace.edit("editor5");
+editor.setTheme("ace/theme/chrome");
+editor.setAutoScrollEditorIntoView(true);
+editor.setOption("maxLines", 30);
+editor.getSession().setMode("ace/mode/lisp");
+
+var code = new URL(window.location).searchParams.get("code");
+if (code) {
+        editor.setValue(code, new Number('0'));
+} else {
+    var b64 = new URL(window.location).searchParams.get("b64");
+    if (b64) {
+        editor.setValue(atob(b64), new Number('0'));
+    } else {
+        var pb = new URL(window.location).searchParams.get("pb");
+        if (pb) {
+            console.log("going for it");
+            $.get("https://www.johnwesthoff.com/api/pb/", {'id': pb}, function(result, status){
+                console.log(result);
+                console.log(status);
+                editor.setValue(result, new Number('0'));
+          });
+        }
+    }
+}
+</script>
+<div id="tb5"></div>
+<button id="but" onclick="var e = eval(parse(ace.edit('editor5').getValue())); $('#tb5').html('Result: <code>'+stringify(e)+'</code>');">Run</button>
+<button id="butshr" onclick="var t = ace.edit('editor5').getValue(); $.post('https://www.johnwesthoff.com/api/pb/', {'raw': t}, function(result, status){ history.pushState({}, document.title, window.location.href.split('?')[0] + '?pb=' + encodeURIComponent(result));  });" > Share</button>
+
+and
+
+<script src="https://johnwesthoff.com/js/jquery.min.js"> </script>
+<head>
+<style type="text/css" media="screen"> #editor { top: 0; right: 0; bottom: 0; left: 0; margin:0 auto;} </style>
+</head>
+<div id="editor6">
+(def constructor "anything but the words \"function\" or \"undefined\"")
+constructor 
+ </div>
+<script src="https://johnwesthoff.com/js/ace/src-min-noconflict/ace.js"></script>
+<script>
+var editor = ace.edit("editor6");
+editor.setTheme("ace/theme/chrome");
+editor.setAutoScrollEditorIntoView(true);
+editor.setOption("maxLines", 30);
+editor.getSession().setMode("ace/mode/lisp");
+
+var code = new URL(window.location).searchParams.get("code");
+if (code) {
+        editor.setValue(code, new Number('0'));
+} else {
+    var b64 = new URL(window.location).searchParams.get("b64");
+    if (b64) {
+        editor.setValue(atob(b64), new Number('0'));
+    } else {
+        var pb = new URL(window.location).searchParams.get("pb");
+        if (pb) {
+            console.log("going for it");
+            $.get("https://www.johnwesthoff.com/api/pb/", {'id': pb}, function(result, status){
+                console.log(result);
+                console.log(status);
+                editor.setValue(result, new Number('0'));
+          });
+        }
+    }
+}
+</script>
+<div id="tb6"></div>
+<button id="but" onclick="var e = eval(parse(ace.edit('editor6').getValue())); $('#tb6').html('Result: <code>'+stringify(e)+'</code>');">Run</button>
+<button id="butshr" onclick="var t = ace.edit('editor6').getValue(); $.post('https://www.johnwesthoff.com/api/pb/', {'raw': t}, function(result, status){ history.pushState({}, document.title, window.location.href.split('?')[0] + '?pb=' + encodeURIComponent(result));  });" > Share</button>
+
+fail, but
+
+<script src="https://johnwesthoff.com/js/jquery.min.js"> </script>
+<head>
+<style type="text/css" media="screen"> #editor { top: 0; right: 0; bottom: 0; left: 0; margin:0 auto;} </style>
+</head>
+<div id="editor7">
+(def toStringUGH "anything but the word \"function\"")
+toStringUGH 
+ </div>
+<script src="https://johnwesthoff.com/js/ace/src-min-noconflict/ace.js"></script>
+<script>
+var editor = ace.edit("editor7");
+editor.setTheme("ace/theme/chrome");
+editor.setAutoScrollEditorIntoView(true);
+editor.setOption("maxLines", 30);
+editor.getSession().setMode("ace/mode/lisp");
+
+var code = new URL(window.location).searchParams.get("code");
+if (code) {
+        editor.setValue(code, new Number('0'));
+} else {
+    var b64 = new URL(window.location).searchParams.get("b64");
+    if (b64) {
+        editor.setValue(atob(b64), new Number('0'));
+    } else {
+        var pb = new URL(window.location).searchParams.get("pb");
+        if (pb) {
+            console.log("going for it");
+            $.get("https://www.johnwesthoff.com/api/pb/", {'id': pb}, function(result, status){
+                console.log(result);
+                console.log(status);
+                editor.setValue(result, new Number('0'));
+          });
+        }
+    }
+}
+</script>
+<div id="tb7"></div>
+<button id="but" onclick="var e = eval(parse(ace.edit('editor7').getValue())); $('#tb7').html('Result: <code>'+stringify(e)+'</code>');">Run</button>
+<button id="butshr" onclick="var t = ace.edit('editor7').getValue(); $.post('https://www.johnwesthoff.com/api/pb/', {'raw': t}, function(result, status){ history.pushState({}, document.title, window.location.href.split('?')[0] + '?pb=' + encodeURIComponent(result));  });" > Share</button>
+
+works as expected&hellip;</p>
+<p>I plan on fixing this, but need to decide on which course is best (aka easiest
+but still compatible with enough browsers).</p>
+    </section>
+    <div class="entry-links"></div>
+    </article>
+
+    <div class="share-icons-body">
+      <a href="http://www.twitter.com/share?url=https%3a%2f%2fjohnwesthoff.com%2fprojects%2faigame3%2f" target="_blank">
+      <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 612 612" style="enable-background:new 0 0 612 612;" xml:space="preserve">
+      <g>
+        <g>
+          <path d="M437.219,245.162c0-3.088-0.056-6.148-0.195-9.18c13.214-9.848,24.675-22.171,33.744-36.275
+            c-12.129,5.453-25.148,9.097-38.835,10.626c13.965-8.596,24.675-22.338,29.738-38.834c-13.075,7.928-27.54,13.603-42.924,16.552
+            c-12.323-14.021-29.904-22.95-49.35-23.284c-37.332-0.612-67.598,30.934-67.598,70.463c0,5.619,0.584,11.072,1.752,16.329
+            c-56.22-3.616-106.042-32.881-139.369-77c-5.814,10.571-9.152,22.922-9.152,36.164c0,25.037,11.934,47.291,30.071,60.421
+            c-11.099-0.5-21.503-3.866-30.627-9.375c0,0.306,0,0.612,0,0.918c0,34.996,23.312,64.316,54.245,71.159
+            c-5.675,1.613-11.656,2.448-17.804,2.421c-4.367-0.028-8.596-0.501-12.713-1.392c8.596,28.681,33.577,49.628,63.147,50.323
+            c-23.145,19.194-52.298,30.655-83.955,30.572c-5.453,0-10.849-0.361-16.135-1.029c29.933,20.53,65.456,32.491,103.65,32.491
+            C369.23,447.261,437.219,339.048,437.219,245.162z"/>
+          <path d="M612,306C612,137.004,474.995,0,306,0C137.004,0,0,137.004,0,306c0,168.995,137.004,306,306,306
+            C474.995,612,612,474.995,612,306z M27.818,306C27.818,152.36,152.36,27.818,306,27.818S584.182,152.36,584.182,306
+            S459.64,584.182,306,584.182S27.818,459.64,27.818,306z"/>
+        </g>
+      </svg></a>
+      <a href="http://plus.google.com/share?url=https%3a%2f%2fjohnwesthoff.com%2fprojects%2faigame3%2f" target="_blank">
+      <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 612 612" style="enable-background:new 0 0 612 612;" xml:space="preserve">
+        <g>
+          <g>
+            <path d="M349.146,402.251c0-30.016-17.387-44.815-36.525-60.922l-15.662-12.185c-4.785-3.895-11.294-9.124-11.294-18.693
+              c0-9.57,6.537-15.662,12.184-21.309c18.249-14.354,36.526-29.571,36.526-61.756c0-33.076-20.892-50.462-30.878-58.724l0,0h26.956
+              L358.271,153h-89.603c-23.479,0-53.049,3.478-77.863,23.924c-18.693,16.079-27.818,38.278-27.818,58.279
+              c0,33.911,26.093,68.294,72.188,68.294c4.368,0,9.125-0.445,13.937-0.863c-2.17,5.23-4.34,9.569-4.34,16.97
+              c0,13.464,6.955,21.753,13.047,29.57c-19.556,1.308-56.109,3.478-83.065,20.001c-25.676,15.217-33.493,37.416-33.493,53.077
+              c0,32.186,30.461,62.201,93.525,62.201C309.561,484.454,349.146,443.116,349.146,402.251z M255.621,291.34
+              c-37.415,0-54.384-48.292-54.384-77.418c0-11.322,2.17-23.034,9.569-32.186c6.955-8.707,19.139-14.382,30.461-14.382
+              c36.108,0,54.802,48.738,54.802,80.033c0,7.845-0.862,21.754-10.877,31.768C278.237,286.11,266.498,291.312,255.621,291.34z
+               M256.066,466.177c-46.54,0-76.556-22.171-76.556-53.049s27.846-41.311,37.416-44.787c18.276-6.093,41.755-6.982,45.677-6.982
+              c4.34,0,6.51,0,9.987,0.445c33.076,23.479,47.402,35.218,47.402,57.416C319.992,446.176,297.821,466.177,256.066,466.177z"/>
+            <polygon points="353.068,317.768 400.164,317.768 400.164,364.836 423.699,364.836 423.699,317.768 470.768,317.768 
+              470.768,294.233 423.699,294.233 423.699,247.165 400.164,247.165 400.164,294.233 353.068,294.233     "/>
+            <path d="M612,306C612,137.004,474.995,0,306,0C137.004,0,0,137.004,0,306c0,168.995,137.004,306,306,306
+              C474.995,612,612,474.995,612,306z M27.818,306C27.818,152.36,152.36,27.818,306,27.818S584.182,152.36,584.182,306
+              S459.64,584.182,306,584.182S27.818,459.64,27.818,306z"/>
+          </g>
+      </svg></a>
+      <a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fjohnwesthoff.com%2fprojects%2faigame3%2f" target="_blank">
+      <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+         viewBox="0 0 612 612" style="enable-background:new 0 0 612 612;" xml:space="preserve">
+      <g>
+        <g>
+          <path d="M612,306C612,137.004,474.995,0,306,0C137.004,0,0,137.004,0,306c0,168.995,137.004,306,306,306
+            C474.995,612,612,474.995,612,306z M27.818,306C27.818,152.36,152.36,27.818,306,27.818S584.182,152.36,584.182,306
+            S459.64,584.182,306,584.182S27.818,459.64,27.818,306z"/>
+          <path d="M317.739,482.617V306h58.279l9.208-58.529h-67.487v-29.348c0-15.272,5.007-29.849,26.928-29.849h43.813v-58.418h-62.201
+            c-52.298,0-66.569,34.438-66.569,82.175v35.413h-35.885V306h35.885v176.617H317.739L317.739,482.617z"/>
+        </g>
+      </svg>
+      </a>
+    </div>
+    <div class="clearfix"></div>
+
+<div>
+    
+        Tags: 
+        
+            <a href="/tags/projects">Projects</a> 
+        
+    
+    
+        <br>Part of a series on  
+        
+            <a href="/series/ai-game">AI Game</a>.
+        
+    
+</div>
+
+
+<hr>
+Leave a comment below!
+For issues with this website itself, please describe the problem to <a id='email2'>issues at johnwesthoff dot com</a>.<br>
+For urgent questions or comments, shoot me an email (address provided on my GitHub profile).
+<div id="commento"></div>
+<script>
+Commento.init({
+    serverUrl: "https://johnwesthoff.com/comments",
+    showdownUrl: "https://johnwesthoff.com/assets/vendor/showdown.min.js",
+    commentoCssUrl: "https://johnwesthoff.com/assets/style/commento.min.css",
+     
+});
+var name = "john";
+var dir = "west";
+var at = "@";
+
+document.getElementById("email2").href = "mail" +   "to:" +   "issues" +   at + name +   dir + "hoff" + "." +   "com";
+</script>
+</section>
+<div class="clear"></div>
+</div>
+<footer id="footer" style="color: #7A7B7C; background-color: #3A3B3C;background-image: url(https://johnwesthoff.com//img/texture.png),linear-gradient(to bottom, #3A3B3C, #1d1e1e); background-repeat: repeat, no-repeat; background-position: left top, left top; background-size: 100px 100px, 100% 100%;">
+    <div id="footer-container">
+        
+        
+        
+        <div class="clearfix"></div>
+    </div>
+    <div id="copyright"></div>
+</footer>
+<script src="https://johnwesthoff.com//js/highlight.pack.js"></script>
+<script>
+    hljs.initHighlightingOnLoad();
+</script>
+<link rel="shortcut icon" href="https://johnwesthoff.com//favicon.png" />
+<link rel="apple-touch-icon" href="https://johnwesthoff.com//img/apple-touch-icon.jpg" />
+</body>
+</html>
+

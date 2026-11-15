@@ -1,0 +1,404 @@
+<script src="https://johnwesthoff.com/js/commento/commento.min.js"></script>
+    <!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+  <title>Towards More Accessible Video Games: Part 1 - Overthinking Everything &middot; John Westhoff&#39;s Blog</title>
+  <link rel="stylesheet" href="https://johnwesthoff.com//css/style.css" />
+  <link rel="stylesheet" href="https://johnwesthoff.com//css/font-awesome.min.css" />
+  <link rel="icon" href="/favicon.png" type="image/png" />
+  <link href='https://fonts.googleapis.com/css?family=Lato:100,300,400,600' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+<header class="header" style="background-color: #009DDC;
+    background-image: url(https://johnwesthoff.com//img/texture.png),linear-gradient(to bottom, #009DDC, #006ccb);background-repeat: repeat, no-repeat;background-position: left top, left top;background-size: 100px 100px, 100% 100%;" role="banner">
+
+      <section id="branding">
+        <div id="site-title"><a href="https://johnwesthoff.com/">John Westhoff&#39;s Blog</a></div>
+        <nav id="mainmenu">
+          <ul>
+            <li><a href="https://johnwesthoff.com//about">About</a></li>
+            <li><a href="https://johnwesthoff.com/">Posts</a></li>
+            <li><a href="http://github.com/johnathonnow" target="_blank">Github</a></li>
+            
+            <li><a href="https://www.linkedin.com/in/johnjwesthoff" target="_blank">LinkedIn</a></li>
+          </ul>
+        </nav>
+        <input type="checkbox" id="op"></input>
+        <div class="lower">
+          <label for="op">Menu</label>
+        </div>
+        <div class="overlay overlay-hugeinc">
+          <label for="op"></label>
+          <nav id="menu" role="navigation">
+            <ul>
+            <li><a href="https://johnwesthoff.com//about">About</a></li>
+            <li><a href="https://johnwesthoff.com/">Posts</a></li>
+            <li><a href="http://github.com/johnathonnow" target="_blank">Github</a></li>
+            
+            <li><a href="https://www.linkedin.com/in/johnjwesthoff" target="_blank">LinkedIn</a></li>
+          </ul>
+          </nav>
+        </div>
+        <div class="clearfix"></div>
+      </section>
+      <div class="post-heading">
+          <h1>
+        Towards More Accessible Video Games: Part 1 - Overthinking Everything
+          <div class="share-icons-header">
+            <a href="http://www.twitter.com/share?url=https%3a%2f%2fjohnwesthoff.com%2fprojects%2faccessible_hag%2f" target="_blank">
+            <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 612 612" style="enable-background:new 0 0 612 612;" xml:space="preserve">
+            <g>
+              <g>
+                <path d="M437.219,245.162c0-3.088-0.056-6.148-0.195-9.18c13.214-9.848,24.675-22.171,33.744-36.275
+                  c-12.129,5.453-25.148,9.097-38.835,10.626c13.965-8.596,24.675-22.338,29.738-38.834c-13.075,7.928-27.54,13.603-42.924,16.552
+                  c-12.323-14.021-29.904-22.95-49.35-23.284c-37.332-0.612-67.598,30.934-67.598,70.463c0,5.619,0.584,11.072,1.752,16.329
+                  c-56.22-3.616-106.042-32.881-139.369-77c-5.814,10.571-9.152,22.922-9.152,36.164c0,25.037,11.934,47.291,30.071,60.421
+                  c-11.099-0.5-21.503-3.866-30.627-9.375c0,0.306,0,0.612,0,0.918c0,34.996,23.312,64.316,54.245,71.159
+                  c-5.675,1.613-11.656,2.448-17.804,2.421c-4.367-0.028-8.596-0.501-12.713-1.392c8.596,28.681,33.577,49.628,63.147,50.323
+                  c-23.145,19.194-52.298,30.655-83.955,30.572c-5.453,0-10.849-0.361-16.135-1.029c29.933,20.53,65.456,32.491,103.65,32.491
+                  C369.23,447.261,437.219,339.048,437.219,245.162z"/>
+                <path d="M612,306C612,137.004,474.995,0,306,0C137.004,0,0,137.004,0,306c0,168.995,137.004,306,306,306
+                  C474.995,612,612,474.995,612,306z M27.818,306C27.818,152.36,152.36,27.818,306,27.818S584.182,152.36,584.182,306
+                  S459.64,584.182,306,584.182S27.818,459.64,27.818,306z"/>
+              </g>
+            </svg></a>
+            <a href="http://plus.google.com/share?url=https%3a%2f%2fjohnwesthoff.com%2fprojects%2faccessible_hag%2f" target="_blank">
+            <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 612 612" style="enable-background:new 0 0 612 612;" xml:space="preserve">
+              <g>
+                <g>
+                  <path d="M349.146,402.251c0-30.016-17.387-44.815-36.525-60.922l-15.662-12.185c-4.785-3.895-11.294-9.124-11.294-18.693
+                    c0-9.57,6.537-15.662,12.184-21.309c18.249-14.354,36.526-29.571,36.526-61.756c0-33.076-20.892-50.462-30.878-58.724l0,0h26.956
+                    L358.271,153h-89.603c-23.479,0-53.049,3.478-77.863,23.924c-18.693,16.079-27.818,38.278-27.818,58.279
+                    c0,33.911,26.093,68.294,72.188,68.294c4.368,0,9.125-0.445,13.937-0.863c-2.17,5.23-4.34,9.569-4.34,16.97
+                    c0,13.464,6.955,21.753,13.047,29.57c-19.556,1.308-56.109,3.478-83.065,20.001c-25.676,15.217-33.493,37.416-33.493,53.077
+                    c0,32.186,30.461,62.201,93.525,62.201C309.561,484.454,349.146,443.116,349.146,402.251z M255.621,291.34
+                    c-37.415,0-54.384-48.292-54.384-77.418c0-11.322,2.17-23.034,9.569-32.186c6.955-8.707,19.139-14.382,30.461-14.382
+                    c36.108,0,54.802,48.738,54.802,80.033c0,7.845-0.862,21.754-10.877,31.768C278.237,286.11,266.498,291.312,255.621,291.34z
+                     M256.066,466.177c-46.54,0-76.556-22.171-76.556-53.049s27.846-41.311,37.416-44.787c18.276-6.093,41.755-6.982,45.677-6.982
+                    c4.34,0,6.51,0,9.987,0.445c33.076,23.479,47.402,35.218,47.402,57.416C319.992,446.176,297.821,466.177,256.066,466.177z"/>
+                  <polygon points="353.068,317.768 400.164,317.768 400.164,364.836 423.699,364.836 423.699,317.768 470.768,317.768 
+                    470.768,294.233 423.699,294.233 423.699,247.165 400.164,247.165 400.164,294.233 353.068,294.233     "/>
+                  <path d="M612,306C612,137.004,474.995,0,306,0C137.004,0,0,137.004,0,306c0,168.995,137.004,306,306,306
+                    C474.995,612,612,474.995,612,306z M27.818,306C27.818,152.36,152.36,27.818,306,27.818S584.182,152.36,584.182,306
+                    S459.64,584.182,306,584.182S27.818,459.64,27.818,306z"/>
+                </g>
+            </svg></a>
+            <a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fjohnwesthoff.com%2fprojects%2faccessible_hag%2f" target="_blank">
+            <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+               viewBox="0 0 612 612" style="enable-background:new 0 0 612 612;" xml:space="preserve">
+            <g>
+              <g>
+                <path d="M612,306C612,137.004,474.995,0,306,0C137.004,0,0,137.004,0,306c0,168.995,137.004,306,306,306
+                  C474.995,612,612,474.995,612,306z M27.818,306C27.818,152.36,152.36,27.818,306,27.818S584.182,152.36,584.182,306
+                  S459.64,584.182,306,584.182S27.818,459.64,27.818,306z"/>
+                <path d="M317.739,482.617V306h58.279l9.208-58.529h-67.487v-29.348c0-15.272,5.007-29.849,26.928-29.849h43.813v-58.418h-62.201
+                  c-52.298,0-66.569,34.438-66.569,82.175v35.413h-35.885V306h35.885v176.617H317.739L317.739,482.617z"/>
+              </g>
+            </svg>
+            </a>
+          </div>
+          
+        </h1>
+      </div>
+
+    </header>
+
+    <div id="container">
+
+    
+    <section id="content" role="main">
+    <section class="entry-meta">
+
+      <span class="post-date">Sep 16, 2022</span>
+
+    </section></header>
+    <section class="entry-content">
+    <article>
+    <p>I mentioned recently a desire to create more accessible computer games. In this blog, I
+briefly cover some early findings towards that goal.</p>
+<h2 id="introduction">Introduction</h2>
+<p>Long ago in a distant land, some friends and I started writing a procedurally generated
+dungeon crawler named <a href="https://github.com/a3qz/hag">hag</a>. Much more recently, I had the
+idea to try to make it more accessible to those with visual impairments. This seems
+relatively straightforward, as hag has a pretty simple internal representation of the
+world. There is a list of enemies, a list of items on the ground, a list of rooms,
+and a list of hallways connecting them. Right now, things close enough to the player
+are drawn on the screen using terminal graphics. Unfortunately, I don&rsquo;t think that plays
+nicely with screen readers or other assistive technologies.</p>
+<h2 id="an-idea">An idea</h2>
+<p>Here is, uh, a screenshot of hag.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>#############..#######.#######################..########┌──────────────────────────────────────────────────────┐
+</span></span><span style="display:flex;"><span>##############..######.########################..#######│Current HP: 175/175                                   │
+</span></span><span style="display:flex;"><span>###############..#####.#########################..######│Strength: 10                                          │
+</span></span><span style="display:flex;"><span>################..####.##########################..#####│Dexterity: 10                                         │
+</span></span><span style="display:flex;"><span>#################..###.###########################..####│Intelligence: 10                                      │
+</span></span><span style="display:flex;"><span>##################..##.############################..###│Luck: 1000                                            │
+</span></span><span style="display:flex;"><span>###################..#.#############################..##│Experience: 0/112                                     │
+</span></span><span style="display:flex;"><span>####################............................#####..#│Current Level: 1                                      │
+</span></span><span style="display:flex;"><span>#####################...........................######..│Current Item: s 0                                     │
+</span></span><span style="display:flex;"><span>######################..........................#######.│Turns: 2                                              │
+</span></span><span style="display:flex;"><span>######################....k.@...................########│                                                      │
+</span></span><span style="display:flex;"><span>######################..........................########│k: kobold HP: 50                                      │
+</span></span><span style="display:flex;"><span>######################...........&amp;..............########│k: kobold HP: 50                                      │
+</span></span><span style="display:flex;"><span>######################..........................########│&amp;: Potion                                             │
+</span></span><span style="display:flex;"><span>######################......./..................########│/: Strength Weapon                                    │
+</span></span><span style="display:flex;"><span>######################..........................########│                                                      │
+</span></span><span style="display:flex;"><span>######################..........................########│                                                      │
+</span></span><span style="display:flex;"><span>######################..........................########│                                                      │
+</span></span><span style="display:flex;"><span>######################..........................########│                                                      │
+</span></span><span style="display:flex;"><span>######################..........................########└──────────────────────────────────────────────────────┘
+</span></span><span style="display:flex;"><span>┌──────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+</span></span><span style="display:flex;"><span>│                                                                                                              │
+</span></span><span style="display:flex;"><span>│                                                                                                              │
+</span></span><span style="display:flex;"><span>│                                                                                                              │
+</span></span><span style="display:flex;"><span>│You find yourself on the first floor of a dangerous dungeon.                                                  │
+</span></span><span style="display:flex;"><span>└──────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+</span></span></code></pre></div><p>There are three main points of interest - the main game window, which is full of pound signs, dots, slashes, and other
+characters, the status window, which describes the current status of the player as well as presents a key for the main
+game window, and the flavortext window, which just provides a log of flavortext for the player to read.</p>
+<p>The status window and flavortext window are probably OK for screenreaders, though the key for the game window is probably
+not helpful. The main game window, however, seems entirely useless for assistive technologies. I suppose it <em>could</em>
+be used to play the game, but that experience seems miserable, and we can definitely do better.</p>
+<p>So, what if instead of rendering out nearby content (the player @ sign, the k for kobold, / for strength weapon, etc.), we
+generated a list of nearby features? The main game window above could instead be rendered as the following:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>You are in room three.
+</span></span><span style="display:flex;"><span>There is a kobold two paces west.
+</span></span><span style="display:flex;"><span>There is a Strength Weapon one pace east and four paces south.
+</span></span><span style="display:flex;"><span>There is a potion five paces east and three paces south.
+</span></span><span style="display:flex;"><span>There is a vertical hallway six paces west and four paces north.
+</span></span><span style="display:flex;"><span>There is a North-East hallway six paces west and two paces north.
+</span></span></code></pre></div><p>This gives enough information to render the game playable, but perhaps it would not be enjoyable.
+The issue is it is very repetitive, which defeats the purpose of a rogue-like.</p>
+<h2 id="high-tech-space-wizardry">High Tech Space Wizardry</h2>
+<p>Obviously the solution to this problem is to take that output and throw it at a language model. I took that output and pre-pended
+&ldquo;Rewrite the following more succinctly, with more flourish: &quot; and let text-davinci-002 loose on it. Here is what it
+produced:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>You are in room three. A kobold lurks two paces west, while a Strength Weapon can be found one pace east and four paces south. A potion rests five paces east and three paces south, and a vertical hallway yawns six paces west and four paces north. A North-East hallway also lies six paces west and two paces north.
+</span></span></code></pre></div><p>Woah! That has a lot more flavor than the laundry-list we produced programatically! Let&rsquo;s try again!</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>You are in room three. To your west is a kobold, and to your east and south is a Strength Weapon. Five paces east and three paces south is a potion, and six paces west and four paces north is a vertical hallway. Finally, six paces west and two paces north is a North-East hallway.
+</span></span></code></pre></div><p>Hmm, it like, just ignored half the details. Maybe that was a fluke.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>You are in room three. A kobold lurks two paces west, while a Strength Weapon lies one pace east and four paces south. A potion can be found five paces east and three paces south, while a vertical hallway leads six paces west and four paces north. A North-East hallway also intersects six paces west and two paces north.
+</span></span></code></pre></div><p>This is mostly good, though &ldquo;leads&rdquo; there is a little inaccurate. Let&rsquo;s re-run it a few times more.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>You are in room three.
+</span></span><span style="display:flex;"><span>A kobold lurks two paces west.
+</span></span><span style="display:flex;"><span>A Strength Weapon lies one pace east and four paces south.
+</span></span><span style="display:flex;"><span>A potion beckons five paces east and three paces south.
+</span></span><span style="display:flex;"><span>A vertical hallway yawns six paces west and four paces north.
+</span></span><span style="display:flex;"><span>A North-East hallway awaits six paces west and two paces north.
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>You are in room three. To your west is a kobold, and to your east and south is a Strength Weapon. To your east and south is also a potion, while to your west and north is a vertical hallway. Finally, to your west and north is also a North-East hallway.
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>You are in room three.
+</span></span><span style="display:flex;"><span>To your west is a kobold, two paces away.
+</span></span><span style="display:flex;"><span>To your east, one pace away and four paces south, is a Strength Weapon.
+</span></span><span style="display:flex;"><span>Five paces east and three paces south is a potion.
+</span></span><span style="display:flex;"><span>And six paces west and four paces north is a vertical hallway.
+</span></span><span style="display:flex;"><span>Six paces west and two paces north is a North-East hallway.
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>Room 3
+</span></span><span style="display:flex;"><span>- Kobold: 2 west
+</span></span><span style="display:flex;"><span>- Strength Weapon: 1 east, 4 south
+</span></span><span style="display:flex;"><span>- Potion: 5 east, 3 south
+</span></span><span style="display:flex;"><span>- Vertical hallway: 6 west, 4 north
+</span></span><span style="display:flex;"><span>- North-East hallway: 6 west, 2 north
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>You are in room three. There is a kobold two paces west. There is a Strength Weapon one pace east and four paces south. There is a potion five paces east and three paces south. There is a vertical hallway six paces west and four paces north. There is a North-East hallway six paces west and two paces north.
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>You are in room three. A kobold lurks two paces west, while a Strength Weapon lies one pace east and four paces south. A potion can be found five paces east and three paces south, while a vertical hallway awaits six paces west and four paces north. Finally, a North-East hallway can be found six paces west and two paces north.
+</span></span></code></pre></div><p>There is some good variety, but that comes at the cost of accuracy and consistency. Perhaps some other model could check that
+the output from GPT-3 was accurate to the prompt, but that&rsquo;s introducing a lot of complexity to a game compiled with C89 and
+curses graphics.</p>
+<p>Before moving on to a different approach, I would like to highlight one cool feature of a language model approach - what you
+prepend for the prompt could be customizable, either by the user (for personal preference or for modding) or by the program
+(for different tones and so on). For example, consider the following prompt-output pairs:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>Rewrite the following with a sense of urgency:
+</span></span><span style="display:flex;"><span>You are in room three.
+</span></span><span style="display:flex;"><span>There is a kobold two paces west.
+</span></span><span style="display:flex;"><span>There is a Strength Weapon one pace east and four paces south.
+</span></span><span style="display:flex;"><span>There is a potion five paces east and three paces south.
+</span></span><span style="display:flex;"><span>There is a vertical hallway six paces west and four paces north.
+</span></span><span style="display:flex;"><span>There is a North-East hallway six paces west and two paces north.
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>Room Three
+</span></span><span style="display:flex;"><span>Kobold Two paces west
+</span></span><span style="display:flex;"><span>Strength Weapon one pace east and four paces south
+</span></span><span style="display:flex;"><span>Potion five paces east and three paces south
+</span></span><span style="display:flex;"><span>Vertical Hallway six paces west and four paces north
+</span></span><span style="display:flex;"><span>North-East hallway six paces west and two paces north
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>Rewrite the following with a sense of panic:
+</span></span><span style="display:flex;"><span>You are in room three.
+</span></span><span style="display:flex;"><span>There is a kobold two paces west.
+</span></span><span style="display:flex;"><span>There is a Strength Weapon one pace east and four paces south.
+</span></span><span style="display:flex;"><span>There is a potion five paces east and three paces south.
+</span></span><span style="display:flex;"><span>There is a vertical hallway six paces west and four paces north.
+</span></span><span style="display:flex;"><span>There is a North-East hallway six paces west and two paces north.
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>You&#39;re in room three and there&#39;s a kobold two paces west! There&#39;s also a Strength Weapon one pace east and four paces south, and a potion five paces east and three paces south. There&#39;s a vertical hallway six paces west and four paces north, and a North-East hallway six paces west and two paces north.
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>Rewrite the following with a mysterious tone:
+</span></span><span style="display:flex;"><span>You are in room three.
+</span></span><span style="display:flex;"><span>There is a kobold two paces west.
+</span></span><span style="display:flex;"><span>There is a Strength Weapon one pace east and four paces south.
+</span></span><span style="display:flex;"><span>There is a potion five paces east and three paces south.
+</span></span><span style="display:flex;"><span>There is a vertical hallway six paces west and four paces north.
+</span></span><span style="display:flex;"><span>There is a North-East hallway six paces west and two paces north.
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>You find yourself in room three. A kobold lurks two paces west. A Strength Weapon waits one pace east and four paces south. A potion lies five paces east and three paces south. A vertical hallway beckons six paces west and four paces north. A North-East hallway entices six paces west and two paces north.
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>Rewrite the following with a creepy tone:
+</span></span><span style="display:flex;"><span>You are in room three.
+</span></span><span style="display:flex;"><span>There is a kobold two paces west.
+</span></span><span style="display:flex;"><span>There is a Strength Weapon one pace east and four paces south.
+</span></span><span style="display:flex;"><span>There is a potion five paces east and three paces south.
+</span></span><span style="display:flex;"><span>There is a vertical hallway six paces west and four paces north.
+</span></span><span style="display:flex;"><span>There is a North-East hallway six paces west and two paces north.
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>You are in room three.
+</span></span><span style="display:flex;"><span>There is a kobold two paces west, just waiting to pounce.
+</span></span><span style="display:flex;"><span>There is a Strength Weapon one pace east and four paces south, glinting menacingly in the dim light.
+</span></span><span style="display:flex;"><span>There is a potion five paces east and three paces south, probably full of some foul poison.
+</span></span><span style="display:flex;"><span>There is a vertical hallway six paces west and four paces north, leading who knows where.
+</span></span><span style="display:flex;"><span>There is a North-East hallway six paces west and two paces north, full of darkness and who-knows-what.
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>Rewrite the following with a halloween theme:
+</span></span><span style="display:flex;"><span>You are in room three.
+</span></span><span style="display:flex;"><span>There is a kobold two paces west.
+</span></span><span style="display:flex;"><span>There is a Strength Weapon one pace east and four paces south.
+</span></span><span style="display:flex;"><span>There is a potion five paces east and three paces south.
+</span></span><span style="display:flex;"><span>There is a vertical hallway six paces west and four paces north.
+</span></span><span style="display:flex;"><span>There is a North-East hallway six paces west and two paces north.
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>You are in a haunted house.
+</span></span><span style="display:flex;"><span>There is a ghost two paces west.
+</span></span><span style="display:flex;"><span>There is a Strength Weapon one pace east and four paces south.
+</span></span><span style="display:flex;"><span>There is a potion five paces east and three paces south.
+</span></span><span style="display:flex;"><span>There is a vertical staircase six paces west and four paces north.
+</span></span><span style="display:flex;"><span>There is a North-East hallway six paces west and two paces north.
+</span></span></code></pre></div><p>Hey, that last one is just a lie! Anyways, there is certainly a lot of fun to be had with the model,
+but it does make the game harder to actually play. One last example:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>Craft a story involving the following:
+</span></span><span style="display:flex;"><span>You are in room three.
+</span></span><span style="display:flex;"><span>There is a kobold two paces west.
+</span></span><span style="display:flex;"><span>There is a Strength Weapon one pace east and four paces south.
+</span></span><span style="display:flex;"><span>There is a potion five paces east and three paces south.
+</span></span><span style="display:flex;"><span>There is a vertical hallway six paces west and four paces north.
+</span></span><span style="display:flex;"><span>There is a North-East hallway six paces west and two paces north.
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>You wake up groggy, trying to make sense of your surroundings. You&#39;re in some kind of dungeon, and from the looks of it, you&#39;re not the only one here. You see a kobold two paces west of you, and a Strength Weapon one pace east and four paces south. There&#39;s also a potion five paces east and three paces south. The only way out seems to be a vertical hallway six paces west and four paces north, or a North-East hallway six paces west and two paces north. You&#39;re not sure what to do, but you know you need to get out of here. You start to make your way towards the North-East hallway when the kobold suddenly attacks you.
+</span></span></code></pre></div><p>This one even took away our player&rsquo;s agency!</p>
+<h2 id="back-to-basics">Back to Basics</h2>
+<p>This problem seems like one well suited to more traditional procedural generation techniques. Rather than
+have an AI model write our flavortexts, we could write a bunch of paragraphs describing situations and then
+slot in the necessary information afterwards. One could create a simplistic English
+grammar and expand it out until it has enough objects listed, and then fill in adjectives and adverbs as necessary.
+Either of these approaches would solve the accuracy problem, and should resolve the repetitive problem as well
+so long as sufficiently many options are provided. In an inevitable part 2 I will explore these options in more depth.</p>
+    </section>
+    <div class="entry-links"></div>
+    </article>
+
+    <div class="share-icons-body">
+      <a href="http://www.twitter.com/share?url=https%3a%2f%2fjohnwesthoff.com%2fprojects%2faccessible_hag%2f" target="_blank">
+      <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 612 612" style="enable-background:new 0 0 612 612;" xml:space="preserve">
+      <g>
+        <g>
+          <path d="M437.219,245.162c0-3.088-0.056-6.148-0.195-9.18c13.214-9.848,24.675-22.171,33.744-36.275
+            c-12.129,5.453-25.148,9.097-38.835,10.626c13.965-8.596,24.675-22.338,29.738-38.834c-13.075,7.928-27.54,13.603-42.924,16.552
+            c-12.323-14.021-29.904-22.95-49.35-23.284c-37.332-0.612-67.598,30.934-67.598,70.463c0,5.619,0.584,11.072,1.752,16.329
+            c-56.22-3.616-106.042-32.881-139.369-77c-5.814,10.571-9.152,22.922-9.152,36.164c0,25.037,11.934,47.291,30.071,60.421
+            c-11.099-0.5-21.503-3.866-30.627-9.375c0,0.306,0,0.612,0,0.918c0,34.996,23.312,64.316,54.245,71.159
+            c-5.675,1.613-11.656,2.448-17.804,2.421c-4.367-0.028-8.596-0.501-12.713-1.392c8.596,28.681,33.577,49.628,63.147,50.323
+            c-23.145,19.194-52.298,30.655-83.955,30.572c-5.453,0-10.849-0.361-16.135-1.029c29.933,20.53,65.456,32.491,103.65,32.491
+            C369.23,447.261,437.219,339.048,437.219,245.162z"/>
+          <path d="M612,306C612,137.004,474.995,0,306,0C137.004,0,0,137.004,0,306c0,168.995,137.004,306,306,306
+            C474.995,612,612,474.995,612,306z M27.818,306C27.818,152.36,152.36,27.818,306,27.818S584.182,152.36,584.182,306
+            S459.64,584.182,306,584.182S27.818,459.64,27.818,306z"/>
+        </g>
+      </svg></a>
+      <a href="http://plus.google.com/share?url=https%3a%2f%2fjohnwesthoff.com%2fprojects%2faccessible_hag%2f" target="_blank">
+      <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 612 612" style="enable-background:new 0 0 612 612;" xml:space="preserve">
+        <g>
+          <g>
+            <path d="M349.146,402.251c0-30.016-17.387-44.815-36.525-60.922l-15.662-12.185c-4.785-3.895-11.294-9.124-11.294-18.693
+              c0-9.57,6.537-15.662,12.184-21.309c18.249-14.354,36.526-29.571,36.526-61.756c0-33.076-20.892-50.462-30.878-58.724l0,0h26.956
+              L358.271,153h-89.603c-23.479,0-53.049,3.478-77.863,23.924c-18.693,16.079-27.818,38.278-27.818,58.279
+              c0,33.911,26.093,68.294,72.188,68.294c4.368,0,9.125-0.445,13.937-0.863c-2.17,5.23-4.34,9.569-4.34,16.97
+              c0,13.464,6.955,21.753,13.047,29.57c-19.556,1.308-56.109,3.478-83.065,20.001c-25.676,15.217-33.493,37.416-33.493,53.077
+              c0,32.186,30.461,62.201,93.525,62.201C309.561,484.454,349.146,443.116,349.146,402.251z M255.621,291.34
+              c-37.415,0-54.384-48.292-54.384-77.418c0-11.322,2.17-23.034,9.569-32.186c6.955-8.707,19.139-14.382,30.461-14.382
+              c36.108,0,54.802,48.738,54.802,80.033c0,7.845-0.862,21.754-10.877,31.768C278.237,286.11,266.498,291.312,255.621,291.34z
+               M256.066,466.177c-46.54,0-76.556-22.171-76.556-53.049s27.846-41.311,37.416-44.787c18.276-6.093,41.755-6.982,45.677-6.982
+              c4.34,0,6.51,0,9.987,0.445c33.076,23.479,47.402,35.218,47.402,57.416C319.992,446.176,297.821,466.177,256.066,466.177z"/>
+            <polygon points="353.068,317.768 400.164,317.768 400.164,364.836 423.699,364.836 423.699,317.768 470.768,317.768 
+              470.768,294.233 423.699,294.233 423.699,247.165 400.164,247.165 400.164,294.233 353.068,294.233     "/>
+            <path d="M612,306C612,137.004,474.995,0,306,0C137.004,0,0,137.004,0,306c0,168.995,137.004,306,306,306
+              C474.995,612,612,474.995,612,306z M27.818,306C27.818,152.36,152.36,27.818,306,27.818S584.182,152.36,584.182,306
+              S459.64,584.182,306,584.182S27.818,459.64,27.818,306z"/>
+          </g>
+      </svg></a>
+      <a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fjohnwesthoff.com%2fprojects%2faccessible_hag%2f" target="_blank">
+      <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+         viewBox="0 0 612 612" style="enable-background:new 0 0 612 612;" xml:space="preserve">
+      <g>
+        <g>
+          <path d="M612,306C612,137.004,474.995,0,306,0C137.004,0,0,137.004,0,306c0,168.995,137.004,306,306,306
+            C474.995,612,612,474.995,612,306z M27.818,306C27.818,152.36,152.36,27.818,306,27.818S584.182,152.36,584.182,306
+            S459.64,584.182,306,584.182S27.818,459.64,27.818,306z"/>
+          <path d="M317.739,482.617V306h58.279l9.208-58.529h-67.487v-29.348c0-15.272,5.007-29.849,26.928-29.849h43.813v-58.418h-62.201
+            c-52.298,0-66.569,34.438-66.569,82.175v35.413h-35.885V306h35.885v176.617H317.739L317.739,482.617z"/>
+        </g>
+      </svg>
+      </a>
+    </div>
+    <div class="clearfix"></div>
+
+<div>
+    
+        Tags: 
+        
+            <a href="/tags/projects">Projects</a> 
+        
+    
+    
+        <br>Part of a series on  
+        
+            <a href="/series/"></a>.
+        
+    
+</div>
+
+
+<hr>
+Leave a comment below!
+For issues with this website itself, please describe the problem to <a id='email2'>issues at johnwesthoff dot com</a>.<br>
+For urgent questions or comments, shoot me an email (address provided on my GitHub profile).
+<div id="commento"></div>
+<script>
+Commento.init({
+    serverUrl: "https://johnwesthoff.com/comments",
+    showdownUrl: "https://johnwesthoff.com/assets/vendor/showdown.min.js",
+    commentoCssUrl: "https://johnwesthoff.com/assets/style/commento.min.css",
+     
+});
+var name = "john";
+var dir = "west";
+var at = "@";
+
+document.getElementById("email2").href = "mail" +   "to:" +   "issues" +   at + name +   dir + "hoff" + "." +   "com";
+</script>
+</section>
+<div class="clear"></div>
+</div>
+<footer id="footer" style="color: #7A7B7C; background-color: #3A3B3C;background-image: url(https://johnwesthoff.com//img/texture.png),linear-gradient(to bottom, #3A3B3C, #1d1e1e); background-repeat: repeat, no-repeat; background-position: left top, left top; background-size: 100px 100px, 100% 100%;">
+    <div id="footer-container">
+        
+        
+        
+        <div class="clearfix"></div>
+    </div>
+    <div id="copyright"></div>
+</footer>
+<script src="https://johnwesthoff.com//js/highlight.pack.js"></script>
+<script>
+    hljs.initHighlightingOnLoad();
+</script>
+<link rel="shortcut icon" href="https://johnwesthoff.com//favicon.png" />
+<link rel="apple-touch-icon" href="https://johnwesthoff.com//img/apple-touch-icon.jpg" />
+</body>
+</html>
+

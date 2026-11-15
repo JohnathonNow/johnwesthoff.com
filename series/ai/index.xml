@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AI on John Westhoff&#39;s Blog</title>
+    <link>https://johnwesthoff.com/series/ai/</link>
+    <description>Recent content in AI on John Westhoff&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 18 Feb 2024 23:54:00 -0700</lastBuildDate>
+    <atom:link href="https://johnwesthoff.com/series/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Best Use for AI</title>
+      <link>https://johnwesthoff.com/projects/abusingai/</link>
+      <pubDate>Sun, 18 Feb 2024 23:54:00 -0700</pubDate>
+      <guid>https://johnwesthoff.com/projects/abusingai/</guid>
+      <description>&lt;p&gt;If I learned anything this past year, it&amp;rsquo;s that everyone thinks these chatbots are going to replace us.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Connect 4 - The Power (or, here, lack thereof) Two Choices</title>
+      <link>https://johnwesthoff.com/projects/connect4/</link>
+      <pubDate>Thu, 27 May 2021 20:24:00 -0400</pubDate>
+      <guid>https://johnwesthoff.com/projects/connect4/</guid>
+      <description>A year or so ago, in my lab&amp;rsquo;s reading group we read the famous power of two choices in randomized load balancing paper, and it gave me an awful idea - what if we applied a similar idea to games?&#xA;As a very quick explanation, for the task of load balancing requests - basically, you have a bunch of servers handling things for you like fetching emails, and you want to spread out the work evenly - a common approach is to just pick a random server and send the next request there.</description>
+    </item>
+  </channel>
+</rss>

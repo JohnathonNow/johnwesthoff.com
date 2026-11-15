@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Consistency on John Westhoff&#39;s Blog</title>
+    <link>https://johnwesthoff.com/series/consistency/</link>
+    <description>Recent content in Consistency on John Westhoff&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 28 Jun 2021 17:34:00 -0400</lastBuildDate>
+    <atom:link href="https://johnwesthoff.com/series/consistency/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>One thing consists of consistency</title>
+      <link>https://johnwesthoff.com/projects/consistency/</link>
+      <pubDate>Mon, 28 Jun 2021 17:34:00 -0400</pubDate>
+      <guid>https://johnwesthoff.com/projects/consistency/</guid>
+      <description>&lt;p&gt;Getting an intuition for how different consistency models behave can be difficult,&#xA;so I am working on some random little sandboxes to play around with different models.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Processor Consistency Sandbox</title>
+      <link>https://johnwesthoff.com/projects/consistency-processor/</link>
+      <pubDate>Mon, 28 Jun 2021 13:34:00 -0400</pubDate>
+      <guid>https://johnwesthoff.com/projects/consistency-processor/</guid>
+      <description>&lt;p&gt;If a system is both cache consistent and PRAM consistent, then it is also &lt;strong&gt;processor consistent&lt;/strong&gt;, meaning all writes from a single process are seen&#xA;in the same order by all process, and all writes to the same location are seen in the same order by all processes.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Cache Consistency Sandbox</title>
+      <link>https://johnwesthoff.com/projects/consistency-cache/</link>
+      <pubDate>Mon, 28 Jun 2021 11:38:00 -0400</pubDate>
+      <guid>https://johnwesthoff.com/projects/consistency-cache/</guid>
+      <description>&lt;p&gt;Another weaker model than causal consistency is &lt;strong&gt;Cache Consistency&lt;/strong&gt;. In order for a system to be Cache Consistent,&#xA;every process must see every write to the same object in the same sequential order.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Local Consistency Sandbox</title>
+      <link>https://johnwesthoff.com/projects/consistency-local/</link>
+      <pubDate>Mon, 28 Jun 2021 08:52:00 -0400</pubDate>
+      <guid>https://johnwesthoff.com/projects/consistency-local/</guid>
+      <description>&lt;p&gt;The weakest model of consistency for shared memory is &lt;strong&gt;local consistency&lt;/strong&gt;, which requires only that a process&#xA;observe its own operations in program order, and places no restrictions on how a process sees the operations&#xA;performed by any other process.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>PRAM Consistency Sandbox</title>
+      <link>https://johnwesthoff.com/projects/consistency-pram/</link>
+      <pubDate>Mon, 28 Jun 2021 08:38:00 -0400</pubDate>
+      <guid>https://johnwesthoff.com/projects/consistency-pram/</guid>
+      <description>&lt;p&gt;A weaker model than causal consistency is &lt;strong&gt;PRAM Consistency&lt;/strong&gt;. In order for a system to be PRAM consistent,&#xA;each process must see its own operations in program order, and operations from a single source must be seen in the order&#xA;they were issued.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Causal Consistency Sandbox</title>
+      <link>https://johnwesthoff.com/projects/consistency-causal/</link>
+      <pubDate>Mon, 28 Jun 2021 01:23:00 -0400</pubDate>
+      <guid>https://johnwesthoff.com/projects/consistency-causal/</guid>
+      <description>&lt;p&gt;In a sequentially consistent distributed system, all processes observe all write operations in some common order.&#xA;A &lt;strong&gt;causally consistent&lt;/strong&gt; system has a slightly weaker guarantee - only causally related writes must be observed in a common order,&#xA;and processes can disagree on the order of causally unrelated events.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Sequential Consistency Sandbox</title>
+      <link>https://johnwesthoff.com/projects/consistency-seqcst/</link>
+      <pubDate>Sun, 27 Jun 2021 02:24:00 -0400</pubDate>
+      <guid>https://johnwesthoff.com/projects/consistency-seqcst/</guid>
+      <description>&lt;p&gt;A distributed system that meets the condition &amp;ldquo;the result of any execution is the same as if the operations of all processers were executed&#xA;in some sequential order, and the operations of each individual process appear in this sequence in the order specified by its program&amp;rdquo; is said&#xA;to be &lt;strong&gt;Sequentially consistent&lt;/strong&gt;.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

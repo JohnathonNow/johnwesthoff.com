@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>The Fire Nation on John Westhoff&#39;s Blog</title>
+    <link>https://johnwesthoff.com/series/the-fire-nation/</link>
+    <description>Recent content in The Fire Nation on John Westhoff&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 20 Sep 2021 16:04:14 -0800</lastBuildDate>
+    <atom:link href="https://johnwesthoff.com/series/the-fire-nation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>An Idea For Wall Outlets</title>
+      <link>https://johnwesthoff.com/blorg/home_wiring/</link>
+      <pubDate>Mon, 20 Sep 2021 16:04:14 -0800</pubDate>
+      <guid>https://johnwesthoff.com/blorg/home_wiring/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve been seeing those outlets with USB ports more often&#xA;lately, but they feel awfully behind.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My Post-Covid Camera Setup</title>
+      <link>https://johnwesthoff.com/blorg/firenation4/</link>
+      <pubDate>Wed, 19 May 2021 06:04:14 -0400</pubDate>
+      <guid>https://johnwesthoff.com/blorg/firenation4/</guid>
+      <description>&lt;p&gt;Ever since the world has ended and all of my meetings with people are online over video, I needed a web cam.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Progress on a GameCube adapter for ozai</title>
+      <link>https://johnwesthoff.com/blorg/firenation3/</link>
+      <pubDate>Tue, 29 Aug 2017 06:04:14 -0400</pubDate>
+      <guid>https://johnwesthoff.com/blorg/firenation3/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m totally doing that GameCube controller adapter in my 5.25&amp;quot; drive bay thing. I&amp;rsquo;m pretty close to done&#xA;with the 3D model, and I am currently looking into 3D printing it. I also got some &lt;a href=&#34;https://en.wikipedia.org/wiki/Commercial_off-the-shelf&#34;&gt;COTS&lt;/a&gt;&#xA;parts to help me. I fully expect to be done this soon, like, this week soon.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Fire Lord Ozai, you and your forefathers have devastated the balance of this world, and now you shall pay the ultimate price!</title>
+      <link>https://johnwesthoff.com/blorg/firenation1/</link>
+      <pubDate>Tue, 25 Jul 2017 06:04:14 -0500</pubDate>
+      <guid>https://johnwesthoff.com/blorg/firenation1/</guid>
+      <description>&lt;p&gt;I haven&amp;rsquo;t posted in a little while, and thought an update was due, so today&#xA;I am posting two blog posts with similar content. This post will be&#xA;about something I&amp;rsquo;ve been wanting to do for a while now - build my own desktop.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Why build a PC and not buy one?</title>
+      <link>https://johnwesthoff.com/blorg/firenation2/</link>
+      <pubDate>Tue, 25 Jul 2017 06:04:14 -0400</pubDate>
+      <guid>https://johnwesthoff.com/blorg/firenation2/</guid>
+      <description>&lt;p&gt;Many people build their own PCs. Many of them do it because it can be cheaper,&#xA;and many do it to have something completely custom for themselves. For me,&#xA;it was a little of A, and a little of B. Despite having chosen the&#xA;parts myself, there is a chance someone has a build just like mine - and&#xA;if you only go by appearances, my build isn&amp;rsquo;t that unique. I have to fix that.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

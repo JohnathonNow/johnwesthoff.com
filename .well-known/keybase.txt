@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/johnwesthoff
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://johnwesthoff.com
+  * I am johnwesthoff (https://keybase.io/johnwesthoff) on keybase.
+  * I have a public key ASAlrT8qKe_FwIZcO82-r4d4YZKox7lMn-1eG7GMuJCACAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "012025ad3f2a29efc5c0865c3bcdbeaf87786192a8c7b94c9fed5e1bb18cb89080080a",
+      "host": "keybase.io",
+      "kid": "012025ad3f2a29efc5c0865c3bcdbeaf87786192a8c7b94c9fed5e1bb18cb89080080a",
+      "uid": "4db7f73e3500f36a7a3c9939a40f9b19",
+      "username": "johnwesthoff"
+    },
+    "merkle_root": {
+      "ctime": 1553113339,
+      "hash": "d6f232e7efeabd8bfcc654f8abeffce5011b09deaf001e889e0e8a99f4677a31b57e2cb9ba53e8a60d2a3b8161824e191327438809740822577ed5b1f33ae72c",
+      "hash_meta": "fcdc2e1a1c52a10d19cb2581294cea0682665eb035e1da32cdb30fec6ae45f54",
+      "seqno": 4991095
+    },
+    "service": {
+      "entropy": "BuaigGuLWNLnu0tqyzcryI8Z",
+      "hostname": "johnwesthoff.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "3.1.2"
+  },
+  "ctime": 1553113346,
+  "expire_in": 504576000,
+  "prev": "7f9c0fcf9ac993f935b508bb22210444be65845825a4a044661cace7c0c256f4",
+  "seqno": 4,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgJa0/KinvxcCGXDvNvq+HeGGSqMe5TJ/tXhuxjLiQgAgKp3BheWxvYWTESpcCBMQgf5wPz5rJk/k1tQi7IiEERL5lhFglpKBEZhys58DCVvTEIKwjfGaUJpmHlROyW0YbhNOHtRHknF59liBgn6Ivqn7DAgHCo3NpZ8RAReAib8LYSOynH6bhOei6Ek1G/I2E/SQfyGZLkqyq2tYQiiSYHh1zIjv26hUL/0oMArdG8reMq5XlKr4bFbE7CahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIE1eKiCAeHIW1/REnkBsYDJA/ej/Ac56GwsVbRwTt+Qjo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/johnwesthoff
+
+==================================================================

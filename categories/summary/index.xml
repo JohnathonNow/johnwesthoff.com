@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Summary on John Westhoff&#39;s Blog</title>
+    <link>https://johnwesthoff.com/categories/summary/</link>
+    <description>Recent content in Summary on John Westhoff&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 26 May 2018 12:03:30 -0400</lastBuildDate>
+    <atom:link href="https://johnwesthoff.com/categories/summary/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Internet of Graduation Caps</title>
+      <link>https://johnwesthoff.com/projects/gradcapus/</link>
+      <pubDate>Sat, 26 May 2018 12:03:30 -0400</pubDate>
+      <guid>https://johnwesthoff.com/projects/gradcapus/</guid>
+      <description>During my last summer internship, a thought popped into my head. I realized that it wouldn&amp;rsquo;t be too hard to stick an LED matrix under my graduation cap, to have one that would be totally unique. Well, it turns out someone beat me to the punch, but I could still make one that was totally unique by stealing ideas from other places too. Reddit&amp;rsquo;s r/place was really cool. I figured I could recreate that on a 32x32 board.</description>
+    </item>
+    <item>
+      <title>Spring 2018 Semester-in-Review</title>
+      <link>https://johnwesthoff.com/blorg/sp18_roundup/</link>
+      <pubDate>Sun, 13 May 2018 23:03:30 -0400</pubDate>
+      <guid>https://johnwesthoff.com/blorg/sp18_roundup/</guid>
+      <description>My last semester is over, which is pretty sad. I was pretty busy for most of it, so this is actually my very first blog post all semester; I didn&amp;rsquo;t even do a semester in review post for last semester, other than the &amp;ldquo;What I&amp;rsquo;ve Been Up To&amp;rdquo; post. I did finally finish my GameCube adapter for the front of my computer, though.&#xA;So, I took A History of Computing, Ethics, CSE Service Projects, and Introduction to Droid Building, and I did undergraduate research.</description>
+    </item>
+    <item>
+      <title>Spring 2017 Semester-in-Review</title>
+      <link>https://johnwesthoff.com/blorg/sp17_roundup/</link>
+      <pubDate>Sat, 20 May 2017 23:03:30 -0400</pubDate>
+      <guid>https://johnwesthoff.com/blorg/sp17_roundup/</guid>
+      <description>Another semester is over, one that happened to be my first semester where I was allowed to take only Computer Science courses. So, I took Paradigms, Operating System Principles, CSE Service Projects, Hackers of the Bazaar, and Mobile Computing, and I did undergraduate research. The projects in Operating System Principles were all fairly straightforward, but the last one involved writing a file system of sorts which was cool, but there was no room to do what I wanted, so I will only discuss the other courses.</description>
+    </item>
+  </channel>
+</rss>

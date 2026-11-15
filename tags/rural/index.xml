@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rural on John Westhoff&#39;s Blog</title>
+    <link>https://johnwesthoff.com/tags/rural/</link>
+    <description>Recent content in Rural on John Westhoff&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 21 Nov 2021 16:03:30 -0400</lastBuildDate>
+    <atom:link href="https://johnwesthoff.com/tags/rural/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Throwing ISPs Into The JUNCCBIN</title>
+      <link>https://johnwesthoff.com/blorg/junccbin/</link>
+      <pubDate>Sun, 21 Nov 2021 16:03:30 -0400</pubDate>
+      <guid>https://johnwesthoff.com/blorg/junccbin/</guid>
+      <description>My internet woes will be solved, be it by moving to a different house, by Starlink, or by getting an ISP to actually service an area. But that doesn&amp;rsquo;t solve the internet problem.&#xA;Motivation Right now an insane number of people in the world, even in America, even in a high tech state like California, do not have broadband internet. More importantly, throwing money at ISPs does not yield meaningful results.</description>
+    </item>
+    <item>
+      <title>Building A Physical Bridge Might Be Cheaper</title>
+      <link>https://johnwesthoff.com/blorg/internet2/</link>
+      <pubDate>Thu, 14 Oct 2021 16:03:30 -0400</pubDate>
+      <guid>https://johnwesthoff.com/blorg/internet2/</guid>
+      <description>Eleven days ago I wrote about the great digital divide. Today, I rant about the cost of bridging that divide.&#xA;I&amp;rsquo;ve done a fair bit to try to secure better internet up here. For one, I bugged Spectrum, the big ISP around here, into giving me a quote on a service install. A lot more on that later. I also got a Visible SIM card, giving us a three-tiered solution for the time being.</description>
+    </item>
+    <item>
+      <title>The Valley of the Great Digital Divide</title>
+      <link>https://johnwesthoff.com/blorg/internet/</link>
+      <pubDate>Sun, 03 Oct 2021 16:03:30 -0400</pubDate>
+      <guid>https://johnwesthoff.com/blorg/internet/</guid>
+      <description>Oh, Hello Deborah, Simone, the internet. Speaking of the internet, I recently moved to Northern California - specifically Shasta County, where more than 40,000 people, myself included, lack broadband internet. Now, I currently work as a Software Engineer, so having the internet is very important for me to work - here&amp;rsquo;s how that&amp;rsquo;s going.&#xA;I guess I should begin by describing what internet we do have. Currently, the house I&amp;rsquo;m living in is connected to TDS DSL, at a blistering megabit or so download, and a blazing 300 kilobits per second upload.</description>
+    </item>
+  </channel>
+</rss>

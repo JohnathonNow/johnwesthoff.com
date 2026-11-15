@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CircuitPython on John Westhoff&#39;s Blog</title>
+    <link>https://johnwesthoff.com/tags/circuitpython/</link>
+    <description>Recent content in CircuitPython on John Westhoff&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 20 Apr 2021 18:03:30 -0400</lastBuildDate>
+    <atom:link href="https://johnwesthoff.com/tags/circuitpython/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My new-er favorite thing - RP2040 with CircuitPython</title>
+      <link>https://johnwesthoff.com/blorg/circuitpythonshilling2/</link>
+      <pubDate>Tue, 20 Apr 2021 18:03:30 -0400</pubDate>
+      <guid>https://johnwesthoff.com/blorg/circuitpythonshilling2/</guid>
+      <description>Back when I did my Model M thingy with CircuitPython, I encountered a lot of difficulties doing I/O. For one, the I/O speed was much too slow for bit-banging anything in Python. Now, you could write some C and call it from Python, but that defeats the benefit of working with Python to begin with. Additionally, hardware peripherals seemed to be destined to be behind in Python. I doubt this will ever change, but a certain recent product seems to offer a bizarre best-of-all-worlds.</description>
+    </item>
+    <item>
+      <title>Finally using the Model M on a desktop</title>
+      <link>https://johnwesthoff.com/projects/keyboard-2-circuitpython/</link>
+      <pubDate>Tue, 31 Jul 2018 23:24:00 -0400</pubDate>
+      <guid>https://johnwesthoff.com/projects/keyboard-2-circuitpython/</guid>
+      <description>Now I know the first time I wrote about my Model M keyboard I said it wasn&amp;rsquo;t worth it to leave a $10 dev board attached to the keyboard, opting instead to use an adapter, but I&amp;rsquo;ve changed my mind. My change of heart came about for two reasons:&#xA;I couldn&amp;rsquo;t get the $5 adapter to work. Being able to remap keys on the fly is definitely worth $5.&#xA;That second point is in reference to my recent blog post.</description>
+    </item>
+    <item>
+      <title>My new favorite thing - CircuitPython</title>
+      <link>https://johnwesthoff.com/blorg/circuitpythonshilling/</link>
+      <pubDate>Fri, 15 Jun 2018 02:03:30 -0400</pubDate>
+      <guid>https://johnwesthoff.com/blorg/circuitpythonshilling/</guid>
+      <description>Back when I did my arcade machine, I encountered two pretty big problems. First of all, writing the code to mimick a USB keyboard was not straightforward at all, and I resorted to copying some sample code and modifying it. But I didn&amp;rsquo;t understand the sample code at all. I know the TI boards are probably aimed at a more hardcode audience, one that wants to have as much control over the hardware as possibl, and while I usually love that sort of thing, there are days where I want to just write simple code.</description>
+    </item>
+  </channel>
+</rss>

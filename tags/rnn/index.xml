@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>RNN on John Westhoff&#39;s Blog</title>
+    <link>https://johnwesthoff.com/tags/rnn/</link>
+    <description>Recent content in RNN on John Westhoff&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 20 Dec 2016 17:58:30 -0500</lastBuildDate>
+    <atom:link href="https://johnwesthoff.com/tags/rnn/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A Recurrent Neural Network for Wolfrat Bot</title>
+      <link>https://johnwesthoff.com/projects/wrb_rnn/</link>
+      <pubDate>Tue, 20 Dec 2016 17:58:30 -0500</pubDate>
+      <guid>https://johnwesthoff.com/projects/wrb_rnn/</guid>
+      <description>For fun, I decided Wolfrat Bot needed a bit more, err, personality. So, I set off to make him one. After training an RNN for a few hours on my desktop&amp;rsquo;s GPU, I had interesting results but ultimately failed at achieving quite what I wanted.&#xA;Anyway, I encountered some huge hurdles I found out AFTER training for ~8 hours that the way I was encoding the characters for the network input (and thus, the way I was decoding the network output) behaved non-deterministically between Python 3.</description>
+    </item>
+  </channel>
+</rss>

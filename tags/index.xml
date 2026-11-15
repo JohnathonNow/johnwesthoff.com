@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on John Westhoff&#39;s Blog</title>
+    <link>https://johnwesthoff.com/tags/</link>
+    <description>Recent content in Tags on John Westhoff&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 16 Apr 2026 06:10:30 -0400</lastBuildDate>
+    <atom:link href="https://johnwesthoff.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mongodb</title>
+      <link>https://johnwesthoff.com/tags/mongodb/</link>
+      <pubDate>Thu, 16 Apr 2026 06:10:30 -0400</pubDate>
+      <guid>https://johnwesthoff.com/tags/mongodb/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Project</title>
+      <link>https://johnwesthoff.com/tags/project/</link>
+      <pubDate>Tue, 13 Jan 2026 16:03:30 -0400</pubDate>
+      <guid>https://johnwesthoff.com/tags/project/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Projects</title>
+      <link>https://johnwesthoff.com/tags/projects/</link>
+      <pubDate>Sun, 31 Mar 2024 21:54:00 -0700</pubDate>
+      <guid>https://johnwesthoff.com/tags/projects/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ads</title>
+      <link>https://johnwesthoff.com/tags/ads/</link>
+      <pubDate>Fri, 02 Feb 2024 06:20:30 -0400</pubDate>
+      <guid>https://johnwesthoff.com/tags/ads/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Work</title>
+      <link>https://johnwesthoff.com/tags/work/</link>
+      <pubDate>Thu, 01 Feb 2024 02:03:30 -0400</pubDate>
+      <guid>https://johnwesthoff.com/tags/work/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Updates</title>
+      <link>https://johnwesthoff.com/tags/updates/</link>
+      <pubDate>Sun, 17 Jul 2022 02:03:30 -0400</pubDate>
+      <guid>https://johnwesthoff.com/tags/updates/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rural</title>
+      <link>https://johnwesthoff.com/tags/rural/</link>
+      <pubDate>Sun, 21 Nov 2021 16:03:30 -0400</pubDate>
+      <guid>https://johnwesthoff.com/tags/rural/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>RuneScape</title>
+      <link>https://johnwesthoff.com/tags/runescape/</link>
+      <pubDate>Tue, 31 Aug 2021 16:03:30 -0400</pubDate>
+      <guid>https://johnwesthoff.com/tags/runescape/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>GitHub Copilot</title>
+      <link>https://johnwesthoff.com/tags/github-copilot/</link>
+      <pubDate>Mon, 12 Jul 2021 22:03:30 -0400</pubDate>
+      <guid>https://johnwesthoff.com/tags/github-copilot/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Plagiarism</title>
+      <link>https://johnwesthoff.com/tags/plagiarism/</link>
+      <pubDate>Mon, 12 Jul 2021 22:03:30 -0400</pubDate>
+      <guid>https://johnwesthoff.com/tags/plagiarism/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>RP2040</title>
+      <link>https://johnwesthoff.com/tags/rp2040/</link>
+      <pubDate>Tue, 15 Jun 2021 16:03:30 -0400</pubDate>
+      <guid>https://johnwesthoff.com/tags/rp2040/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Bookmarklets</title>
+      <link>https://johnwesthoff.com/tags/bookmarklets/</link>
+      <pubDate>Fri, 11 Jun 2021 02:03:30 -0400</pubDate>
+      <guid>https://johnwesthoff.com/tags/bookmarklets/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>CircuitPython</title>
+      <link>https://johnwesthoff.com/tags/circuitpython/</link>
+      <pubDate>Tue, 20 Apr 2021 18:03:30 -0400</pubDate>
+      <guid>https://johnwesthoff.com/tags/circuitpython/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>TIL</title>
+      <link>https://johnwesthoff.com/tags/til/</link>
+      <pubDate>Wed, 07 Apr 2021 02:03:30 -0400</pubDate>
+      <guid>https://johnwesthoff.com/tags/til/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Bash</title>
+      <link>https://johnwesthoff.com/tags/bash/</link>
+      <pubDate>Mon, 11 Nov 2019 23:24:00 -0400</pubDate>
+      <guid>https://johnwesthoff.com/tags/bash/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Digital Ocean</title>
+      <link>https://johnwesthoff.com/tags/digital-ocean/</link>
+      <pubDate>Thu, 10 Oct 2019 00:31:30 -0400</pubDate>
+      <guid>https://johnwesthoff.com/tags/digital-ocean/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>GitHub</title>
+      <link>https://johnwesthoff.com/tags/github/</link>
+      <pubDate>Thu, 10 Oct 2019 00:31:30 -0400</pubDate>
+      <guid>https://johnwesthoff.com/tags/github/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>IBM</title>
+      <link>https://johnwesthoff.com/tags/ibm/</link>
+      <pubDate>Tue, 31 Jul 2018 23:24:00 -0400</pubDate>
+      <guid>https://johnwesthoff.com/tags/ibm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Keyboard</title>
+      <link>https://johnwesthoff.com/tags/keyboard/</link>
+      <pubDate>Tue, 31 Jul 2018 23:24:00 -0400</pubDate>
+      <guid>https://johnwesthoff.com/tags/keyboard/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Legacy</title>
+      <link>https://johnwesthoff.com/tags/legacy/</link>
+      <pubDate>Tue, 31 Jul 2018 23:24:00 -0400</pubDate>
+      <guid>https://johnwesthoff.com/tags/legacy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Atari</title>
+      <link>https://johnwesthoff.com/tags/atari/</link>
+      <pubDate>Thu, 02 Feb 2017 23:24:00 -0400</pubDate>
+      <guid>https://johnwesthoff.com/tags/atari/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Atari 2600</title>
+      <link>https://johnwesthoff.com/tags/atari-2600/</link>
+      <pubDate>Thu, 02 Feb 2017 23:24:00 -0400</pubDate>
+      <guid>https://johnwesthoff.com/tags/atari-2600/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>School</title>
+      <link>https://johnwesthoff.com/tags/school/</link>
+      <pubDate>Thu, 02 Feb 2017 23:24:00 -0400</pubDate>
+      <guid>https://johnwesthoff.com/tags/school/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Video Games</title>
+      <link>https://johnwesthoff.com/tags/video-games/</link>
+      <pubDate>Thu, 02 Feb 2017 23:24:00 -0400</pubDate>
+      <guid>https://johnwesthoff.com/tags/video-games/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Chatbot</title>
+      <link>https://johnwesthoff.com/tags/chatbot/</link>
+      <pubDate>Tue, 20 Dec 2016 17:58:30 -0500</pubDate>
+      <guid>https://johnwesthoff.com/tags/chatbot/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Neural Networks</title>
+      <link>https://johnwesthoff.com/tags/neural-networks/</link>
+      <pubDate>Tue, 20 Dec 2016 17:58:30 -0500</pubDate>
+      <guid>https://johnwesthoff.com/tags/neural-networks/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>PHP</title>
+      <link>https://johnwesthoff.com/tags/php/</link>
+      <pubDate>Tue, 20 Dec 2016 17:58:30 -0500</pubDate>
+      <guid>https://johnwesthoff.com/tags/php/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>RNN</title>
+      <link>https://johnwesthoff.com/tags/rnn/</link>
+      <pubDate>Tue, 20 Dec 2016 17:58:30 -0500</pubDate>
+      <guid>https://johnwesthoff.com/tags/rnn/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tensorflow</title>
+      <link>https://johnwesthoff.com/tags/tensorflow/</link>
+      <pubDate>Tue, 20 Dec 2016 17:58:30 -0500</pubDate>
+      <guid>https://johnwesthoff.com/tags/tensorflow/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Web</title>
+      <link>https://johnwesthoff.com/tags/web/</link>
+      <pubDate>Tue, 20 Dec 2016 17:58:30 -0500</pubDate>
+      <guid>https://johnwesthoff.com/tags/web/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>C&#43;&#43;</title>
+      <link>https://johnwesthoff.com/tags/c&#43;&#43;/</link>
+      <pubDate>Sat, 17 Dec 2016 23:03:30 -0400</pubDate>
+      <guid>https://johnwesthoff.com/tags/c&#43;&#43;/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Javascript</title>
+      <link>https://johnwesthoff.com/tags/javascript/</link>
+      <pubDate>Sat, 17 Dec 2016 23:03:30 -0400</pubDate>
+      <guid>https://johnwesthoff.com/tags/javascript/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Leaflet</title>
+      <link>https://johnwesthoff.com/tags/leaflet/</link>
+      <pubDate>Sat, 17 Dec 2016 23:03:30 -0400</pubDate>
+      <guid>https://johnwesthoff.com/tags/leaflet/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Python</title>
+      <link>https://johnwesthoff.com/tags/python/</link>
+      <pubDate>Sat, 17 Dec 2016 23:03:30 -0400</pubDate>
+      <guid>https://johnwesthoff.com/tags/python/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Arcade</title>
+      <link>https://johnwesthoff.com/tags/arcade/</link>
+      <pubDate>Sun, 07 Aug 2016 01:52:00 -0400</pubDate>
+      <guid>https://johnwesthoff.com/tags/arcade/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Stellaris</title>
+      <link>https://johnwesthoff.com/tags/stellaris/</link>
+      <pubDate>Sun, 07 Aug 2016 01:52:00 -0400</pubDate>
+      <guid>https://johnwesthoff.com/tags/stellaris/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>RPG II</title>
+      <link>https://johnwesthoff.com/tags/rpg-ii/</link>
+      <pubDate>Thu, 28 Jul 2016 23:24:00 -0400</pubDate>
+      <guid>https://johnwesthoff.com/tags/rpg-ii/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Graphs</title>
+      <link>https://johnwesthoff.com/tags/graphs/</link>
+      <pubDate>Sun, 17 Jul 2016 23:24:00 -0400</pubDate>
+      <guid>https://johnwesthoff.com/tags/graphs/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Java</title>
+      <link>https://johnwesthoff.com/tags/java/</link>
+      <pubDate>Sun, 17 Jul 2016 23:24:00 -0400</pubDate>
+      <guid>https://johnwesthoff.com/tags/java/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>OpenGL</title>
+      <link>https://johnwesthoff.com/tags/opengl/</link>
+      <pubDate>Sun, 17 Jul 2016 23:24:00 -0400</pubDate>
+      <guid>https://johnwesthoff.com/tags/opengl/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Audacity</title>
+      <link>https://johnwesthoff.com/tags/audacity/</link>
+      <pubDate>Sun, 10 Jul 2016 05:51:53 -0400</pubDate>
+      <guid>https://johnwesthoff.com/tags/audacity/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Audio</title>
+      <link>https://johnwesthoff.com/tags/audio/</link>
+      <pubDate>Sun, 10 Jul 2016 05:51:53 -0400</pubDate>
+      <guid>https://johnwesthoff.com/tags/audio/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Medic</title>
+      <link>https://johnwesthoff.com/tags/medic/</link>
+      <pubDate>Sun, 10 Jul 2016 05:51:53 -0400</pubDate>
+      <guid>https://johnwesthoff.com/tags/medic/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Jupyter</title>
+      <link>https://johnwesthoff.com/tags/jupyter/</link>
+      <pubDate>Mon, 25 Apr 2016 16:35:53 -0400</pubDate>
+      <guid>https://johnwesthoff.com/tags/jupyter/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Wolfratbot</title>
+      <link>https://johnwesthoff.com/tags/wolfratbot/</link>
+      <pubDate>Tue, 05 Apr 2016 01:18:53 -0400</pubDate>
+      <guid>https://johnwesthoff.com/tags/wolfratbot/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Bullet HFIL</title>
+      <link>https://johnwesthoff.com/tags/bullet-hfil/</link>
+      <pubDate>Sun, 20 Mar 2016 21:08:52 -0400</pubDate>
+      <guid>https://johnwesthoff.com/tags/bullet-hfil/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Notre Dame</title>
+      <link>https://johnwesthoff.com/tags/notre-dame/</link>
+      <pubDate>Sun, 20 Mar 2016 21:08:52 -0400</pubDate>
+      <guid>https://johnwesthoff.com/tags/notre-dame/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

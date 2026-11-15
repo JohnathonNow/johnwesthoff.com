@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AI Game on John Westhoff&#39;s Blog</title>
+    <link>https://johnwesthoff.com/series/ai-game/</link>
+    <description>Recent content in AI Game on John Westhoff&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 30 Oct 2020 14:24:00 -0400</lastBuildDate>
+    <atom:link href="https://johnwesthoff.com/series/ai-game/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI Game Sandbox</title>
+      <link>https://johnwesthoff.com/projects/aigamesim/</link>
+      <pubDate>Fri, 30 Oct 2020 14:24:00 -0400</pubDate>
+      <guid>https://johnwesthoff.com/projects/aigamesim/</guid>
+      <description>&lt;p&gt;Just a place to mess around with the most current version of my &lt;a href=&#34;https://johnwesthoff.com/series/ai-game/&#34;&gt;AI Game&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>AI Game 6 - Recovery</title>
+      <link>https://johnwesthoff.com/projects/aigame6/</link>
+      <pubDate>Wed, 28 Oct 2020 22:24:00 -0400</pubDate>
+      <guid>https://johnwesthoff.com/projects/aigame6/</guid>
+      <description>&lt;p&gt;I found an unfinished blog post from Halloween of 2017. Given the state of the world, it might be worth revisiting.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>AI Game 5 - Progress Update</title>
+      <link>https://johnwesthoff.com/projects/aigame5/</link>
+      <pubDate>Sat, 29 Jul 2017 23:24:00 -0400</pubDate>
+      <guid>https://johnwesthoff.com/projects/aigame5/</guid>
+      <description>&lt;p&gt;Despite the delay, I am still working on my AI/robot game thing.&#xA;A while ago I added what I said would be my next steps, but never&#xA;posted about it. So I&amp;rsquo;m doing that now.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>AI Game 4 - Robot Test Run</title>
+      <link>https://johnwesthoff.com/projects/aigame4/</link>
+      <pubDate>Fri, 30 Jun 2017 23:24:00 -0400</pubDate>
+      <guid>https://johnwesthoff.com/projects/aigame4/</guid>
+      <description>&lt;p&gt;OK, I&amp;rsquo;m pretty excited. It might not have been clear what this project was,&#xA;but I think this will clear it up.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>AI Game 3 - Language Update</title>
+      <link>https://johnwesthoff.com/projects/aigame3/</link>
+      <pubDate>Tue, 27 Jun 2017 23:24:00 -0400</pubDate>
+      <guid>https://johnwesthoff.com/projects/aigame3/</guid>
+      <description>&lt;p&gt;The language is coming along nicely. I refactored the evaluation function,&#xA;moving out all of the function call logic into more digestible functions.&#xA;This led to a few nice advances.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>AI Game 2 - Components</title>
+      <link>https://johnwesthoff.com/projects/aigame2/</link>
+      <pubDate>Mon, 19 Jun 2017 23:24:00 -0400</pubDate>
+      <guid>https://johnwesthoff.com/projects/aigame2/</guid>
+      <description>I&amp;rsquo;ve spent a few days now planning out more of my project. I worked on the language some more, and brainstormed ideas for blocks I would like to have in the program. I also decided to use phaser as the game engine for the building and simulation of robots. This decision was based off the presence of a physics engine and the ability to specify constraints on sprites, which will take off the heavy lifting of &amp;ldquo;constructing&amp;rdquo; robots.</description>
+    </item>
+    <item>
+      <title>AI Game 1 - Language</title>
+      <link>https://johnwesthoff.com/projects/aigame/</link>
+      <pubDate>Sat, 03 Jun 2017 23:24:00 -0400</pubDate>
+      <guid>https://johnwesthoff.com/projects/aigame/</guid>
+      <description>For a little while now I&amp;rsquo;ve wanted to make a game to teach AI programming and robotics. Between school and my summer internship I was able to start it, and here I&amp;rsquo;ll outline some of my progress.&#xA;The Project Idea What I want to build is a game in which robots are assembled by snapping together components. The robots are then programmed. The programs must define a run function, which is run every tick of the game.</description>
+    </item>
+  </channel>
+</rss>

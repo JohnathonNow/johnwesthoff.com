@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Keyboard on John Westhoff&#39;s Blog</title>
+    <link>https://johnwesthoff.com/tags/keyboard/</link>
+    <description>Recent content in Keyboard on John Westhoff&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 31 Jul 2018 23:24:00 -0400</lastBuildDate>
+    <atom:link href="https://johnwesthoff.com/tags/keyboard/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Finally using the Model M on a desktop</title>
+      <link>https://johnwesthoff.com/projects/keyboard-2-circuitpython/</link>
+      <pubDate>Tue, 31 Jul 2018 23:24:00 -0400</pubDate>
+      <guid>https://johnwesthoff.com/projects/keyboard-2-circuitpython/</guid>
+      <description>Now I know the first time I wrote about my Model M keyboard I said it wasn&amp;rsquo;t worth it to leave a $10 dev board attached to the keyboard, opting instead to use an adapter, but I&amp;rsquo;ve changed my mind. My change of heart came about for two reasons:&#xA;I couldn&amp;rsquo;t get the $5 adapter to work. Being able to remap keys on the fly is definitely worth $5.&#xA;That second point is in reference to my recent blog post.</description>
+    </item>
+    <item>
+      <title>How to Drive Your Roommate Crazy</title>
+      <link>https://johnwesthoff.com/projects/keyboard/</link>
+      <pubDate>Mon, 30 Jan 2017 23:24:00 -0400</pubDate>
+      <guid>https://johnwesthoff.com/projects/keyboard/</guid>
+      <description>For the past five months, I&amp;rsquo;ve had an old IBM Model M sitting on my desk. Specifically, a 1390572, a 122-key monstrosity. Ever since spending the summer typing on one of these old keyboards I have wanted to get this keyboard working, because it is very loud and very fun to type on.&#xA;I found a converter for about $40 online, but that doesn&amp;rsquo;t seem worth it. The keyboard has this weird DIN-5 connector, where the pins sweep 240 degrees; I&amp;rsquo;ve never seen any connector quite like it.</description>
+    </item>
+  </channel>
+</rss>

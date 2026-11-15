@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>For Fun on John Westhoff&#39;s Blog</title>
+    <link>https://johnwesthoff.com/categories/for-fun/</link>
+    <description>Recent content in For Fun on John Westhoff&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 31 Mar 2024 21:54:00 -0700</lastBuildDate>
+    <atom:link href="https://johnwesthoff.com/categories/for-fun/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Game Jam 3: The Preservening</title>
+      <link>https://johnwesthoff.com/projects/gamejams2024-march/</link>
+      <pubDate>Sun, 31 Mar 2024 21:54:00 -0700</pubDate>
+      <guid>https://johnwesthoff.com/projects/gamejams2024-march/</guid>
+      <description>&lt;p&gt;The rollercoaster of game jamming continues with our March entry.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Best Use for AI</title>
+      <link>https://johnwesthoff.com/projects/abusingai/</link>
+      <pubDate>Sun, 18 Feb 2024 23:54:00 -0700</pubDate>
+      <guid>https://johnwesthoff.com/projects/abusingai/</guid>
+      <description>&lt;p&gt;If I learned anything this past year, it&amp;rsquo;s that everyone thinks these chatbots are going to replace us.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>A year? of Game Jams</title>
+      <link>https://johnwesthoff.com/projects/gamejams2024/</link>
+      <pubDate>Sun, 18 Feb 2024 21:54:00 -0700</pubDate>
+      <guid>https://johnwesthoff.com/projects/gamejams2024/</guid>
+      <description>&lt;p&gt;My friend Emil and I entered a game jam in January, another in February, and plan on one in March. This has been a rollercoaster of the highest order.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Towards More Accessible Video Games: Part 1 - Overthinking Everything</title>
+      <link>https://johnwesthoff.com/projects/accessible_hag/</link>
+      <pubDate>Fri, 16 Sep 2022 23:24:00 -0400</pubDate>
+      <guid>https://johnwesthoff.com/projects/accessible_hag/</guid>
+      <description>&lt;p&gt;I mentioned recently a desire to create more accessible computer games. In this blog, I&#xA;briefly cover some early findings towards that goal.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>JSON Viewer</title>
+      <link>https://johnwesthoff.com/projects/jsonviewer/</link>
+      <pubDate>Wed, 02 Mar 2022 22:24:00 -0400</pubDate>
+      <guid>https://johnwesthoff.com/projects/jsonviewer/</guid>
+      <description>&lt;p&gt;Free json viewer built using &lt;a href=&#34;https://github.com/summerstyle/jsonTreeViewer&#34;&gt;this library I found&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>AlephZeroChess 2 - Lessons Learned from WASM</title>
+      <link>https://johnwesthoff.com/projects/alephzerochess2/</link>
+      <pubDate>Sat, 18 Dec 2021 21:54:00 -0700</pubDate>
+      <guid>https://johnwesthoff.com/projects/alephzerochess2/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve had some new-found motivation to work on my &lt;a href=&#34;http://alephzerochess.com/&#34;&gt;big chess game&lt;/a&gt;, but hit a silly problem.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>An Idea For Wall Outlets</title>
+      <link>https://johnwesthoff.com/blorg/home_wiring/</link>
+      <pubDate>Mon, 20 Sep 2021 16:04:14 -0800</pubDate>
+      <guid>https://johnwesthoff.com/blorg/home_wiring/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve been seeing those outlets with USB ports more often&#xA;lately, but they feel awfully behind.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>AlephZeroChess 1 - Knightly Ideas</title>
+      <link>https://johnwesthoff.com/projects/alephzerochess1/</link>
+      <pubDate>Thu, 22 Jul 2021 21:54:00 -0400</pubDate>
+      <guid>https://johnwesthoff.com/projects/alephzerochess1/</guid>
+      <description>Every since my personal hero made a video about chess, I&amp;rsquo;ve had a somewhat renewed interest in the game. It&amp;rsquo;s been gradually increasing too - last year on my brother&amp;rsquo;s birthday I finally made a chess.com account, and since then I&amp;rsquo;ve played a fairly modest 46 games, with most of them being Daily games. Recently, however, I&amp;rsquo;ve had the desire to program something interesting related to the game.&#xA;The Game Idea I want to make an online multiplayer infinite chess game.</description>
+    </item>
+    <item>
+      <title>One thing consists of consistency</title>
+      <link>https://johnwesthoff.com/projects/consistency/</link>
+      <pubDate>Mon, 28 Jun 2021 17:34:00 -0400</pubDate>
+      <guid>https://johnwesthoff.com/projects/consistency/</guid>
+      <description>&lt;p&gt;Getting an intuition for how different consistency models behave can be difficult,&#xA;so I am working on some random little sandboxes to play around with different models.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Processor Consistency Sandbox</title>
+      <link>https://johnwesthoff.com/projects/consistency-processor/</link>
+      <pubDate>Mon, 28 Jun 2021 13:34:00 -0400</pubDate>
+      <guid>https://johnwesthoff.com/projects/consistency-processor/</guid>
+      <description>&lt;p&gt;If a system is both cache consistent and PRAM consistent, then it is also &lt;strong&gt;processor consistent&lt;/strong&gt;, meaning all writes from a single process are seen&#xA;in the same order by all process, and all writes to the same location are seen in the same order by all processes.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Cache Consistency Sandbox</title>
+      <link>https://johnwesthoff.com/projects/consistency-cache/</link>
+      <pubDate>Mon, 28 Jun 2021 11:38:00 -0400</pubDate>
+      <guid>https://johnwesthoff.com/projects/consistency-cache/</guid>
+      <description>&lt;p&gt;Another weaker model than causal consistency is &lt;strong&gt;Cache Consistency&lt;/strong&gt;. In order for a system to be Cache Consistent,&#xA;every process must see every write to the same object in the same sequential order.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Local Consistency Sandbox</title>
+      <link>https://johnwesthoff.com/projects/consistency-local/</link>
+      <pubDate>Mon, 28 Jun 2021 08:52:00 -0400</pubDate>
+      <guid>https://johnwesthoff.com/projects/consistency-local/</guid>
+      <description>&lt;p&gt;The weakest model of consistency for shared memory is &lt;strong&gt;local consistency&lt;/strong&gt;, which requires only that a process&#xA;observe its own operations in program order, and places no restrictions on how a process sees the operations&#xA;performed by any other process.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>PRAM Consistency Sandbox</title>
+      <link>https://johnwesthoff.com/projects/consistency-pram/</link>
+      <pubDate>Mon, 28 Jun 2021 08:38:00 -0400</pubDate>
+      <guid>https://johnwesthoff.com/projects/consistency-pram/</guid>
+      <description>&lt;p&gt;A weaker model than causal consistency is &lt;strong&gt;PRAM Consistency&lt;/strong&gt;. In order for a system to be PRAM consistent,&#xA;each process must see its own operations in program order, and operations from a single source must be seen in the order&#xA;they were issued.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Causal Consistency Sandbox</title>
+      <link>https://johnwesthoff.com/projects/consistency-causal/</link>
+      <pubDate>Mon, 28 Jun 2021 01:23:00 -0400</pubDate>
+      <guid>https://johnwesthoff.com/projects/consistency-causal/</guid>
+      <description>&lt;p&gt;In a sequentially consistent distributed system, all processes observe all write operations in some common order.&#xA;A &lt;strong&gt;causally consistent&lt;/strong&gt; system has a slightly weaker guarantee - only causally related writes must be observed in a common order,&#xA;and processes can disagree on the order of causally unrelated events.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Sequential Consistency Sandbox</title>
+      <link>https://johnwesthoff.com/projects/consistency-seqcst/</link>
+      <pubDate>Sun, 27 Jun 2021 02:24:00 -0400</pubDate>
+      <guid>https://johnwesthoff.com/projects/consistency-seqcst/</guid>
+      <description>&lt;p&gt;A distributed system that meets the condition &amp;ldquo;the result of any execution is the same as if the operations of all processers were executed&#xA;in some sequential order, and the operations of each individual process appear in this sequence in the order specified by its program&amp;rdquo; is said&#xA;to be &lt;strong&gt;Sequentially consistent&lt;/strong&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Connect 4 - The Power (or, here, lack thereof) Two Choices</title>
+      <link>https://johnwesthoff.com/projects/connect4/</link>
+      <pubDate>Thu, 27 May 2021 20:24:00 -0400</pubDate>
+      <guid>https://johnwesthoff.com/projects/connect4/</guid>
+      <description>A year or so ago, in my lab&amp;rsquo;s reading group we read the famous power of two choices in randomized load balancing paper, and it gave me an awful idea - what if we applied a similar idea to games?&#xA;As a very quick explanation, for the task of load balancing requests - basically, you have a bunch of servers handling things for you like fetching emails, and you want to spread out the work evenly - a common approach is to just pick a random server and send the next request there.</description>
+    </item>
+    <item>
+      <title>My Post-Covid Camera Setup</title>
+      <link>https://johnwesthoff.com/blorg/firenation4/</link>
+      <pubDate>Wed, 19 May 2021 06:04:14 -0400</pubDate>
+      <guid>https://johnwesthoff.com/blorg/firenation4/</guid>
+      <description>&lt;p&gt;Ever since the world has ended and all of my meetings with people are online over video, I needed a web cam.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Using TiddlyWiki Behind Apache</title>
+      <link>https://johnwesthoff.com/projects/wiki/</link>
+      <pubDate>Tue, 18 May 2021 17:24:00 -0400</pubDate>
+      <guid>https://johnwesthoff.com/projects/wiki/</guid>
+      <description>&lt;p&gt;This is mostly a reference for future me, or anyone else who wants to use &lt;a href=&#34;TiddlyWiki&#34;&gt;https://tiddlywiki.com/&lt;/a&gt;&#xA;behind a proxy with apache.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Getting Free Analysis from Games on Chess.com with Lichessify</title>
+      <link>https://johnwesthoff.com/projects/lichessify/</link>
+      <pubDate>Tue, 27 Apr 2021 00:23:00 -0400</pubDate>
+      <guid>https://johnwesthoff.com/projects/lichessify/</guid>
+      <description>&lt;p&gt;I have been playing like, a normal amount of chess lately. I&amp;rsquo;m not yet past the &amp;ldquo;don&amp;rsquo;t just move your queen to her death&amp;rdquo; phase yet,&#xA;but I have noticeably gotten better since I rage-quit last year against my little brother.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Running ncurses Applications on Windows</title>
+      <link>https://johnwesthoff.com/projects/windows/</link>
+      <pubDate>Thu, 18 Mar 2021 08:24:00 -0400</pubDate>
+      <guid>https://johnwesthoff.com/projects/windows/</guid>
+      <description>&lt;p&gt;A few weeks ago I finally beat the game a few friends and I wrote a while ago, &lt;a href=&#34;https://github.com/a3qz/hag&#34;&gt;hag&lt;/a&gt;.&#xA;This sparked a desire to get the game running on Windows, the operating system of choice for e🅱️ic gamers.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Spidior: Because Regex Wasn&#39;t Awful Enough</title>
+      <link>https://johnwesthoff.com/projects/spidior/</link>
+      <pubDate>Fri, 29 Jan 2021 23:11:00 -0400</pubDate>
+      <guid>https://johnwesthoff.com/projects/spidior/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve occasionally found myself wanting to refactor code in ways that current&#xA;free tools don&amp;rsquo;t make easy for me. I wish I had something to make it easier.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>AI Game Sandbox</title>
+      <link>https://johnwesthoff.com/projects/aigamesim/</link>
+      <pubDate>Fri, 30 Oct 2020 14:24:00 -0400</pubDate>
+      <guid>https://johnwesthoff.com/projects/aigamesim/</guid>
+      <description>&lt;p&gt;Just a place to mess around with the most current version of my &lt;a href=&#34;https://johnwesthoff.com/series/ai-game/&#34;&gt;AI Game&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>AI Game 6 - Recovery</title>
+      <link>https://johnwesthoff.com/projects/aigame6/</link>
+      <pubDate>Wed, 28 Oct 2020 22:24:00 -0400</pubDate>
+      <guid>https://johnwesthoff.com/projects/aigame6/</guid>
+      <description>&lt;p&gt;I found an unfinished blog post from Halloween of 2017. Given the state of the world, it might be worth revisiting.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Keep your Python data inside your scripts</title>
+      <link>https://johnwesthoff.com/projects/pycaboose/</link>
+      <pubDate>Sun, 03 Nov 2019 23:24:00 -0400</pubDate>
+      <guid>https://johnwesthoff.com/projects/pycaboose/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve been working late nights for an upcoming conference deadline, and over the past two nights&#xA;between the hours of 1am and 3am I have completed what is probably the worst python library idea&#xA;of all time.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Great Starter HacktoberFest Issues</title>
+      <link>https://johnwesthoff.com/blorg/hacktoberfest2019/</link>
+      <pubDate>Thu, 10 Oct 2019 00:31:30 -0400</pubDate>
+      <guid>https://johnwesthoff.com/blorg/hacktoberfest2019/</guid>
+      <description>&lt;p&gt;Getting started with Open Source contributions can be a daunting task, but there are many projects&#xA;that are just waiting for contributors to help out with, regardless of skill level.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Prototyping RGB LED Patterns in JavaScript</title>
+      <link>https://johnwesthoff.com/projects/leddrawing/</link>
+      <pubDate>Wed, 20 Mar 2019 20:24:00 -0400</pubDate>
+      <guid>https://johnwesthoff.com/projects/leddrawing/</guid>
+      <description>&lt;p&gt;I have been asked semi-frequently to add LED strips to various things, so I figured I&amp;rsquo;d like something that lets me play with LED strip patterns.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hacktoberfest 2018</title>
+      <link>https://johnwesthoff.com/blorg/hacktoberfest2018/</link>
+      <pubDate>Wed, 31 Oct 2018 00:31:30 -0400</pubDate>
+      <guid>https://johnwesthoff.com/blorg/hacktoberfest2018/</guid>
+      <description>To be honest, I haven&amp;rsquo;t posted in a while, and this is really just an excuse for me to do so. Anyways, I&amp;rsquo;ll just briefly be talking about my experience with Hacktoberfest this year. If you&amp;rsquo;re not familiar with Hacktoberfest, you can read more about it here.&#xA;I&amp;rsquo;ll admit that I shamefully only did the minimum 5 pull requests, but I&amp;rsquo;ve had a very busy month. Hopefully I will do better for Christmas, when I should have more free time.</description>
+    </item>
+    <item>
+      <title>Finally using the Model M on a desktop</title>
+      <link>https://johnwesthoff.com/projects/keyboard-2-circuitpython/</link>
+      <pubDate>Tue, 31 Jul 2018 23:24:00 -0400</pubDate>
+      <guid>https://johnwesthoff.com/projects/keyboard-2-circuitpython/</guid>
+      <description>Now I know the first time I wrote about my Model M keyboard I said it wasn&amp;rsquo;t worth it to leave a $10 dev board attached to the keyboard, opting instead to use an adapter, but I&amp;rsquo;ve changed my mind. My change of heart came about for two reasons:&#xA;I couldn&amp;rsquo;t get the $5 adapter to work. Being able to remap keys on the fly is definitely worth $5.&#xA;That second point is in reference to my recent blog post.</description>
+    </item>
+    <item>
+      <title>Arrows in my eyes - A new dimension in esoteric programming languages</title>
+      <link>https://johnwesthoff.com/projects/arrows/</link>
+      <pubDate>Tue, 19 Dec 2017 23:24:00 -0400</pubDate>
+      <guid>https://johnwesthoff.com/projects/arrows/</guid>
+      <description>&lt;p&gt;Inspired by a &lt;a href=&#34;http://ndlug.org/post/doug-8bit-esolangs/&#34;&gt;lug talk on esoteric languages&lt;/a&gt; I set off to create my own.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Winning the AT&amp;T Mobile App Hackathon with a Twitch bot</title>
+      <link>https://johnwesthoff.com/projects/atthack/</link>
+      <pubDate>Mon, 30 Oct 2017 00:35:00 -0400</pubDate>
+      <guid>https://johnwesthoff.com/projects/atthack/</guid>
+      <description>&lt;p&gt;Prior to about a month ago, I had only ever attended one hackathon - my team came in second. I had to change that.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Markup for note taking</title>
+      <link>https://johnwesthoff.com/projects/notes/</link>
+      <pubDate>Tue, 29 Aug 2017 23:24:00 -0400</pubDate>
+      <guid>https://johnwesthoff.com/projects/notes/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m a week into my senior year, and I&amp;rsquo;ve gotten sick of using OneNote for note taking.&#xA;As a linux user, I&amp;rsquo;m pretty much limited to the web interface or WINE, and&#xA;I&amp;rsquo;d really prefer neither.&#xA;I&amp;rsquo;ve also had plenty of issues with notes not syncing / getting lost in the cloud, which is more than enough of a reason to switch to something else.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Progress on a GameCube adapter for ozai</title>
+      <link>https://johnwesthoff.com/blorg/firenation3/</link>
+      <pubDate>Tue, 29 Aug 2017 06:04:14 -0400</pubDate>
+      <guid>https://johnwesthoff.com/blorg/firenation3/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m totally doing that GameCube controller adapter in my 5.25&amp;quot; drive bay thing. I&amp;rsquo;m pretty close to done&#xA;with the 3D model, and I am currently looking into 3D printing it. I also got some &lt;a href=&#34;https://en.wikipedia.org/wiki/Commercial_off-the-shelf&#34;&gt;COTS&lt;/a&gt;&#xA;parts to help me. I fully expect to be done this soon, like, this week soon.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>AI Game 5 - Progress Update</title>
+      <link>https://johnwesthoff.com/projects/aigame5/</link>
+      <pubDate>Sat, 29 Jul 2017 23:24:00 -0400</pubDate>
+      <guid>https://johnwesthoff.com/projects/aigame5/</guid>
+      <description>&lt;p&gt;Despite the delay, I am still working on my AI/robot game thing.&#xA;A while ago I added what I said would be my next steps, but never&#xA;posted about it. So I&amp;rsquo;m doing that now.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Fire Lord Ozai, you and your forefathers have devastated the balance of this world, and now you shall pay the ultimate price!</title>
+      <link>https://johnwesthoff.com/blorg/firenation1/</link>
+      <pubDate>Tue, 25 Jul 2017 06:04:14 -0500</pubDate>
+      <guid>https://johnwesthoff.com/blorg/firenation1/</guid>
+      <description>&lt;p&gt;I haven&amp;rsquo;t posted in a little while, and thought an update was due, so today&#xA;I am posting two blog posts with similar content. This post will be&#xA;about something I&amp;rsquo;ve been wanting to do for a while now - build my own desktop.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Why build a PC and not buy one?</title>
+      <link>https://johnwesthoff.com/blorg/firenation2/</link>
+      <pubDate>Tue, 25 Jul 2017 06:04:14 -0400</pubDate>
+      <guid>https://johnwesthoff.com/blorg/firenation2/</guid>
+      <description>&lt;p&gt;Many people build their own PCs. Many of them do it because it can be cheaper,&#xA;and many do it to have something completely custom for themselves. For me,&#xA;it was a little of A, and a little of B. Despite having chosen the&#xA;parts myself, there is a chance someone has a build just like mine - and&#xA;if you only go by appearances, my build isn&amp;rsquo;t that unique. I have to fix that.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>AI Game 4 - Robot Test Run</title>
+      <link>https://johnwesthoff.com/projects/aigame4/</link>
+      <pubDate>Fri, 30 Jun 2017 23:24:00 -0400</pubDate>
+      <guid>https://johnwesthoff.com/projects/aigame4/</guid>
+      <description>&lt;p&gt;OK, I&amp;rsquo;m pretty excited. It might not have been clear what this project was,&#xA;but I think this will clear it up.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>AI Game 3 - Language Update</title>
+      <link>https://johnwesthoff.com/projects/aigame3/</link>
+      <pubDate>Tue, 27 Jun 2017 23:24:00 -0400</pubDate>
+      <guid>https://johnwesthoff.com/projects/aigame3/</guid>
+      <description>&lt;p&gt;The language is coming along nicely. I refactored the evaluation function,&#xA;moving out all of the function call logic into more digestible functions.&#xA;This led to a few nice advances.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>AI Game 2 - Components</title>
+      <link>https://johnwesthoff.com/projects/aigame2/</link>
+      <pubDate>Mon, 19 Jun 2017 23:24:00 -0400</pubDate>
+      <guid>https://johnwesthoff.com/projects/aigame2/</guid>
+      <description>I&amp;rsquo;ve spent a few days now planning out more of my project. I worked on the language some more, and brainstormed ideas for blocks I would like to have in the program. I also decided to use phaser as the game engine for the building and simulation of robots. This decision was based off the presence of a physics engine and the ability to specify constraints on sprites, which will take off the heavy lifting of &amp;ldquo;constructing&amp;rdquo; robots.</description>
+    </item>
+    <item>
+      <title>AI Game 1 - Language</title>
+      <link>https://johnwesthoff.com/projects/aigame/</link>
+      <pubDate>Sat, 03 Jun 2017 23:24:00 -0400</pubDate>
+      <guid>https://johnwesthoff.com/projects/aigame/</guid>
+      <description>For a little while now I&amp;rsquo;ve wanted to make a game to teach AI programming and robotics. Between school and my summer internship I was able to start it, and here I&amp;rsquo;ll outline some of my progress.&#xA;The Project Idea What I want to build is a game in which robots are assembled by snapping together components. The robots are then programmed. The programs must define a run function, which is run every tick of the game.</description>
+    </item>
+    <item>
+      <title>Reliving the Atari 2600</title>
+      <link>https://johnwesthoff.com/projects/atariusb/</link>
+      <pubDate>Thu, 02 Feb 2017 23:24:00 -0400</pubDate>
+      <guid>https://johnwesthoff.com/projects/atariusb/</guid>
+      <description>I am currently taking a course titled &amp;ldquo;Hackers in the Bazaar&amp;rdquo;, which is, by all acounts, the greatest class ever. Anyway, we spent class today playing classic video games brought in by students. I brought in a SNES and a copy of Mortal Kombat.&#xA;Additionally, I spent about an hour and a half yesterday creating something a bit special for the occasion. My dad keeps his old Atari 2600 up in my closet, along with a chest full of games.</description>
+    </item>
+    <item>
+      <title>How to Drive Your Roommate Crazy</title>
+      <link>https://johnwesthoff.com/projects/keyboard/</link>
+      <pubDate>Mon, 30 Jan 2017 23:24:00 -0400</pubDate>
+      <guid>https://johnwesthoff.com/projects/keyboard/</guid>
+      <description>For the past five months, I&amp;rsquo;ve had an old IBM Model M sitting on my desk. Specifically, a 1390572, a 122-key monstrosity. Ever since spending the summer typing on one of these old keyboards I have wanted to get this keyboard working, because it is very loud and very fun to type on.&#xA;I found a converter for about $40 online, but that doesn&amp;rsquo;t seem worth it. The keyboard has this weird DIN-5 connector, where the pins sweep 240 degrees; I&amp;rsquo;ve never seen any connector quite like it.</description>
+    </item>
+    <item>
+      <title>A Recurrent Neural Network for Wolfrat Bot</title>
+      <link>https://johnwesthoff.com/projects/wrb_rnn/</link>
+      <pubDate>Tue, 20 Dec 2016 17:58:30 -0500</pubDate>
+      <guid>https://johnwesthoff.com/projects/wrb_rnn/</guid>
+      <description>For fun, I decided Wolfrat Bot needed a bit more, err, personality. So, I set off to make him one. After training an RNN for a few hours on my desktop&amp;rsquo;s GPU, I had interesting results but ultimately failed at achieving quite what I wanted.&#xA;Anyway, I encountered some huge hurdles I found out AFTER training for ~8 hours that the way I was encoding the characters for the network input (and thus, the way I was decoding the network output) behaved non-deterministically between Python 3.</description>
+    </item>
+    <item>
+      <title>Automatic Site Rebuilding with PHP and GitHub</title>
+      <link>https://johnwesthoff.com/projects/autobuild/</link>
+      <pubDate>Tue, 20 Dec 2016 17:58:30 -0500</pubDate>
+      <guid>https://johnwesthoff.com/projects/autobuild/</guid>
+      <description>The content of this website is on GitHub here. A nifty feature about GitHub are its Webhooks.&#xA;I wanted to be able to add content here without having to SSH into my server, cd-ing into the www directory, git pulling, and makeing, as those steps are tedious. So, I set up a GitHub webhook to POST to a PHP page on the server. The basic form of this PHP page is just:</description>
+    </item>
+    <item>
+      <title>An Arcade Machine (Mostly) From Scratch</title>
+      <link>https://johnwesthoff.com/projects/arcademachine/</link>
+      <pubDate>Sun, 07 Aug 2016 01:52:00 -0400</pubDate>
+      <guid>https://johnwesthoff.com/projects/arcademachine/</guid>
+      <description>This project is one that has been in development for a few years now, and it probably won&amp;rsquo;t be finished for a few more. It is one that has grown in scope considerably, and is really the result of several smaller projects. Currently, the end goal is to have a fully working arcade machine of my very own - running a game I wrote on hardware I built.&#xA;The project began at the end of grade school when I decided to try making my own fighting game.</description>
+    </item>
+    <item>
+      <title>Multiplayer Spaceship Game</title>
+      <link>https://johnwesthoff.com/projects/vrremake/</link>
+      <pubDate>Sun, 17 Jul 2016 23:24:00 -0400</pubDate>
+      <guid>https://johnwesthoff.com/projects/vrremake/</guid>
+      <description>Back between 2008 and 2011, I spent a fair bit of time on FunOrb. One of their most interesting games was their last official release, Void Hunters. Unfortunately, FunOrb did not last much longer than that, as there has only been a small handful of updates since then, and with the death of NPAPI Plugins, the Java-based gaming site has virtually no chance of being revived.&#xA;Some time around my freshman year at Notre Dame, I decided that it would be fun to recreate the game.</description>
+    </item>
+    <item>
+      <title>Embedding Audio Tracks Within Each Other With Audacity</title>
+      <link>https://johnwesthoff.com/projects/firstaudacityplugin/</link>
+      <pubDate>Sun, 10 Jul 2016 05:51:53 -0400</pubDate>
+      <guid>https://johnwesthoff.com/projects/firstaudacityplugin/</guid>
+      <description>A friend came to me with a request to create an Audacity plugin that, given two stereo audio tracks, takes the second audio track and ensures that it stays X decibels below the first audio track.&#xA;The project did not take long after establishing just what it means for a track to be quieter than another, despite me having never written anything in a LISP dialect (Audacity uses Nyquist/XLISP) and some of the oddities of Audacity that I will describe below.</description>
+    </item>
+    <item>
+      <title>Wolfrat Chatbot</title>
+      <link>https://johnwesthoff.com/projects/wolfratbot/</link>
+      <pubDate>Tue, 05 Apr 2016 01:18:53 -0400</pubDate>
+      <guid>https://johnwesthoff.com/projects/wolfratbot/</guid>
+      <description>My friends and I primarily communicate through a [GroupMe] (https://groupme.com) chat that we named Wolfrat.&#xA;To liven the place up, I thought I would add a chatbot.&#xA;So, I quickly threw together (over a day or so) WolfratBot, which uses the GroupMe bot API. The API HTTP POSTS a given callback URL, which is set to a WSGI script that decides on the appropriate reply.&#xA;The program is very modular, and new functionality can be added without disrupting any other modules.</description>
+    </item>
+  </channel>
+</rss>

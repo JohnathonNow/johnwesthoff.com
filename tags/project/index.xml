@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Project on John Westhoff&#39;s Blog</title>
+    <link>https://johnwesthoff.com/tags/project/</link>
+    <description>Recent content in Project on John Westhoff&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 13 Jan 2026 16:03:30 -0400</lastBuildDate>
+    <atom:link href="https://johnwesthoff.com/tags/project/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Um why was this server on Xenial???</title>
+      <link>https://johnwesthoff.com/blorg/update2026/</link>
+      <pubDate>Tue, 13 Jan 2026 16:03:30 -0400</pubDate>
+      <guid>https://johnwesthoff.com/blorg/update2026/</guid>
+      <description>I tried adding that anagram solver from the last post, but Hugo fails to build on this server, because the OS was twelve years old.&#xA;So I performed distro upgrades from 14 to 16 to 18 to 20 to 22 to 24. There&amp;rsquo;s not a lot installed here, so there wasn&amp;rsquo;t a ton to break. That said, the only thing that actually matters, apache2, suffered a poor fate.&#xA;I just had to disable a few modules though.</description>
+    </item>
+    <item>
+      <title>Anagram Maker</title>
+      <link>https://johnwesthoff.com/blorg/anagram/</link>
+      <pubDate>Sat, 03 Jan 2026 16:03:30 -0400</pubDate>
+      <guid>https://johnwesthoff.com/blorg/anagram/</guid>
+      <description>I often do cryptic crosswords where I want to make anagrams, but I don&amp;rsquo;t want to cheat all the way and generate a list of them.</description>
+    </item>
+  </channel>
+</rss>

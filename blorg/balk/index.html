@@ -1,0 +1,536 @@
+<script src="https://johnwesthoff.com/js/commento/commento.min.js"></script>
+    <!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+  <title>You can&#39;t just be up there and just doin&#39; a mongodb text search like that &middot; John Westhoff&#39;s Blog</title>
+  <link rel="stylesheet" href="https://johnwesthoff.com//css/style.css" />
+  <link rel="stylesheet" href="https://johnwesthoff.com//css/font-awesome.min.css" />
+  <link rel="icon" href="/favicon.png" type="image/png" />
+  <link href='https://fonts.googleapis.com/css?family=Lato:100,300,400,600' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+<header class="header" style="background-color: #009DDC;
+    background-image: url(https://johnwesthoff.com//img/texture.png),linear-gradient(to bottom, #009DDC, #006ccb);background-repeat: repeat, no-repeat;background-position: left top, left top;background-size: 100px 100px, 100% 100%;" role="banner">
+
+      <section id="branding">
+        <div id="site-title"><a href="https://johnwesthoff.com/">John Westhoff&#39;s Blog</a></div>
+        <nav id="mainmenu">
+          <ul>
+            <li><a href="https://johnwesthoff.com//about">About</a></li>
+            <li><a href="https://johnwesthoff.com/">Posts</a></li>
+            <li><a href="http://github.com/johnathonnow" target="_blank">Github</a></li>
+            
+            <li><a href="https://www.linkedin.com/in/johnjwesthoff" target="_blank">LinkedIn</a></li>
+          </ul>
+        </nav>
+        <input type="checkbox" id="op"></input>
+        <div class="lower">
+          <label for="op">Menu</label>
+        </div>
+        <div class="overlay overlay-hugeinc">
+          <label for="op"></label>
+          <nav id="menu" role="navigation">
+            <ul>
+            <li><a href="https://johnwesthoff.com//about">About</a></li>
+            <li><a href="https://johnwesthoff.com/">Posts</a></li>
+            <li><a href="http://github.com/johnathonnow" target="_blank">Github</a></li>
+            
+            <li><a href="https://www.linkedin.com/in/johnjwesthoff" target="_blank">LinkedIn</a></li>
+          </ul>
+          </nav>
+        </div>
+        <div class="clearfix"></div>
+      </section>
+      <div class="post-heading">
+          <h1>
+        You can&#39;t just be up there and just doin&#39; a mongodb text search like that
+          <div class="share-icons-header">
+            <a href="http://www.twitter.com/share?url=https%3a%2f%2fjohnwesthoff.com%2fblorg%2fbalk%2f" target="_blank">
+            <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 612 612" style="enable-background:new 0 0 612 612;" xml:space="preserve">
+            <g>
+              <g>
+                <path d="M437.219,245.162c0-3.088-0.056-6.148-0.195-9.18c13.214-9.848,24.675-22.171,33.744-36.275
+                  c-12.129,5.453-25.148,9.097-38.835,10.626c13.965-8.596,24.675-22.338,29.738-38.834c-13.075,7.928-27.54,13.603-42.924,16.552
+                  c-12.323-14.021-29.904-22.95-49.35-23.284c-37.332-0.612-67.598,30.934-67.598,70.463c0,5.619,0.584,11.072,1.752,16.329
+                  c-56.22-3.616-106.042-32.881-139.369-77c-5.814,10.571-9.152,22.922-9.152,36.164c0,25.037,11.934,47.291,30.071,60.421
+                  c-11.099-0.5-21.503-3.866-30.627-9.375c0,0.306,0,0.612,0,0.918c0,34.996,23.312,64.316,54.245,71.159
+                  c-5.675,1.613-11.656,2.448-17.804,2.421c-4.367-0.028-8.596-0.501-12.713-1.392c8.596,28.681,33.577,49.628,63.147,50.323
+                  c-23.145,19.194-52.298,30.655-83.955,30.572c-5.453,0-10.849-0.361-16.135-1.029c29.933,20.53,65.456,32.491,103.65,32.491
+                  C369.23,447.261,437.219,339.048,437.219,245.162z"/>
+                <path d="M612,306C612,137.004,474.995,0,306,0C137.004,0,0,137.004,0,306c0,168.995,137.004,306,306,306
+                  C474.995,612,612,474.995,612,306z M27.818,306C27.818,152.36,152.36,27.818,306,27.818S584.182,152.36,584.182,306
+                  S459.64,584.182,306,584.182S27.818,459.64,27.818,306z"/>
+              </g>
+            </svg></a>
+            <a href="http://plus.google.com/share?url=https%3a%2f%2fjohnwesthoff.com%2fblorg%2fbalk%2f" target="_blank">
+            <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 612 612" style="enable-background:new 0 0 612 612;" xml:space="preserve">
+              <g>
+                <g>
+                  <path d="M349.146,402.251c0-30.016-17.387-44.815-36.525-60.922l-15.662-12.185c-4.785-3.895-11.294-9.124-11.294-18.693
+                    c0-9.57,6.537-15.662,12.184-21.309c18.249-14.354,36.526-29.571,36.526-61.756c0-33.076-20.892-50.462-30.878-58.724l0,0h26.956
+                    L358.271,153h-89.603c-23.479,0-53.049,3.478-77.863,23.924c-18.693,16.079-27.818,38.278-27.818,58.279
+                    c0,33.911,26.093,68.294,72.188,68.294c4.368,0,9.125-0.445,13.937-0.863c-2.17,5.23-4.34,9.569-4.34,16.97
+                    c0,13.464,6.955,21.753,13.047,29.57c-19.556,1.308-56.109,3.478-83.065,20.001c-25.676,15.217-33.493,37.416-33.493,53.077
+                    c0,32.186,30.461,62.201,93.525,62.201C309.561,484.454,349.146,443.116,349.146,402.251z M255.621,291.34
+                    c-37.415,0-54.384-48.292-54.384-77.418c0-11.322,2.17-23.034,9.569-32.186c6.955-8.707,19.139-14.382,30.461-14.382
+                    c36.108,0,54.802,48.738,54.802,80.033c0,7.845-0.862,21.754-10.877,31.768C278.237,286.11,266.498,291.312,255.621,291.34z
+                     M256.066,466.177c-46.54,0-76.556-22.171-76.556-53.049s27.846-41.311,37.416-44.787c18.276-6.093,41.755-6.982,45.677-6.982
+                    c4.34,0,6.51,0,9.987,0.445c33.076,23.479,47.402,35.218,47.402,57.416C319.992,446.176,297.821,466.177,256.066,466.177z"/>
+                  <polygon points="353.068,317.768 400.164,317.768 400.164,364.836 423.699,364.836 423.699,317.768 470.768,317.768 
+                    470.768,294.233 423.699,294.233 423.699,247.165 400.164,247.165 400.164,294.233 353.068,294.233     "/>
+                  <path d="M612,306C612,137.004,474.995,0,306,0C137.004,0,0,137.004,0,306c0,168.995,137.004,306,306,306
+                    C474.995,612,612,474.995,612,306z M27.818,306C27.818,152.36,152.36,27.818,306,27.818S584.182,152.36,584.182,306
+                    S459.64,584.182,306,584.182S27.818,459.64,27.818,306z"/>
+                </g>
+            </svg></a>
+            <a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fjohnwesthoff.com%2fblorg%2fbalk%2f" target="_blank">
+            <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+               viewBox="0 0 612 612" style="enable-background:new 0 0 612 612;" xml:space="preserve">
+            <g>
+              <g>
+                <path d="M612,306C612,137.004,474.995,0,306,0C137.004,0,0,137.004,0,306c0,168.995,137.004,306,306,306
+                  C474.995,612,612,474.995,612,306z M27.818,306C27.818,152.36,152.36,27.818,306,27.818S584.182,152.36,584.182,306
+                  S459.64,584.182,306,584.182S27.818,459.64,27.818,306z"/>
+                <path d="M317.739,482.617V306h58.279l9.208-58.529h-67.487v-29.348c0-15.272,5.007-29.849,26.928-29.849h43.813v-58.418h-62.201
+                  c-52.298,0-66.569,34.438-66.569,82.175v35.413h-35.885V306h35.885v176.617H317.739L317.739,482.617z"/>
+              </g>
+            </svg>
+            </a>
+          </div>
+          
+        </h1>
+      </div>
+
+    </header>
+
+    <div id="container">
+
+    
+    <section id="content" role="main">
+    <section class="entry-meta">
+
+      <span class="post-date">Apr 16, 2026</span>
+
+    </section></header>
+    <section class="entry-content">
+    <article>
+    <p>Recently I&rsquo;ve been doing a lot of work involving indexed full text search in <em>Azure Cosmos DB for MongoDB</em>, and, man, are the pitfalls there <em>weird</em>.</p>
+<p>To drive my points home, I&rsquo;ll tell my story somewhat interactively. Let&rsquo;s say you wanted to store the rules to a game in a mongdodb database. You might insert records such as rule_number and rule_text, containing the index of the rule in the book and the text of the rule, respectively. So, let&rsquo;s introduce our data:</p>
+<table>
+<thead>
+<tr>
+<th>rule_number</th>
+<th>rule_text</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>You can&rsquo;t just be up there and just doin&rsquo; a balk like that.</td>
+</tr>
+<tr>
+<td>1a</td>
+<td>A balk is when you</td>
+</tr>
+<tr>
+<td>1b</td>
+<td>Okay well listen. A balk is when you balk the</td>
+</tr>
+<tr>
+<td>1c</td>
+<td>Let me start over</td>
+</tr>
+<tr>
+<td>1c-a</td>
+<td>The pitcher is not allowed to do a motion to the, uh, batter, that prohibits the batter from doing, you know, just trying to hit the ball. You can&rsquo;t do that.</td>
+</tr>
+<tr>
+<td>1c-b</td>
+<td>Once the pitcher is in the stretch, he can&rsquo;t be over here and say to the runner, like, I&rsquo;m gonna get ya! I&rsquo;m gonna tag you out! You better watch your butt! and then just be like he didn&rsquo;t even do that.</td>
+</tr>
+<tr>
+<td>1c-b(1)</td>
+<td>Like, if you&rsquo;re about to pitch and then don&rsquo;t pitch, you have to still pitch. You cannot not pitch. Does that make any sense?</td>
+</tr>
+<tr>
+<td>1c-b(2)</td>
+<td>You gotta be, throwing motion of the ball, and then, until you just throw it.</td>
+</tr>
+<tr>
+<td>1c-b(2)-a</td>
+<td>Okay, well, you can have the ball up here, like this, but then there&rsquo;s the balk you gotta think about.</td>
+</tr>
+<tr>
+<td>1c-b(2)-b</td>
+<td>Fairuza Balk hasn&rsquo;t been in any movies in forever. I hope she wasn&rsquo;t typecast as that racist lady in American History X.</td>
+</tr>
+<tr>
+<td>1c-b(2)-b(i)</td>
+<td>Oh wait, she was in The Waterboy too! That would be even worse.</td>
+</tr>
+<tr>
+<td>1c-b(2)-b(ii)</td>
+<td>get in mah bellah &ndash; Adam Water, The Waterboy. Haha, classic&hellip;</td>
+</tr>
+<tr>
+<td>1c-b(3)</td>
+<td>Okay seriously though. A balk is when the pitcher makes a movement that, as determined by, when you do a move involving the baseball and field of</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Do not do a balk please</td>
+</tr>
+</tbody>
+</table>
+<p>You import all of these rows as documents, and you create a <a href="https://www.mongodb.com/docs/manual/core/indexes/index-types/index-text/">text index</a> on the rule_text field.</p>
+<p>Next, you implement a search feature in your rulebook application that uses the text index to perform the search.</p>
+<p>One of your users, having forgotten just what a balk is, but vaguely remembering some of the first rule, searches <code>you can't be up there doing a balk like that</code> in effort to find just rule 1. It is nearly identical to the actual text of the rule, so your user expects it to come up as the only result.</p>
+<p>To their surprise, all of these documents are returned:</p>
+<table>
+<thead>
+<tr>
+<th>rule_number</th>
+<th>rule_text</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1b</td>
+<td>Okay well listen. A balk is when you balk the</td>
+</tr>
+<tr>
+<td>1a</td>
+<td>A balk is when you</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Do not do a balk please</td>
+</tr>
+<tr>
+<td>1</td>
+<td>You can&rsquo;t just be up there and just doin&rsquo; a balk like that.</td>
+</tr>
+<tr>
+<td>1c-b(2)-a</td>
+<td>Okay, well, you can have the ball up here, like this, but then there&rsquo;s the balk you gotta think about.</td>
+</tr>
+<tr>
+<td>1c-b(2)-b</td>
+<td>Fairuza Balk hasn&rsquo;t been in any movies in forever. I hope she wasn&rsquo;t typecast as that racist lady in American History X.</td>
+</tr>
+<tr>
+<td>1c-b(3)</td>
+<td>Okay seriously though. A balk is when the pitcher makes a movement that, as determined by, when you do a move involving the baseball and field of</td>
+</tr>
+<tr>
+<td>1c-b</td>
+<td>Once the pitcher is in the stretch, he can&rsquo;t be over here and say to the runner, like, I&rsquo;m gonna get ya! I&rsquo;m gonna tag you out! You better watch your butt! and then just be like he didn&rsquo;t even do that.</td>
+</tr>
+<tr>
+<td>1c-b(1)</td>
+<td>Like, if you&rsquo;re about to pitch and then don&rsquo;t pitch, you have to still pitch. You cannot not pitch. Does that make any sense?</td>
+</tr>
+</tbody>
+</table>
+<p>Befuddled from all the extra noise, your user reduces their search to <code>you can't be up there</code>, as they are certain these words are in the text. Here are the results:</p>
+<table>
+<thead>
+<tr>
+<th>rule_number</th>
+<th>rule_text</th>
+</tr>
+</thead>
+</table>
+<p>Your user is now even more confused about the balk rules than when they started, and they are completely lost as to how your search function works.</p>
+<p>The issue here is <a href="https://en.wikipedia.org/wiki/Stop_word">stop words</a>. Mongodb has something like <a href="https://github.com/igorbrigadir/stopwords/blob/master/en/mongodb.txt">174 of them</a>. Basically, to avoid creating a massive index on common words, many text indices strip out the most common words from the corpus when creating the index, and then strip those same words out of any search queries. So when designing an information retrieval system that operates on full text search terms, you have to keep the preprocessing steps of your system in mind. Mongodb does let you disable this by setting the language to &ldquo;none&rdquo; in your index. Note that this will also disable stemming - when the search matches root words together (<code>run</code> matches <code>running</code> and <code>ran</code>, and <code>blueberry</code> matches <code>blueberries</code>, but <code>blue</code> does not match <code>blueberry</code>).</p>
+<p>You&rsquo;re probably thinking, &ldquo;jeffrie, that isn&rsquo;t enough pitfalls!&rdquo;</p>
+<p>Well, you&rsquo;re in luck! If you recall, I started this by saying that I&rsquo;ve been working with <em>Azure Cosmos DB for MongoDB</em>. The <a href="https://oldschool.runescape.wiki/w/Eagle_Eye">eagle-eyed</a> among you may have noticed that that has more words than just &ldquo;mongodb.&rdquo; It turns out that the differences between Azure Cosmos DB for MongoDB and a self-hosted MongoDB do not stop with the name!</p>
+<p>Now, the things we&rsquo;ve discussed so far may have <a href="https://www.youtube.com/shorts/qCSEpCgEo-Q">gaslated</a> me to the point of just being wrong on some details here, but <a href="https://en.wikipedia.org/wiki/Man_or_bear">bear with me</a>.</p>
+<p>In the text search on a text with an index, queries with words in double quotes behave much the way they do in a search engine. That is, it must match everything in quotation marks in the order it appears in the documents. There are still some quirks, though. If our user had searched <code>pitcher motion</code>, they&rsquo;d get back these results:</p>
+<table>
+<thead>
+<tr>
+<th>rule_number</th>
+<th>rule_text</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1c-b(2)</td>
+<td>You gotta be, throwing motion of the ball, and then, until you just throw it.</td>
+</tr>
+<tr>
+<td>1c-a</td>
+<td>The pitcher is not allowed to do a motion to the, uh, batter, that prohibits the batter from doing, you know, just trying to hit the ball. You can&rsquo;t do that.</td>
+</tr>
+<tr>
+<td>1c-b(3)</td>
+<td>Okay seriously though. A balk is when the pitcher makes a movement that, as determined by, when you do a move involving the baseball and field of</td>
+</tr>
+<tr>
+<td>1c-b</td>
+<td>Once the pitcher is in the stretch, he can&rsquo;t be over here and say to the runner, like, I&rsquo;m gonna get ya! I&rsquo;m gonna tag you out! You better watch your butt! and then just be like he didn&rsquo;t even do that.</td>
+</tr>
+</tbody>
+</table>
+<p>But if they instead search <code>&quot;pitcher&quot; &quot;motion&quot;</code> ([https://en.wikipedia.org/wiki/Jeopardy!](notice the quotation marks)), they&rsquo;d instead get back:</p>
+<table>
+<thead>
+<tr>
+<th>rule_number</th>
+<th>rule_text</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1c-a</td>
+<td>The pitcher is not allowed to do a motion to the, uh, batter, that prohibits the batter from doing, you know, just trying to hit the ball. You can&rsquo;t do that.</td>
+</tr>
+</tbody>
+</table>
+<p>So, the behavior we are seeing here is that if there are multiple search terms, if they are not in quotes we OR them together (find documents that contain <em>any</em> of the terms). but if they are in quotes we AND them together (find only documents that contain <em>all</em> of the terms.)</p>
+<p>This on its own isn&rsquo;t too bad, but if we do both searches in Azure Cosmos DB for MongoDB, we actually get back the same both times:</p>
+<table>
+<thead>
+<tr>
+<th>rule_number</th>
+<th>rule_text</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1c-b(2)</td>
+<td>You gotta be, throwing motion of the ball, and then, until you just throw it.</td>
+</tr>
+<tr>
+<td>1c-a</td>
+<td>The pitcher is not allowed to do a motion to the, uh, batter, that prohibits the batter from doing, you know, just trying to hit the ball. You can&rsquo;t do that.</td>
+</tr>
+<tr>
+<td>1c-b(3)</td>
+<td>Okay seriously though. A balk is when the pitcher makes a movement that, as determined by, when you do a move involving the baseball and field of</td>
+</tr>
+<tr>
+<td>1c-b</td>
+<td>Once the pitcher is in the stretch, he can&rsquo;t be over here and say to the runner, like, I&rsquo;m gonna get ya! I&rsquo;m gonna tag you out! You better watch your butt! and then just be like he didn&rsquo;t even do that.</td>
+</tr>
+</tbody>
+</table>
+<p>So in Azure CosmosDB for MongoDB, it would seem that search terms are always ORed together. Not so fast <a href="https://www.youtube.com/watch?v=14HkqP0JZ78">buster</a>! This was the balk rule that inspired this article! We&rsquo;re only seeing the quoted terms being ORed together here because they each are only one word long! If instead our search terms were each multiple words long, they&rsquo;d be ANDed together just like in our self-hosted MongoDB.</p>
+<p>So if you searched <code>&quot;The pitcher is not allowed&quot; &quot;motion to the, uh, batter&quot;</code>, they&rsquo;d be ANDed together, so it&rsquo;d only return this:</p>
+<table>
+<thead>
+<tr>
+<th>rule_number</th>
+<th>rule_text</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1c-a</td>
+<td>The pitcher is not allowed to do a motion to the, uh, batter, that prohibits the batter from doing, you know, just trying to hit the ball. You can&rsquo;t do that.</td>
+</tr>
+</tbody>
+</table>
+<p>The cherry on top of all of this is that this stacks with the stop words removal rule. So if you searched <code>&quot;The pitcher is not&quot; &quot;to do a motion to the&quot;</code>, you might expect Azure CosmosDB for MongoDB to only return a document containing both of those phrases, but instead it will return:</p>
+<table>
+<thead>
+<tr>
+<th>rule_number</th>
+<th>rule_text</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1c-b(2)</td>
+<td>You gotta be, throwing motion of the ball, and then, until you just throw it.</td>
+</tr>
+<tr>
+<td>1c-a</td>
+<td>The pitcher is not allowed to do a motion to the, uh, batter, that prohibits the batter from doing, you know, just trying to hit the ball. You can&rsquo;t do that.</td>
+</tr>
+<tr>
+<td>1c-b(3)</td>
+<td>Okay seriously though. A balk is when the pitcher makes a movement that, as determined by, when you do a move involving the baseball and field of</td>
+</tr>
+<tr>
+<td>1c-b</td>
+<td>Once the pitcher is in the stretch, he can&rsquo;t be over here and say to the runner, like, I&rsquo;m gonna get ya! I&rsquo;m gonna tag you out! You better watch your butt! and then just be like he didn&rsquo;t even do that.</td>
+</tr>
+</tbody>
+</table>
+<p>because both search terms had their stop words removed, turning them into one-word quoted search terms, so they are ORed together&hellip;</p>
+<p>One final bit of frustration is that if the search query has both single word quoted search terms and multi-word quoted search terms, all of the single word quoted search terms are effectively ignored.</p>
+<p>So, I guess the <a href="https://www.youtube.com/watch?v=gAYL5H46QnQ">moral of the story</a> is that the rules for search terms are</p>
+<table>
+<thead>
+<tr>
+<th>rule_number</th>
+<th>rule_text</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>You can&rsquo;t just be up there and just doin&rsquo; a mongodb text search like that</td>
+</tr>
+<tr>
+<td>1a</td>
+<td>An indexed text search is when you</td>
+</tr>
+<tr>
+<td>1b</td>
+<td>Okay well listen. A indexed text search is when you search the</td>
+</tr>
+<tr>
+<td>1c</td>
+<td>Let me start over</td>
+</tr>
+<tr>
+<td>1c-a</td>
+<td>The document term is not allowed to do have any, uh, stop words, that prohibits the index from being built efficiently. You can&rsquo;t do that.</td>
+</tr>
+<tr>
+<td>1c-b</td>
+<td>Once the stop word is in the search term, he can&rsquo;t be over here and say to the database, like, I&rsquo;m gonna find ya! I&rsquo;m gonna get a document out! You better watch your butt! the database will just be like he didn&rsquo;t even do that.</td>
+</tr>
+<tr>
+<td>1c-b(1)</td>
+<td>Like, if you&rsquo;re about to use an index in MongoDB, but you use Azure CosmosDB for MongoDB instead, you still gotta consider the stop words. You can&rsquo;t not consider them. Does that make sense?</td>
+</tr>
+<tr>
+<td>1c-b(2)</td>
+<td>You gotta AND all the quoted search terms for MongoDB, but OR single-word ones for Azure CosmosDB for MongoDB.</td>
+</tr>
+<tr>
+<td>1c-b(2)-a</td>
+<td>Okay, well, you can have the multi-worded quoted search term up here, like this, but then there&rsquo;s the stop words you gotta think about.</td>
+</tr>
+<tr>
+<td>1c-b(2)-b</td>
+<td>I&rsquo;m tired of typing out this bit.</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Do not forget to consider the text preprocessing steps of your system please.</td>
+</tr>
+</tbody>
+</table>
+
+    </section>
+    <div class="entry-links"></div>
+    </article>
+
+    <div class="share-icons-body">
+      <a href="http://www.twitter.com/share?url=https%3a%2f%2fjohnwesthoff.com%2fblorg%2fbalk%2f" target="_blank">
+      <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 612 612" style="enable-background:new 0 0 612 612;" xml:space="preserve">
+      <g>
+        <g>
+          <path d="M437.219,245.162c0-3.088-0.056-6.148-0.195-9.18c13.214-9.848,24.675-22.171,33.744-36.275
+            c-12.129,5.453-25.148,9.097-38.835,10.626c13.965-8.596,24.675-22.338,29.738-38.834c-13.075,7.928-27.54,13.603-42.924,16.552
+            c-12.323-14.021-29.904-22.95-49.35-23.284c-37.332-0.612-67.598,30.934-67.598,70.463c0,5.619,0.584,11.072,1.752,16.329
+            c-56.22-3.616-106.042-32.881-139.369-77c-5.814,10.571-9.152,22.922-9.152,36.164c0,25.037,11.934,47.291,30.071,60.421
+            c-11.099-0.5-21.503-3.866-30.627-9.375c0,0.306,0,0.612,0,0.918c0,34.996,23.312,64.316,54.245,71.159
+            c-5.675,1.613-11.656,2.448-17.804,2.421c-4.367-0.028-8.596-0.501-12.713-1.392c8.596,28.681,33.577,49.628,63.147,50.323
+            c-23.145,19.194-52.298,30.655-83.955,30.572c-5.453,0-10.849-0.361-16.135-1.029c29.933,20.53,65.456,32.491,103.65,32.491
+            C369.23,447.261,437.219,339.048,437.219,245.162z"/>
+          <path d="M612,306C612,137.004,474.995,0,306,0C137.004,0,0,137.004,0,306c0,168.995,137.004,306,306,306
+            C474.995,612,612,474.995,612,306z M27.818,306C27.818,152.36,152.36,27.818,306,27.818S584.182,152.36,584.182,306
+            S459.64,584.182,306,584.182S27.818,459.64,27.818,306z"/>
+        </g>
+      </svg></a>
+      <a href="http://plus.google.com/share?url=https%3a%2f%2fjohnwesthoff.com%2fblorg%2fbalk%2f" target="_blank">
+      <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 612 612" style="enable-background:new 0 0 612 612;" xml:space="preserve">
+        <g>
+          <g>
+            <path d="M349.146,402.251c0-30.016-17.387-44.815-36.525-60.922l-15.662-12.185c-4.785-3.895-11.294-9.124-11.294-18.693
+              c0-9.57,6.537-15.662,12.184-21.309c18.249-14.354,36.526-29.571,36.526-61.756c0-33.076-20.892-50.462-30.878-58.724l0,0h26.956
+              L358.271,153h-89.603c-23.479,0-53.049,3.478-77.863,23.924c-18.693,16.079-27.818,38.278-27.818,58.279
+              c0,33.911,26.093,68.294,72.188,68.294c4.368,0,9.125-0.445,13.937-0.863c-2.17,5.23-4.34,9.569-4.34,16.97
+              c0,13.464,6.955,21.753,13.047,29.57c-19.556,1.308-56.109,3.478-83.065,20.001c-25.676,15.217-33.493,37.416-33.493,53.077
+              c0,32.186,30.461,62.201,93.525,62.201C309.561,484.454,349.146,443.116,349.146,402.251z M255.621,291.34
+              c-37.415,0-54.384-48.292-54.384-77.418c0-11.322,2.17-23.034,9.569-32.186c6.955-8.707,19.139-14.382,30.461-14.382
+              c36.108,0,54.802,48.738,54.802,80.033c0,7.845-0.862,21.754-10.877,31.768C278.237,286.11,266.498,291.312,255.621,291.34z
+               M256.066,466.177c-46.54,0-76.556-22.171-76.556-53.049s27.846-41.311,37.416-44.787c18.276-6.093,41.755-6.982,45.677-6.982
+              c4.34,0,6.51,0,9.987,0.445c33.076,23.479,47.402,35.218,47.402,57.416C319.992,446.176,297.821,466.177,256.066,466.177z"/>
+            <polygon points="353.068,317.768 400.164,317.768 400.164,364.836 423.699,364.836 423.699,317.768 470.768,317.768 
+              470.768,294.233 423.699,294.233 423.699,247.165 400.164,247.165 400.164,294.233 353.068,294.233     "/>
+            <path d="M612,306C612,137.004,474.995,0,306,0C137.004,0,0,137.004,0,306c0,168.995,137.004,306,306,306
+              C474.995,612,612,474.995,612,306z M27.818,306C27.818,152.36,152.36,27.818,306,27.818S584.182,152.36,584.182,306
+              S459.64,584.182,306,584.182S27.818,459.64,27.818,306z"/>
+          </g>
+      </svg></a>
+      <a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fjohnwesthoff.com%2fblorg%2fbalk%2f" target="_blank">
+      <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+         viewBox="0 0 612 612" style="enable-background:new 0 0 612 612;" xml:space="preserve">
+      <g>
+        <g>
+          <path d="M612,306C612,137.004,474.995,0,306,0C137.004,0,0,137.004,0,306c0,168.995,137.004,306,306,306
+            C474.995,612,612,474.995,612,306z M27.818,306C27.818,152.36,152.36,27.818,306,27.818S584.182,152.36,584.182,306
+            S459.64,584.182,306,584.182S27.818,459.64,27.818,306z"/>
+          <path d="M317.739,482.617V306h58.279l9.208-58.529h-67.487v-29.348c0-15.272,5.007-29.849,26.928-29.849h43.813v-58.418h-62.201
+            c-52.298,0-66.569,34.438-66.569,82.175v35.413h-35.885V306h35.885v176.617H317.739L317.739,482.617z"/>
+        </g>
+      </svg>
+      </a>
+    </div>
+    <div class="clearfix"></div>
+
+<div>
+    
+        Tags: 
+        
+            <a href="/tags/mongodb">mongodb</a> 
+        
+    
+    
+        <br>Part of a series on  
+        
+            <a href="/series/goofing-off">Goofing off</a>.
+        
+    
+</div>
+
+
+<hr>
+Leave a comment below!
+For issues with this website itself, please describe the problem to <a id='email2'>issues at johnwesthoff dot com</a>.<br>
+For urgent questions or comments, shoot me an email (address provided on my GitHub profile).
+<div id="commento"></div>
+<script>
+Commento.init({
+    serverUrl: "https://johnwesthoff.com/comments",
+    showdownUrl: "https://johnwesthoff.com/assets/vendor/showdown.min.js",
+    commentoCssUrl: "https://johnwesthoff.com/assets/style/commento.min.css",
+     
+});
+var name = "john";
+var dir = "west";
+var at = "@";
+
+document.getElementById("email2").href = "mail" +   "to:" +   "issues" +   at + name +   dir + "hoff" + "." +   "com";
+</script>
+</section>
+<div class="clear"></div>
+</div>
+<footer id="footer" style="color: #7A7B7C; background-color: #3A3B3C;background-image: url(https://johnwesthoff.com//img/texture.png),linear-gradient(to bottom, #3A3B3C, #1d1e1e); background-repeat: repeat, no-repeat; background-position: left top, left top; background-size: 100px 100px, 100% 100%;">
+    <div id="footer-container">
+        
+        
+        
+        <div class="clearfix"></div>
+    </div>
+    <div id="copyright"></div>
+</footer>
+<script src="https://johnwesthoff.com//js/highlight.pack.js"></script>
+<script>
+    hljs.initHighlightingOnLoad();
+</script>
+<link rel="shortcut icon" href="https://johnwesthoff.com//favicon.png" />
+<link rel="apple-touch-icon" href="https://johnwesthoff.com//img/apple-touch-icon.jpg" />
+</body>
+</html>
+

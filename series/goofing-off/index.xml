@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Goofing Off on John Westhoff&#39;s Blog</title>
+    <link>https://johnwesthoff.com/series/goofing-off/</link>
+    <description>Recent content in Goofing Off on John Westhoff&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 16 Apr 2026 06:10:30 -0400</lastBuildDate>
+    <atom:link href="https://johnwesthoff.com/series/goofing-off/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>You can&#39;t just be up there and just doin&#39; a mongodb text search like that</title>
+      <link>https://johnwesthoff.com/blorg/balk/</link>
+      <pubDate>Thu, 16 Apr 2026 06:10:30 -0400</pubDate>
+      <guid>https://johnwesthoff.com/blorg/balk/</guid>
+      <description>Recently I&amp;rsquo;ve been doing a lot of work involving indexed full text search in Azure Cosmos DB for MongoDB, and, man, are the pitfalls there weird.&#xA;To drive my points home, I&amp;rsquo;ll tell my story somewhat interactively. Let&amp;rsquo;s say you wanted to store the rules to a game in a mongdodb database. You might insert records such as rule_number and rule_text, containing the index of the rule in the book and the text of the rule, respectively.</description>
+    </item>
+    <item>
+      <title>How do I have so few posts about laptops</title>
+      <link>https://johnwesthoff.com/blorg/my_daily_driver_2/</link>
+      <pubDate>Fri, 02 Feb 2024 06:20:30 -0400</pubDate>
+      <guid>https://johnwesthoff.com/blorg/my_daily_driver_2/</guid>
+      <description>Apparently it&amp;rsquo;s been a few years since I last yelled into the void about what laptop I use. Well, in that time, a lot has changed.&#xA;First off, I gave my prized collection of x230 ThinkPads (and a few others) to my sisters, nieces, and nephews. Apparently they&amp;rsquo;re all broken at this point and I&amp;rsquo;m not allowed to have them back for repairs. Because of this, I got myself an x250, which was my main laptop for about two years before I gave it to my mother-in-law.</description>
+    </item>
+    <item>
+      <title>Removing Boilerplate In Teams Messages Via Email</title>
+      <link>https://johnwesthoff.com/blorg/teamsemail/</link>
+      <pubDate>Thu, 01 Feb 2024 02:03:30 -0400</pubDate>
+      <guid>https://johnwesthoff.com/blorg/teamsemail/</guid>
+      <description>&lt;p&gt;Microsoft Teams allows you to message a channel by sending an email to&#xA;a certain address. This is great unless you are at a corporation that&#xA;appends some boilerplate to all outgoing emails. Then it is frustrating&#xA;and sad.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>July 2022 Update</title>
+      <link>https://johnwesthoff.com/blorg/jul22update/</link>
+      <pubDate>Sun, 17 Jul 2022 02:03:30 -0400</pubDate>
+      <guid>https://johnwesthoff.com/blorg/jul22update/</guid>
+      <description>&lt;p&gt;I haven&amp;rsquo;t really worked on anything I felt was worth posting here, but I&#xA;really don&amp;rsquo;t want to have gone an entire half year with no blog post. So, I&#xA;figured I&amp;rsquo;d do a write-up of everything I have done since I last posted,&#xA;mostly with the intent of it being a reminder that I actually did stuff.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>JSON Viewer</title>
+      <link>https://johnwesthoff.com/projects/jsonviewer/</link>
+      <pubDate>Wed, 02 Mar 2022 22:24:00 -0400</pubDate>
+      <guid>https://johnwesthoff.com/projects/jsonviewer/</guid>
+      <description>&lt;p&gt;Free json viewer built using &lt;a href=&#34;https://github.com/summerstyle/jsonTreeViewer&#34;&gt;this library I found&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Thoughts on Online Gambling</title>
+      <link>https://johnwesthoff.com/blorg/gambling/</link>
+      <pubDate>Tue, 31 Aug 2021 16:03:30 -0400</pubDate>
+      <guid>https://johnwesthoff.com/blorg/gambling/</guid>
+      <description>I&amp;rsquo;ve posted a few times now about RuneScape, and since recently I&amp;rsquo;ve been falling behind on my GitHub commits, I figured I&amp;rsquo;d do it again.&#xA;Backstory Shortly after deciding to make RuneScape 2 in 3D, I started to message my good friend a3qz some thoughts on how one could do fair gambling in the game Old School RuneScape. You see, ever since I was a kid, people would gamble in the game.</description>
+    </item>
+    <item>
+      <title>A Game Better Than RuneScape 3... In 3D!</title>
+      <link>https://johnwesthoff.com/projects/runescape3d/</link>
+      <pubDate>Sat, 17 Jul 2021 01:43:00 -0400</pubDate>
+      <guid>https://johnwesthoff.com/projects/runescape3d/</guid>
+      <description>&lt;p&gt;Last time I wrote about RuneScape, I described how I play the game without really playing it at all.&#xA;But what if I like, did want to actually look at the game I&amp;rsquo;m playing?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Sorry I was alching</title>
+      <link>https://johnwesthoff.com/blorg/lazy-runescape/</link>
+      <pubDate>Tue, 15 Jun 2021 16:03:30 -0400</pubDate>
+      <guid>https://johnwesthoff.com/blorg/lazy-runescape/</guid>
+      <description>Since I was a medium-sized child, I&amp;rsquo;ve enjoyed playing the MMO RuneScape. It is by far the game I&amp;rsquo;ve spent the most time playing, and, well, despite that, I&amp;rsquo;m not very far in the game at all.&#xA;I started sometime in 2006 and, being that the internet hadn&amp;rsquo;t even been invented yet, I was constantly lost. Even though the game had only been around for ~5 years, it was still absolutely massive.</description>
+    </item>
+    <item>
+      <title>Not Rick Rolled</title>
+      <link>https://johnwesthoff.com/blorg/rickroll/</link>
+      <pubDate>Wed, 05 May 2021 16:03:30 -0400</pubDate>
+      <guid>https://johnwesthoff.com/blorg/rickroll/</guid>
+      <description>Did you actually think I was going to rickroll you lol?</description>
+    </item>
+    <item>
+      <title>How That One Facebook Phishing Thing Worked</title>
+      <link>https://johnwesthoff.com/blorg/facebookphishing/</link>
+      <pubDate>Wed, 05 May 2021 14:03:30 -0400</pubDate>
+      <guid>https://johnwesthoff.com/blorg/facebookphishing/</guid>
+      <description>&lt;p&gt;A few days ago I got the same message from several friends on Facebook:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My new-er favorite thing - RP2040 with CircuitPython</title>
+      <link>https://johnwesthoff.com/blorg/circuitpythonshilling2/</link>
+      <pubDate>Tue, 20 Apr 2021 18:03:30 -0400</pubDate>
+      <guid>https://johnwesthoff.com/blorg/circuitpythonshilling2/</guid>
+      <description>Back when I did my Model M thingy with CircuitPython, I encountered a lot of difficulties doing I/O. For one, the I/O speed was much too slow for bit-banging anything in Python. Now, you could write some C and call it from Python, but that defeats the benefit of working with Python to begin with. Additionally, hardware peripherals seemed to be destined to be behind in Python. I doubt this will ever change, but a certain recent product seems to offer a bizarre best-of-all-worlds.</description>
+    </item>
+    <item>
+      <title>What I&#39;ve Done During the End Times</title>
+      <link>https://johnwesthoff.com/blorg/oc19update/</link>
+      <pubDate>Mon, 19 Oct 2020 02:03:30 -0400</pubDate>
+      <guid>https://johnwesthoff.com/blorg/oc19update/</guid>
+      <description>&lt;p&gt;I haven&amp;rsquo;t really worked on anything I felt was worth posting here, but I&#xA;really don&amp;rsquo;t want to have gone an entire year with no blog post. So, I&#xA;figured I&amp;rsquo;d do a write-up of everything I have done since the world ended,&#xA;mostly with the intent of it being a reminder that I actually did stuff.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My new daily driver</title>
+      <link>https://johnwesthoff.com/blorg/my_daily_driver/</link>
+      <pubDate>Fri, 14 Jun 2019 06:20:30 -0400</pubDate>
+      <guid>https://johnwesthoff.com/blorg/my_daily_driver/</guid>
+      <description>As I mentioned in my post about my mental health, I am using an X230 as my personal daily driver. I have yet to go completely crazy and swap the keyboard for an X220 keyboard (which I&amp;rsquo;m actually not sure I&amp;rsquo;d want to do - I like both keyboards and can&amp;rsquo;t say for certain which I like more), nor have I upgraded the display to either an IPS 12&amp;quot; or 13&amp;quot; panel (which I am more keen on doing when I have the money).</description>
+    </item>
+    <item>
+      <title>Why would anyone spray paint a mouse?</title>
+      <link>https://johnwesthoff.com/blorg/why_would_anyone_spray_paint_a_mouse/</link>
+      <pubDate>Sat, 08 Jun 2019 01:52:30 -0400</pubDate>
+      <guid>https://johnwesthoff.com/blorg/why_would_anyone_spray_paint_a_mouse/</guid>
+      <description>This story is going to seem like it is going nowhere, but trust me, it only kind of goes nowhere.&#xA;Last year, someone asked me for advice on a pair of headphones for under $50, so I started watching random collections of tech stuff under $50. This led me to randomfrankp. After finding out that he was an Eagles fan, I decided to keep watching his videos, and eventually I saw the single best looking computer mouse of all time.</description>
+    </item>
+    <item>
+      <title>I&#39;ve gone completely insane</title>
+      <link>https://johnwesthoff.com/blorg/thinkpads/</link>
+      <pubDate>Tue, 04 Jun 2019 21:03:30 -0400</pubDate>
+      <guid>https://johnwesthoff.com/blorg/thinkpads/</guid>
+      <description>I have gone completely insane. Within the month of May, I have ordered four ThinkPads.&#xA;X201 Tablet My first purchase was an X201 Tablet, with an i7-640LM, and 4GB of RAM. It came with a battery and a charger, but no storage. I slapped in a 120GB SSD with Arch Linux, and all was well. I also spent $18 on a new pen for it. The laptop itself was $57 off eBay.</description>
+    </item>
+    <item>
+      <title>My new favorite thing - CircuitPython</title>
+      <link>https://johnwesthoff.com/blorg/circuitpythonshilling/</link>
+      <pubDate>Fri, 15 Jun 2018 02:03:30 -0400</pubDate>
+      <guid>https://johnwesthoff.com/blorg/circuitpythonshilling/</guid>
+      <description>Back when I did my arcade machine, I encountered two pretty big problems. First of all, writing the code to mimick a USB keyboard was not straightforward at all, and I resorted to copying some sample code and modifying it. But I didn&amp;rsquo;t understand the sample code at all. I know the TI boards are probably aimed at a more hardcode audience, one that wants to have as much control over the hardware as possibl, and while I usually love that sort of thing, there are days where I want to just write simple code.</description>
+    </item>
+  </channel>
+</rss>

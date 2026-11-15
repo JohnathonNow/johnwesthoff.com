@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Audacity on John Westhoff&#39;s Blog</title>
+    <link>https://johnwesthoff.com/tags/audacity/</link>
+    <description>Recent content in Audacity on John Westhoff&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 10 Jul 2016 05:51:53 -0400</lastBuildDate>
+    <atom:link href="https://johnwesthoff.com/tags/audacity/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Embedding Audio Tracks Within Each Other With Audacity</title>
+      <link>https://johnwesthoff.com/projects/firstaudacityplugin/</link>
+      <pubDate>Sun, 10 Jul 2016 05:51:53 -0400</pubDate>
+      <guid>https://johnwesthoff.com/projects/firstaudacityplugin/</guid>
+      <description>A friend came to me with a request to create an Audacity plugin that, given two stereo audio tracks, takes the second audio track and ensures that it stays X decibels below the first audio track.&#xA;The project did not take long after establishing just what it means for a track to be quieter than another, despite me having never written anything in a LISP dialect (Audacity uses Nyquist/XLISP) and some of the oddities of Audacity that I will describe below.</description>
+    </item>
+  </channel>
+</rss>

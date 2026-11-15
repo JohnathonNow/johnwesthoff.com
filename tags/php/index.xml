@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PHP on John Westhoff&#39;s Blog</title>
+    <link>https://johnwesthoff.com/tags/php/</link>
+    <description>Recent content in PHP on John Westhoff&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 20 Dec 2016 17:58:30 -0500</lastBuildDate>
+    <atom:link href="https://johnwesthoff.com/tags/php/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Automatic Site Rebuilding with PHP and GitHub</title>
+      <link>https://johnwesthoff.com/projects/autobuild/</link>
+      <pubDate>Tue, 20 Dec 2016 17:58:30 -0500</pubDate>
+      <guid>https://johnwesthoff.com/projects/autobuild/</guid>
+      <description>The content of this website is on GitHub here. A nifty feature about GitHub are its Webhooks.&#xA;I wanted to be able to add content here without having to SSH into my server, cd-ing into the www directory, git pulling, and makeing, as those steps are tedious. So, I set up a GitHub webhook to POST to a PHP page on the server. The basic form of this PHP page is just:</description>
+    </item>
+  </channel>
+</rss>

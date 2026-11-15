@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Interactable on John Westhoff&#39;s Blog</title>
+    <link>https://johnwesthoff.com/series/interactable/</link>
+    <description>Recent content in Interactable on John Westhoff&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 28 Jun 2021 17:34:00 -0400</lastBuildDate>
+    <atom:link href="https://johnwesthoff.com/series/interactable/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>One thing consists of consistency</title>
+      <link>https://johnwesthoff.com/projects/consistency/</link>
+      <pubDate>Mon, 28 Jun 2021 17:34:00 -0400</pubDate>
+      <guid>https://johnwesthoff.com/projects/consistency/</guid>
+      <description>&lt;p&gt;Getting an intuition for how different consistency models behave can be difficult,&#xA;so I am working on some random little sandboxes to play around with different models.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Processor Consistency Sandbox</title>
+      <link>https://johnwesthoff.com/projects/consistency-processor/</link>
+      <pubDate>Mon, 28 Jun 2021 13:34:00 -0400</pubDate>
+      <guid>https://johnwesthoff.com/projects/consistency-processor/</guid>
+      <description>&lt;p&gt;If a system is both cache consistent and PRAM consistent, then it is also &lt;strong&gt;processor consistent&lt;/strong&gt;, meaning all writes from a single process are seen&#xA;in the same order by all process, and all writes to the same location are seen in the same order by all processes.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Cache Consistency Sandbox</title>
+      <link>https://johnwesthoff.com/projects/consistency-cache/</link>
+      <pubDate>Mon, 28 Jun 2021 11:38:00 -0400</pubDate>
+      <guid>https://johnwesthoff.com/projects/consistency-cache/</guid>
+      <description>&lt;p&gt;Another weaker model than causal consistency is &lt;strong&gt;Cache Consistency&lt;/strong&gt;. In order for a system to be Cache Consistent,&#xA;every process must see every write to the same object in the same sequential order.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Local Consistency Sandbox</title>
+      <link>https://johnwesthoff.com/projects/consistency-local/</link>
+      <pubDate>Mon, 28 Jun 2021 08:52:00 -0400</pubDate>
+      <guid>https://johnwesthoff.com/projects/consistency-local/</guid>
+      <description>&lt;p&gt;The weakest model of consistency for shared memory is &lt;strong&gt;local consistency&lt;/strong&gt;, which requires only that a process&#xA;observe its own operations in program order, and places no restrictions on how a process sees the operations&#xA;performed by any other process.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>PRAM Consistency Sandbox</title>
+      <link>https://johnwesthoff.com/projects/consistency-pram/</link>
+      <pubDate>Mon, 28 Jun 2021 08:38:00 -0400</pubDate>
+      <guid>https://johnwesthoff.com/projects/consistency-pram/</guid>
+      <description>&lt;p&gt;A weaker model than causal consistency is &lt;strong&gt;PRAM Consistency&lt;/strong&gt;. In order for a system to be PRAM consistent,&#xA;each process must see its own operations in program order, and operations from a single source must be seen in the order&#xA;they were issued.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Causal Consistency Sandbox</title>
+      <link>https://johnwesthoff.com/projects/consistency-causal/</link>
+      <pubDate>Mon, 28 Jun 2021 01:23:00 -0400</pubDate>
+      <guid>https://johnwesthoff.com/projects/consistency-causal/</guid>
+      <description>&lt;p&gt;In a sequentially consistent distributed system, all processes observe all write operations in some common order.&#xA;A &lt;strong&gt;causally consistent&lt;/strong&gt; system has a slightly weaker guarantee - only causally related writes must be observed in a common order,&#xA;and processes can disagree on the order of causally unrelated events.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Sequential Consistency Sandbox</title>
+      <link>https://johnwesthoff.com/projects/consistency-seqcst/</link>
+      <pubDate>Sun, 27 Jun 2021 02:24:00 -0400</pubDate>
+      <guid>https://johnwesthoff.com/projects/consistency-seqcst/</guid>
+      <description>&lt;p&gt;A distributed system that meets the condition &amp;ldquo;the result of any execution is the same as if the operations of all processers were executed&#xA;in some sequential order, and the operations of each individual process appear in this sequence in the order specified by its program&amp;rdquo; is said&#xA;to be &lt;strong&gt;Sequentially consistent&lt;/strong&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Connect 4 - The Power (or, here, lack thereof) Two Choices</title>
+      <link>https://johnwesthoff.com/projects/connect4/</link>
+      <pubDate>Thu, 27 May 2021 20:24:00 -0400</pubDate>
+      <guid>https://johnwesthoff.com/projects/connect4/</guid>
+      <description>A year or so ago, in my lab&amp;rsquo;s reading group we read the famous power of two choices in randomized load balancing paper, and it gave me an awful idea - what if we applied a similar idea to games?&#xA;As a very quick explanation, for the task of load balancing requests - basically, you have a bunch of servers handling things for you like fetching emails, and you want to spread out the work evenly - a common approach is to just pick a random server and send the next request there.</description>
+    </item>
+    <item>
+      <title>AI Game Sandbox</title>
+      <link>https://johnwesthoff.com/projects/aigamesim/</link>
+      <pubDate>Fri, 30 Oct 2020 14:24:00 -0400</pubDate>
+      <guid>https://johnwesthoff.com/projects/aigamesim/</guid>
+      <description>&lt;p&gt;Just a place to mess around with the most current version of my &lt;a href=&#34;https://johnwesthoff.com/series/ai-game/&#34;&gt;AI Game&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Prototyping RGB LED Patterns in JavaScript</title>
+      <link>https://johnwesthoff.com/projects/leddrawing/</link>
+      <pubDate>Wed, 20 Mar 2019 20:24:00 -0400</pubDate>
+      <guid>https://johnwesthoff.com/projects/leddrawing/</guid>
+      <description>&lt;p&gt;I have been asked semi-frequently to add LED strips to various things, so I figured I&amp;rsquo;d like something that lets me play with LED strip patterns.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>AI Game 5 - Progress Update</title>
+      <link>https://johnwesthoff.com/projects/aigame5/</link>
+      <pubDate>Sat, 29 Jul 2017 23:24:00 -0400</pubDate>
+      <guid>https://johnwesthoff.com/projects/aigame5/</guid>
+      <description>&lt;p&gt;Despite the delay, I am still working on my AI/robot game thing.&#xA;A while ago I added what I said would be my next steps, but never&#xA;posted about it. So I&amp;rsquo;m doing that now.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

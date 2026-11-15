@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>For Fun on John Westhoff&#39;s Blog</title>
+    <link>https://johnwesthoff.com/series/for-fun/</link>
+    <description>Recent content in For Fun on John Westhoff&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 13 Jan 2026 16:03:30 -0400</lastBuildDate>
+    <atom:link href="https://johnwesthoff.com/series/for-fun/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Um why was this server on Xenial???</title>
+      <link>https://johnwesthoff.com/blorg/update2026/</link>
+      <pubDate>Tue, 13 Jan 2026 16:03:30 -0400</pubDate>
+      <guid>https://johnwesthoff.com/blorg/update2026/</guid>
+      <description>I tried adding that anagram solver from the last post, but Hugo fails to build on this server, because the OS was twelve years old.&#xA;So I performed distro upgrades from 14 to 16 to 18 to 20 to 22 to 24. There&amp;rsquo;s not a lot installed here, so there wasn&amp;rsquo;t a ton to break. That said, the only thing that actually matters, apache2, suffered a poor fate.&#xA;I just had to disable a few modules though.</description>
+    </item>
+    <item>
+      <title>Anagram Maker</title>
+      <link>https://johnwesthoff.com/blorg/anagram/</link>
+      <pubDate>Sat, 03 Jan 2026 16:03:30 -0400</pubDate>
+      <guid>https://johnwesthoff.com/blorg/anagram/</guid>
+      <description>I often do cryptic crosswords where I want to make anagrams, but I don&amp;rsquo;t want to cheat all the way and generate a list of them.</description>
+    </item>
+    <item>
+      <title>Random Bookmarklets</title>
+      <link>https://johnwesthoff.com/blorg/bookmarklets/</link>
+      <pubDate>Fri, 11 Jun 2021 02:03:30 -0400</pubDate>
+      <guid>https://johnwesthoff.com/blorg/bookmarklets/</guid>
+      <description>Hello, this is the page on the internet where there are a few random bookmarklets that are likely only useful for me, Jeffrey. However, on the off chance they are useful to anyone else, they are provided here, free of charge!&#xA;Lichessify - the first bookmarklet I ever made, it converts a Chess.com analysis page into a lichess analysis page. I blogged about it here. CloudLab URLs - this one copies to your clipboard all of the URLs to a node on CloudLab.</description>
+    </item>
+    <item>
+      <title>Great Starter HacktoberFest Issues</title>
+      <link>https://johnwesthoff.com/blorg/hacktoberfest2019/</link>
+      <pubDate>Thu, 10 Oct 2019 00:31:30 -0400</pubDate>
+      <guid>https://johnwesthoff.com/blorg/hacktoberfest2019/</guid>
+      <description>&lt;p&gt;Getting started with Open Source contributions can be a daunting task, but there are many projects&#xA;that are just waiting for contributors to help out with, regardless of skill level.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hacktoberfest 2018</title>
+      <link>https://johnwesthoff.com/blorg/hacktoberfest2018/</link>
+      <pubDate>Wed, 31 Oct 2018 00:31:30 -0400</pubDate>
+      <guid>https://johnwesthoff.com/blorg/hacktoberfest2018/</guid>
+      <description>To be honest, I haven&amp;rsquo;t posted in a while, and this is really just an excuse for me to do so. Anyways, I&amp;rsquo;ll just briefly be talking about my experience with Hacktoberfest this year. If you&amp;rsquo;re not familiar with Hacktoberfest, you can read more about it here.&#xA;I&amp;rsquo;ll admit that I shamefully only did the minimum 5 pull requests, but I&amp;rsquo;ve had a very busy month. Hopefully I will do better for Christmas, when I should have more free time.</description>
+    </item>
+    <item>
+      <title>A Recurrent Neural Network for Wolfrat Bot</title>
+      <link>https://johnwesthoff.com/projects/wrb_rnn/</link>
+      <pubDate>Tue, 20 Dec 2016 17:58:30 -0500</pubDate>
+      <guid>https://johnwesthoff.com/projects/wrb_rnn/</guid>
+      <description>For fun, I decided Wolfrat Bot needed a bit more, err, personality. So, I set off to make him one. After training an RNN for a few hours on my desktop&amp;rsquo;s GPU, I had interesting results but ultimately failed at achieving quite what I wanted.&#xA;Anyway, I encountered some huge hurdles I found out AFTER training for ~8 hours that the way I was encoding the characters for the network input (and thus, the way I was decoding the network output) behaved non-deterministically between Python 3.</description>
+    </item>
+  </channel>
+</rss>

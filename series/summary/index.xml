@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Summary on Project Blog of John Westhoff</title>
+    <link>https://johnwesthoff.com/series/summary/</link>
+    <description>Recent content in Summary on Project Blog of John Westhoff</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 20 May 2017 23:03:30 -0400</lastBuildDate>
+    <atom:link href="https://johnwesthoff.com/series/summary/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Spring 2017 Semester-in-Review</title>
+      <link>https://johnwesthoff.com/projects/sp17_roundup/</link>
+      <pubDate>Sat, 20 May 2017 23:03:30 -0400</pubDate>
+      
+      <guid>https://johnwesthoff.com/projects/sp17_roundup/</guid>
+      <description>
+
+&lt;p&gt;Another semester is over, one that happened to be my first semester
+where I was allowed to take only Computer Science courses. So, I took
+&lt;strong&gt;Paradigms&lt;/strong&gt;, &lt;strong&gt;Operating System Principles&lt;/strong&gt;, &lt;strong&gt;CSE Service Projects&lt;/strong&gt;,
+&lt;strong&gt;Hackers of the Bazaar&lt;/strong&gt;, and &lt;strong&gt;Mobile Computing&lt;/strong&gt;, and I did undergraduate
+research. The projects in &lt;strong&gt;Operating System Principles&lt;/strong&gt; were
+all fairly straightforward, but &lt;a href=&#34;http://www3.nd.edu/~dthain/courses/cse30341/spring2017/project6/&#34;&gt;the last one involved writing a
+file system of sorts&lt;/a&gt;
+which was cool, but there was no room to do what I wanted, so I will
+only discuss the other courses.&lt;/p&gt;
+
+&lt;h1 id=&#34;final-projects-for-my-classes:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Final Projects for my Classes&lt;/h1&gt;
+
+&lt;h2 id=&#34;paradigms:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Paradigms&lt;/h2&gt;
+
+&lt;p&gt;This class wasn&amp;rsquo;t the best, and the final project was just OK. We wrote
+a networked platformer, and we called it &lt;a href=&#34;https://github.com/a3qz/networked_platformer&#34;&gt;networked platformer&lt;/a&gt;.
+We were told we would get an F if we wrote Windows 95 Solitaire, so we made
+a Solitaire themed platformer. We were also forced to use TCP, which was
+kind of annoying. There isn&amp;rsquo;t really anything special about this project, so
+I&amp;rsquo;ll move on.&lt;/p&gt;
+
+&lt;h2 id=&#34;cse-service-projects:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;CSE Service Projects&lt;/h2&gt;
+
+&lt;p&gt;For our service project, my group both wrote a recipe reader app as well as
+made a video about internet safety for &lt;a href=&#34;http://www.logancenter.org/adults/logan-industries/&#34;&gt;Logan Industries&lt;/a&gt;.
+The recipe reader app was neat in that we had it do text to speech, and it was
+the first iOS app thing I&amp;rsquo;ve ever been involved with.&lt;/p&gt;
+
+&lt;h2 id=&#34;mobile-computing:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Mobile Computing&lt;/h2&gt;
+
+&lt;p&gt;My final project for mobile computing was something I wanted to exist for
+a while - a mobile app that allows you to track &lt;a href=&#34;https://en.wikipedia.org/wiki/Elo_rating_system&#34;&gt;Elo ratings&lt;/a&gt;
+for a wide variety of competitive activities - I called it &lt;a href=&#34;https://github.com/JohnathonNow/eloforeveryone&#34;&gt;Elo for everything&lt;/a&gt;
+but then I messed up the GitHub repo name.
+Anyway, I wrote it using &lt;a href=&#34;https://en.wikipedia.org/wiki/Apache_Cordova&#34;&gt;Phonegap&lt;/a&gt; for the front-end and &lt;a href=&#34;https://en.wikipedia.org/wiki/Node.js&#34;&gt;Nodejs&lt;/a&gt; and
+&lt;a href=&#34;https://en.wikipedia.org/wiki/MongoDB&#34;&gt;MongoDB&lt;/a&gt; for the backend.&lt;/p&gt;
+
+&lt;h2 id=&#34;undergraduate-research:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Undergraduate Research&lt;/h2&gt;
+
+&lt;p&gt;My research involved creating an arduino-controlled drumming machine. Its
+source is available &lt;a href=&#34;https://github.com/nd-cse-design/arduino-music&#34;&gt;here&lt;/a&gt;.
+The requirements changed a number of times based off the will of the musician
+it was created for, but I suppose that&amp;rsquo;s something I might have to learn to
+deal with.&lt;/p&gt;
+
+&lt;h2 id=&#34;hackers-in-the-bazaar:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Hackers in the Bazaar&lt;/h2&gt;
+
+&lt;p&gt;My favorite project this semester is pretty typical of me. It was a
+kind of compiler suite we called &lt;a href=&#34;http://bashfulbytes.com/ggnore/&#34;&gt;GGNoRe&lt;/a&gt;.
+It was meant entirely as a joke for a joke of a class, and it is not
+meant to have any practical value. Basically, it is a set of python scripts for
+&amp;ldquo;helping&amp;rdquo; write C code - it currently has a script for forcing functions
+to be below a set length by kicking out excess lines to a new function, as well
+as a script that repeatedly runs gcc until the code compiles, searching
+&lt;a href=&#34;https://duckduckgo.com/&#34;&gt;DuckDuckGo&lt;/a&gt; for &lt;a href=&#34;http://stackoverflow.com/&#34;&gt;Stack Overflow&lt;/a&gt;
+posts about whatever errors GCC throws, then replacing lines with
+errors with a random code snippet from one of the Stack Overflow results.
+That second one is my favorite thing ever and it always leads to hilarious
+results. After presenting it my professor begged me to not give it to the
+Sophomore class.&lt;/p&gt;
+
+&lt;h1 id=&#34;going-forward:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Going Forward&lt;/h1&gt;
+
+&lt;p&gt;I have a few projects in the works right now. Based off of my Paradigms project
+I want to make a pygame platformer tutorial for my younger brother, as he is
+a big fan of making games and is currently learning Python. I am also
+trying to make a remake of the Jackbox Party game &lt;a href=&#34;http://jackboxgames.com/tag/tee-k-o/&#34;&gt;Tee K.O&lt;/a&gt;
+in JavaScript, Node.js, and MongoDB. I might just add in AngularJS and get
+really &lt;a href=&#34;http://mean.io/&#34;&gt;MEAN&lt;/a&gt;. In the past I&amp;rsquo;ve done some
+&lt;a href=&#34;https://en.wikipedia.org/wiki/LAMP_(software_bundle&#34;&gt;LAMP&lt;/a&gt;) stuff, but
+learning some more modern stacks could do me some good.
+Both of these projects are being hosted in a repo I have set up for this blog,
+which can be found &lt;a href=&#34;https://github.com/JohnathonNow/johnwesthoff-blogwork&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I also have what I feel is a very good idea in the works - a tool meant to teach
+principles of robotics, AI, and programming in the browser. It would
+allow users to connect components together (think LEGO or Besieged),
+including sensors and actuators, and write some LISP to control the
+&amp;ldquo;robot&amp;rdquo; autonomously. I have a lot planned out, and it&amp;rsquo;s decently ambitious;
+I&amp;rsquo;ll probably make a post soon at least outlining what I hope to do.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

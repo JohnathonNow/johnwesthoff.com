@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GitHub Copilot on John Westhoff&#39;s Blog</title>
+    <link>https://johnwesthoff.com/tags/github-copilot/</link>
+    <description>Recent content in GitHub Copilot on John Westhoff&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 12 Jul 2021 22:03:30 -0400</lastBuildDate>
+    <atom:link href="https://johnwesthoff.com/tags/github-copilot/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Thoughts on Babysitting GitHub Copilot</title>
+      <link>https://johnwesthoff.com/blorg/githubcopilot/</link>
+      <pubDate>Mon, 12 Jul 2021 22:03:30 -0400</pubDate>
+      <guid>https://johnwesthoff.com/blorg/githubcopilot/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://copilot.github.com/&#34;&gt;GitHub Copilot&lt;/a&gt; is a very cool idea, and at the very least will be very fun to play around with.&#xA;But there&amp;rsquo;re definitely some things to be concerned about.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

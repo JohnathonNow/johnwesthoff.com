@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Stellaris on John Westhoff&#39;s Blog</title>
+    <link>https://johnwesthoff.com/tags/stellaris/</link>
+    <description>Recent content in Stellaris on John Westhoff&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 07 Aug 2016 01:52:00 -0400</lastBuildDate>
+    <atom:link href="https://johnwesthoff.com/tags/stellaris/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>An Arcade Machine (Mostly) From Scratch</title>
+      <link>https://johnwesthoff.com/projects/arcademachine/</link>
+      <pubDate>Sun, 07 Aug 2016 01:52:00 -0400</pubDate>
+      <guid>https://johnwesthoff.com/projects/arcademachine/</guid>
+      <description>This project is one that has been in development for a few years now, and it probably won&amp;rsquo;t be finished for a few more. It is one that has grown in scope considerably, and is really the result of several smaller projects. Currently, the end goal is to have a fully working arcade machine of my very own - running a game I wrote on hardware I built.&#xA;The project began at the end of grade school when I decided to try making my own fighting game.</description>
+    </item>
+  </channel>
+</rss>

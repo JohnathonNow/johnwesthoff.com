@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hag on John Westhoff&#39;s Blog</title>
+    <link>https://johnwesthoff.com/series/hag/</link>
+    <description>Recent content in Hag on John Westhoff&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 18 Mar 2021 08:24:00 -0400</lastBuildDate>
+    <atom:link href="https://johnwesthoff.com/series/hag/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Running ncurses Applications on Windows</title>
+      <link>https://johnwesthoff.com/projects/windows/</link>
+      <pubDate>Thu, 18 Mar 2021 08:24:00 -0400</pubDate>
+      <guid>https://johnwesthoff.com/projects/windows/</guid>
+      <description>&lt;p&gt;A few weeks ago I finally beat the game a few friends and I wrote a while ago, &lt;a href=&#34;https://github.com/a3qz/hag&#34;&gt;hag&lt;/a&gt;.&#xA;This sparked a desire to get the game running on Windows, the operating system of choice for e🅱️ic gamers.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

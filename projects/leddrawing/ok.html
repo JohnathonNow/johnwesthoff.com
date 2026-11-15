@@ -1,0 +1,25 @@
+<button id="hi" onclick="onButtonClick();">Click</button>
+<script>
+async function onButtonClick() {
+  let serviceUuid = '26072607-2607-2607-2607-260726072607';
+
+  let characteristicUuid = '26072607-2607-2607-2607-260726072607';
+
+  try {
+    console.log('Requesting Bluetooth Device...');
+    const device = await navigator.bluetooth.requestDevice({filters: [{services: [serviceUuid]}]});
+  
+    console.log('Connecting to GATT Server...');
+    const server = await device.gatt.connect();
+
+    console.log('Getting Service...');
+    const service = await server.getPrimaryService(serviceUuid);
+
+    let characteristic = await service.getCharacteristic(characteristicUuid);
+    console.log(await characteristic.readValue());
+
+  } catch(error) {
+    console.log('Argh! ' + error);
+  }
+}
+</script>

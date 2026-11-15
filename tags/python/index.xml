@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python on John Westhoff&#39;s Blog</title>
+    <link>https://johnwesthoff.com/tags/python/</link>
+    <description>Recent content in Python on John Westhoff&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 17 Dec 2016 23:03:30 -0400</lastBuildDate>
+    <atom:link href="https://johnwesthoff.com/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Data Structures Final Project - SnowGPS</title>
+      <link>https://johnwesthoff.com/projects/ds_finalproject/</link>
+      <pubDate>Sat, 17 Dec 2016 23:03:30 -0400</pubDate>
+      <guid>https://johnwesthoff.com/projects/ds_finalproject/</guid>
+      <description>For our final project for our Data Structures course, my group decided to make a GPS app that finds the path with the minimum time spent outdoors.&#xA;We wrote a python program to allow us to map our campus as an undirected graph, with vertices at the intersection of every outdoor path, and at every door of every building.&#xA;To decide paths, it uses Dijkstra&amp;rsquo;s Algorithm. To achieve our goal of deciding paths with the least time outdoors, we assign weights of 0 to all edges that connect nodes within buildings, and for each other edge the weight is the linear distance between the nodes.</description>
+    </item>
+  </channel>
+</rss>

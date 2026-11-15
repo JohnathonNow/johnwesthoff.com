@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Digital Ocean on John Westhoff&#39;s Blog</title>
+    <link>https://johnwesthoff.com/tags/digital-ocean/</link>
+    <description>Recent content in Digital Ocean on John Westhoff&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 10 Oct 2019 00:31:30 -0400</lastBuildDate>
+    <atom:link href="https://johnwesthoff.com/tags/digital-ocean/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Great Starter HacktoberFest Issues</title>
+      <link>https://johnwesthoff.com/blorg/hacktoberfest2019/</link>
+      <pubDate>Thu, 10 Oct 2019 00:31:30 -0400</pubDate>
+      <guid>https://johnwesthoff.com/blorg/hacktoberfest2019/</guid>
+      <description>&lt;p&gt;Getting started with Open Source contributions can be a daunting task, but there are many projects&#xA;that are just waiting for contributors to help out with, regardless of skill level.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hacktoberfest 2018</title>
+      <link>https://johnwesthoff.com/blorg/hacktoberfest2018/</link>
+      <pubDate>Wed, 31 Oct 2018 00:31:30 -0400</pubDate>
+      <guid>https://johnwesthoff.com/blorg/hacktoberfest2018/</guid>
+      <description>To be honest, I haven&amp;rsquo;t posted in a while, and this is really just an excuse for me to do so. Anyways, I&amp;rsquo;ll just briefly be talking about my experience with Hacktoberfest this year. If you&amp;rsquo;re not familiar with Hacktoberfest, you can read more about it here.&#xA;I&amp;rsquo;ll admit that I shamefully only did the minimum 5 pull requests, but I&amp;rsquo;ve had a very busy month. Hopefully I will do better for Christmas, when I should have more free time.</description>
+    </item>
+  </channel>
+</rss>

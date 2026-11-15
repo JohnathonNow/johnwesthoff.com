@@ -1,0 +1,15 @@
+<head>
+<script src="https://johnwesthoff.com/js/jquery.min.js"></script>
+</head>
+<body>
+hi
+<div id="b">very sad</div>
+<script>
+window.addEventListener('devicemotion', function(event) {
+    //var acceleration = event.accelerationIncludingGravity;
+    //$("#b").html(event.acceleration.x + '<br>' + event.accleration.y+ '<br>' + event.acceleration.z);
+    $("#b").html(''+event.accelerationIncludingGravity.x);
+  }, true);
+$("#b").html("sad");
+</script>
+</body>

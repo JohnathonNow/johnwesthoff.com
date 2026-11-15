@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Atari 2600 on John Westhoff&#39;s Blog</title>
+    <link>https://johnwesthoff.com/tags/atari-2600/</link>
+    <description>Recent content in Atari 2600 on John Westhoff&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 02 Feb 2017 23:24:00 -0400</lastBuildDate>
+    <atom:link href="https://johnwesthoff.com/tags/atari-2600/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Reliving the Atari 2600</title>
+      <link>https://johnwesthoff.com/projects/atariusb/</link>
+      <pubDate>Thu, 02 Feb 2017 23:24:00 -0400</pubDate>
+      <guid>https://johnwesthoff.com/projects/atariusb/</guid>
+      <description>I am currently taking a course titled &amp;ldquo;Hackers in the Bazaar&amp;rdquo;, which is, by all acounts, the greatest class ever. Anyway, we spent class today playing classic video games brought in by students. I brought in a SNES and a copy of Mortal Kombat.&#xA;Additionally, I spent about an hour and a half yesterday creating something a bit special for the occasion. My dad keeps his old Atari 2600 up in my closet, along with a chest full of games.</description>
+    </item>
+  </channel>
+</rss>

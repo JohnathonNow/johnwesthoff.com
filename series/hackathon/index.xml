@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hackathon on John Westhoff&#39;s Blog</title>
+    <link>https://johnwesthoff.com/series/hackathon/</link>
+    <description>Recent content in Hackathon on John Westhoff&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 30 Oct 2017 00:35:00 -0400</lastBuildDate>
+    <atom:link href="https://johnwesthoff.com/series/hackathon/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Winning the AT&amp;T Mobile App Hackathon with a Twitch bot</title>
+      <link>https://johnwesthoff.com/projects/atthack/</link>
+      <pubDate>Mon, 30 Oct 2017 00:35:00 -0400</pubDate>
+      <guid>https://johnwesthoff.com/projects/atthack/</guid>
+      <description>&lt;p&gt;Prior to about a month ago, I had only ever attended one hackathon - my team came in second. I had to change that.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

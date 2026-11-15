@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bookmarklets on John Westhoff&#39;s Blog</title>
+    <link>https://johnwesthoff.com/series/bookmarklets/</link>
+    <description>Recent content in Bookmarklets on John Westhoff&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 27 Apr 2021 00:23:00 -0400</lastBuildDate>
+    <atom:link href="https://johnwesthoff.com/series/bookmarklets/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Getting Free Analysis from Games on Chess.com with Lichessify</title>
+      <link>https://johnwesthoff.com/projects/lichessify/</link>
+      <pubDate>Tue, 27 Apr 2021 00:23:00 -0400</pubDate>
+      <guid>https://johnwesthoff.com/projects/lichessify/</guid>
+      <description>&lt;p&gt;I have been playing like, a normal amount of chess lately. I&amp;rsquo;m not yet past the &amp;ldquo;don&amp;rsquo;t just move your queen to her death&amp;rdquo; phase yet,&#xA;but I have noticeably gotten better since I rage-quit last year against my little brother.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

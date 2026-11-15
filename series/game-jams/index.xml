@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Game Jams on John Westhoff&#39;s Blog</title>
+    <link>https://johnwesthoff.com/series/game-jams/</link>
+    <description>Recent content in Game Jams on John Westhoff&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 31 Mar 2024 21:54:00 -0700</lastBuildDate>
+    <atom:link href="https://johnwesthoff.com/series/game-jams/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Game Jam 3: The Preservening</title>
+      <link>https://johnwesthoff.com/projects/gamejams2024-march/</link>
+      <pubDate>Sun, 31 Mar 2024 21:54:00 -0700</pubDate>
+      <guid>https://johnwesthoff.com/projects/gamejams2024-march/</guid>
+      <description>&lt;p&gt;The rollercoaster of game jamming continues with our March entry.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Best Use for AI</title>
+      <link>https://johnwesthoff.com/projects/abusingai/</link>
+      <pubDate>Sun, 18 Feb 2024 23:54:00 -0700</pubDate>
+      <guid>https://johnwesthoff.com/projects/abusingai/</guid>
+      <description>&lt;p&gt;If I learned anything this past year, it&amp;rsquo;s that everyone thinks these chatbots are going to replace us.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>A year? of Game Jams</title>
+      <link>https://johnwesthoff.com/projects/gamejams2024/</link>
+      <pubDate>Sun, 18 Feb 2024 21:54:00 -0700</pubDate>
+      <guid>https://johnwesthoff.com/projects/gamejams2024/</guid>
+      <description>&lt;p&gt;My friend Emil and I entered a game jam in January, another in February, and plan on one in March. This has been a rollercoaster of the highest order.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
